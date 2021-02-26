@@ -18,7 +18,5 @@ Some of the changes I made include:
 * measurement of center including a workpiece rotation. This will set the rotation in currently selected work coordinate system!!!! You need to manually reset this if you no longer need the rotation!!! (very experimental but seems to be working ok)
 * a short warmup routine, hardcoded to my machine limits, if you want to use this use extreme caution as it included a running spindle and movement on all axes!!!
 * prevents startup of spindle if tool 255 is selected (This is my 3D Probe and I do not want to accidentally start the spindle with the probe)
-* tool runtime recording. Spindle on time will be recorded into custom variable 1 in the tool library for every tool. The recording is started during M3 and M4 commands and measured with M5. If one of those is not executed no recording will happen (Stopping with E-Stop for example, if the Menu button should be reflected the settings need to be set to M Code instead of Native for the Spindle Command)
-*M6 changed to not disable speed override
-
-
+* tool runtime recording. Spindle on time will be recorded into custom variable 1 in the tool library for every tool. The recording is started during M3 and M4 commands and measured with M5. If one of those is not executed no recording will happen (Stopping with E-Stop for example, if the Menu button should be reflected the settings need to be set to M Code instead of Native for the Spindle Command) This requires at last SW Version 2021.02.12 (Thanks to PlanetCNC for making the Custom Variables of the tool table writeable)
+* M6 changed to not disable speed override
