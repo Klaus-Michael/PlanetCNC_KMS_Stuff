@@ -1,0 +1,11 @@
+cmd: "Machine.User_Commands.UserCommand_6" "Restore" imagechange="true" stroke=1.1
+---
+cmd: "Machine.Coordinate_System.Select.1" image="ownicons/g54.svg" imagechange="True" 
+cmd: "Machine.Coordinate_System.Select.2" image="ownicons/g55.svg" imagechange="True" 
+cmd: "Machine.Coordinate_System.Select.3" image="ownicons/g56.svg" imagechange="True" 
+cmd: "Machine.Coordinate_System.Select.4" image="ownicons/g57.svg" imagechange="True"
+--- 
+cmd: "Machine.User_Commands.UserCommand_7" "Warmup" imagechange="true" stroke=1.1
+---
+
+

@@ -1,0 +1,21 @@
++++
+cmd: "Machine.Home" image="ownicons/home.svg" imagechange="True" 
++++ 
+---
+cmd: "Machine.Move.To_Zero" image="ownicons/zero.svg" imagechange="True"
+cmd: "Machine.Move.Axis_To_Zero.XY" image="ownicons/xy.svg" imagechange="True"
+cmd: "Machine.Move.To_G28" image="ownicons/g28.svg" imagechange="True"
+cmd: "Machine.Move.To_G30" image="ownicons/g30.svg" imagechange="True" 
+---
+cmd: "Machine.Work_Position.Axis_To_Zero.Z" image="ownicons/tozero.svg" imagechange="True" 
+cmd: "Machine.Work_Position.Axis_To_Zero.XY" image="ownicons/toxy.svg" imagechange="True"  
+---
+cmd: "Machine.Work_Position.Measure_Height" image="ownicons/zheight.svg" imagechange="True" 
+expr: "startcode('M06')"  image="ownicons/toollength.svg" imagechange="True"  
+
+
+
+cmd: "Machine.User_Commands.UserCommand_1" "Probe CH" image="ownicons/probe.svg" imagechange="True" 
+expr: "startcode('M63 P1 R5')" "Open WLS" 
+expr: "startcode('M63 P1 R85')" "Close WLS" 
+

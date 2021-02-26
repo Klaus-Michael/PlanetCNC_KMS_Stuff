@@ -1,0 +1,22 @@
+io custom name="Controller:" led="ES,,,TH,SL,LM,,,MT,AL,,,ER"
+
+io custom name="WLS / Probe:" led="I8, I1, I3"
+
+io custom name="End-Stop G  X Y Z:" led="L1,,L2,L4,L3"
+
+io custom name="Spindle / Air / MMS:" led="O3,O4,O5"
+
+panel gcodes
+
+panel mcodes
+
+panel othercodes 
+
+
+
+
+
+
+
+
+
