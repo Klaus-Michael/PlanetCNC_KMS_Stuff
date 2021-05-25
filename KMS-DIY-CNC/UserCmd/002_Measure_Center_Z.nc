@@ -21,12 +21,14 @@ O<PlanetCNC> endif
 (dlgname,Measure Center + Z)
 (dlg,Probe should be placed roughly in the center of the Workpiece, typ=label, x=20, w=455, color=0xffa500)
 (dlg,Dimensions, typ=label, x=20, w=455, color=0xffa500)
-(dlg,X-Size, x=0, dec=2, def=50, min=0.1, max=10000, param=x_size)
-(dlg,Y-Size, x=0, dec=2, def=50, min=0.1, max=10000, param=y_size)
+(dlg,X-Size, x=0, dec=2, def=#<_probeing_center_stock_size_x>, min=0.1, max=10000, param=x_size)
+(dlg,Y-Size, x=0, dec=2, def=#<_probeing_center_stock_size_y>, min=0.1, max=10000, param=y_size)
 (dlg,Z-Drop, x=0, dec=2, def=2*#<_probe_sizeXY>, min=0.1, max=10000, param=z_drop)
 (dlg,XY Overtravel, x=0, dec=2, def=10, min=0.1, max=10000, param=overtravel)
 (dlgshow)
 
+#<_probeing_center_stock_size_x> = #<x_size>
+#<_probeing_center_stock_size_y> = #<y_size>
 M73 ;store state, auto restore
 G17 G90 G91.1 G90.2 G08 G15 G94
 ; M50P0 ;disable speed override

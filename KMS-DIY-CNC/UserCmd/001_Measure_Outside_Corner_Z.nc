@@ -22,9 +22,12 @@ O<PlanetCNC> endif
 (dlg,data::MeasureCornerOutside, typ=image, x=0)
 (dlg,|X+Y+|X+Y-|X-Y-|X-Y+, typ=checkbox, x=50, w=425, def=1, param=corner)
 (dlg,Distance from X edge, typ=label, x=20, w=455, color=0xffa500)
-(dlg,Edge, x=0, dec=2, def=30, min=0.1, max=10000, param=edge)
+(dlg,Edge, x=0, dec=2, def=#<_probeing_edge>, min=0.1, max=10000, param=edge)
 (dlg,Z-Drop, x=0, dec=2, def=2*#<_probe_sizeXY>, min=0.1, max=10000, param=z_drop)
 (dlgshow)
+
+#<_probeing_edge> = #<edge>
+
 
 M73 ;store state, auto restore
 G17 G90 G91.1 G90.2 G08 G15 G94
