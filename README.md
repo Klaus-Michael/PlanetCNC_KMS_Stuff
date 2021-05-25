@@ -20,3 +20,4 @@ Some of the changes I made include:
 * prevents startup of spindle if tool 255 is selected (This is my 3D Probe and I do not want to accidentally start the spindle with the probe)
 * tool runtime recording. Spindle on time will be recorded into custom variable 1 in the tool library for every tool. The recording is started during M3 and M4 commands and measured with M5. If one of those is not executed no recording will happen (Stopping with E-Stop for example, if the Menu button should be reflected the settings need to be set to M Code instead of Native for the Spindle Command) This requires at last SW Version 2021.02.12 (Thanks to PlanetCNC for making the Custom Variables of the tool table writeable)
 * M6 changed to not disable speed override
+* measurment scripts now remember the last entered parameters. !!!!! Parameters.txt needs to be updated with the needed parameters for this to work !!!!
