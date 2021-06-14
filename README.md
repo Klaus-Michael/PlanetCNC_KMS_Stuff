@@ -7,6 +7,7 @@ Custom Icons were created by Daniel aka Bambusbjoern (Thanks a lot)
 
 Feel free to use whatever script you like, but please test everything beforehand. All Scripts should be threated as experimental and a work in progress. 
 ## Use everything at your own risk!!!!!!!
+## Measruement Scripts are not Compatibe with Planet CNC Version 2021.05.31 and newer!!!! Update is in progress but will take some time
 I take no responsibility of any damage done to you or your machine from using anything from this repository.
 
 Some of the changes I made include:
