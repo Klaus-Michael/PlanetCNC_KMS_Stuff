@@ -9,7 +9,7 @@ The Profile for the Lathe is still in an early stage. Basic operations are worki
 
 Feel free to use whatever script you like, but please test everything beforehand. All Scripts should be threated as experimental and a work in progress. 
 ## Use everything at your own risk!!!!!!!
-## Measruement Scripts requere at last Planet CNC Version 2021.06.17 or newer!!!!
+## Measruement Scripts requiere at last Planet CNC Version 2021.06.17 or newer!!!!
 I take no responsibility of any damage done to you or your machine from using anything from this repository.
 
 Some of the changes I made include:
