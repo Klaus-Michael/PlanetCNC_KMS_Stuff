@@ -19,6 +19,8 @@ O<ToolCheck> if [ #<_current_tool> EQ #<_tool_life_toolnumber> and #<_tool_life_
 		(print, Tool Table value after second try: #<_tool_par1_num|#<_current_tool>>)
 	O<CheckToolTableChange> endif
 	#<_tool_life_starttime> = 0
+	#<_spindle_total_ontime> = [#<_spindle_total_ontime> + #<_tool_life_runtime> ]
+	(print, Total Spindle ontime: #<_spindle_total_ontime>)
 O<ToolCheck> else
 	(print current tool number #<_current_tool> does not match expected tool number #<_tool_life_toolnumber>. Runtime was NOT recorded!!!!!!)
 O<ToolCheck> endif

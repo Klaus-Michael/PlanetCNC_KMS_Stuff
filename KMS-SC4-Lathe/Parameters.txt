@@ -1,0 +1,32 @@
+_coordsys 1
+
+_workoff_x 0.000005
+_workoff_y 9.689
+_workoff_z 104.9125
+_workoff_a 0.0
+_workoff_b 0.0
+_workoff_c 0.0
+_workoff_u 0.0
+_workoff_v 0.0
+_workoff_w 0.0
+
+_home1_x 0.0
+_home1_y 0.0
+_home1_z 0.0
+_home1_a 0.0
+_home1_b 0.0
+_home1_c 0.0
+_home1_u 0.0
+_home1_v 0.0
+_home1_w 0.0
+
+_home2_x 0.0
+_home2_y 0.0
+_home2_z 0.0
+_home2_a 0.0
+_home2_b 0.0
+_home2_c 0.0
+_home2_u 0.0
+_home2_v 0.0
+_home2_w 0.0
+

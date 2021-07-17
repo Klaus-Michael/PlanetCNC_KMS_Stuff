@@ -4,9 +4,5 @@ cmd: "Machine.Measure.Hole" image="ownicons/H.svg" imagechange="True"
 cmd: "Machine.Measure.Protrusion" image="ownicons/P.svg" imagechange="True"  
 cmd: "Machine.Measure.Tab" image="ownicons/T.svg" imagechange="True"  
 cmd: "Machine.Measure.Slot" image="ownicons/S.svg" imagechange="True"  
-cmd: "Machine.Measure.Axis" image="ownicons/A.svg" imagechange="True"  
-cmd: "Machine.User_Commands.UserCommand_2" image="ownicons/OCZ.svg" imagechange="true" stroke=1.1
+cmd: "Machine.Measure.Edge_Position" image="ownicons/A.svg" imagechange="True"  
 cmd: "Machine.User_Commands.UserCommand_3" image="ownicons/Center_Z.svg" imagechange="true" stroke=1.1
-cmd: "Machine.User_Commands.UserCommand_4" image="ownicons/Center_no_Z.svg" imagechange="true" 
-cmd: "Machine.User_Commands.UserCommand_5" "Rotation" imagechange="true" stroke=1.1
-

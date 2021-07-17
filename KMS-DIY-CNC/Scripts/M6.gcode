@@ -242,7 +242,6 @@ O<en> if [ACTIVE[] AND #<_tc_enable>]
   O<toen> endif
   o<ar> if [#<_tc_autoreturn>]
     G00 X#<wstartx> Y#<wstarty>
-    G00 Z#<wstartz>
   O<ar> endif
   O<sp> if [#<_tc_spindlecheck> AND [#<spindle> EQ 3]]
     (print,  Turn spindle CW)

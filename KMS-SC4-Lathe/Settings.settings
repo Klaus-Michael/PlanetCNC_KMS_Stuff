@@ -3,11 +3,11 @@
 <Settings>
   <version>20210617</version>
   <firmware>20210326</firmware>
-  <serial>10194</serial>
-  <controllerCode>CUKT8PC8MD8DTEFB6EHRNXTBXDV29</controllerCode>
-  <computerCode>KUDBCXZXBQP86ASW53MZE2BW6J8Y~</computerCode>
-  <applicatonStart>2021/07/09 08:54:54</applicatonStart>
-  <applicatonEnd>2021/07/09 09:39:59</applicatonEnd>
+  <serial>10319</serial>
+  <controllerCode>CUB771P0HA6MMKGA9J83QV23X4YZ8</controllerCode>
+  <computerCode>KUBHQPSV2D35KEY1PPQ0RDQMDG67D</computerCode>
+  <applicatonStart>2021/07/15 17:36:19</applicatonStart>
+  <applicatonEnd>2021/07/15 17:54:11</applicatonEnd>
   <os>Windows 10 (64 bit)</os>
   <cpu>GenuineIntel (4)</cpu>
   <mem>8095</mem>
@@ -17,15 +17,15 @@
   <commRd>0</commRd>
   <commErr>0</commErr>
   <commDpl>0</commDpl>
-  <cnt>249</cnt>
-  <tim>34623</tim>
+  <cnt>35</cnt>
+  <tim>5325</tim>
   <lang></lang>
   <codepage>0</codepage>
-  <fileLastOpen>C:\CAM\Gewinde.ngc</fileLastOpen>
+  <fileLastOpen>C:\CAM\000-Lathe-Code\1002.ngc</fileLastOpen>
   <fileRecentSize>30</fileRecentSize>
-  <fileRecentCount>30</fileRecentCount>
+  <fileRecentCount>7</fileRecentCount>
   <speedTraverseOverride>1.00000000000000000000</speedTraverseOverride>
-  <speedFeedOverride>1.00000000000000044409</speedFeedOverride>
+  <speedFeedOverride>1.00000000000000000000</speedFeedOverride>
   <speedSpindleOverride>1.00000000000000000000</speedSpindleOverride>
   <enableExprEval>1</enableExprEval>
   <cameraOffset10>0.00000000000000000000</cameraOffset10>
@@ -36,9 +36,9 @@
   <cameraOffset22>0.00000000000000000000</cameraOffset22>
   <cameraCalDist>10.00000000000000000000</cameraCalDist>
   <warpResolution>1.00000000000000000000</warpResolution>
-  <simPosition0>0.00000000000000000000</simPosition0>
-  <simPosition1>0.00000000000000000000</simPosition1>
-  <simPosition2>0.00000000000000000000</simPosition2>
+  <simPosition0>12240.00000000000000000000</simPosition0>
+  <simPosition1>260.00000000000000000000</simPosition1>
+  <simPosition2>26280.00000000000000000000</simPosition2>
   <simPosition3>0.00000000000000000000</simPosition3>
   <simPosition4>0.00000000000000000000</simPosition4>
   <simPosition5>0.00000000000000000000</simPosition5>
@@ -56,32 +56,32 @@
   <simBacklash8>0.00000000000000000000</simBacklash8>
   <simBacklashEnabled>0</simBacklashEnabled>
   <displayState>1</displayState>
-  <displayX>384</displayX>
-  <displayY>208</displayY>
+  <displayX>502</displayX>
+  <displayY>65</displayY>
   <displayW>1152</displayW>
-  <displayH>624</displayH>
+  <displayH>893</displayH>
   <displayPanelLeft>1</displayPanelLeft>
   <displayPanel3D>1</displayPanel3D>
-  <displayPanelMid>1</displayPanelMid>
+  <displayPanelMid>0</displayPanelMid>
   <displayPanelRight>1</displayPanelRight>
   <displayBarLeft>260</displayBarLeft>
-  <displayBarRight>314</displayBarRight>
-  <displayBarMid>245</displayBarMid>
-  <displayDlgX>983</displayDlgX>
-  <displayDlgY>513</displayDlgY>
+  <displayBarRight>260</displayBarRight>
+  <displayBarMid>380</displayBarMid>
+  <displayDlgX>985</displayDlgX>
+  <displayDlgY>569</displayDlgY>
   <displaySetX>962</displaySetX>
-  <displaySetY>524</displaySetY>
+  <displaySetY>569</displaySetY>
   <displaySetW>785</displaySetW>
   <displaySetH>750</displaySetH>
-  <displayEditX>959</displayEditX>
-  <displayEditY>520</displayEditY>
+  <displayEditX>960</displayEditX>
+  <displayEditY>524</displayEditY>
   <displayEditW>480</displayEditW>
   <displayEditH>310</displayEditH>
   <displayEditVisible>0</displayEditVisible>
-  <displayScriptX>988</displayScriptX>
-  <displayScriptY>559</displayScriptY>
-  <displayScriptW>980</displayScriptW>
-  <displayScriptH>833</displayScriptH>
+  <displayScriptX>-1</displayScriptX>
+  <displayScriptY>-1</displayScriptY>
+  <displayScriptW>480</displayScriptW>
+  <displayScriptH>310</displayScriptH>
   <displayCamX>-1</displayCamX>
   <displayCamY>-1</displayCamY>
   <displayCamW>480</displayCamW>
@@ -94,16 +94,16 @@
   <displayLogY>-1</displayLogY>
   <displayLogW>542</displayLogW>
   <displayLogH>480</displayLogH>
-  <displayTTX>983</displayTTX>
-  <displayTTY>513</displayTTY>
+  <displayTTX>985</displayTTX>
+  <displayTTY>569</displayTTY>
   <displayTTW>660</displayTTW>
   <displayTTH>585</displayTTH>
-  <displayCSX>358</displayCSX>
-  <displayCSY>598</displayCSY>
-  <displayCSW>610</displayCSW>
-  <displayCSH>385</displayCSH>
+  <displayCSX>-1</displayCSX>
+  <displayCSY>-1</displayCSY>
+  <displayCSW>0</displayCSW>
+  <displayCSH>0</displayCSH>
   <displayPosTab>0</displayPosTab>
-  <displayStateTab>0</displayStateTab>
+  <displayStateTab>1</displayStateTab>
   <displayStateTabScroll0>0</displayStateTabScroll0>
   <displayStateTabScroll1>0</displayStateTabScroll1>
   <displayStateTabScroll2>0</displayStateTabScroll2>
@@ -135,12 +135,12 @@
   <displayStateTabScroll28>0</displayStateTabScroll28>
   <displayStateTabScroll29>0</displayStateTabScroll29>
   <displayMidTab>0</displayMidTab>
-  <display3DPanX>40.50125885009765625000</display3DPanX>
-  <display3DPanY>-26.17240524291992187500</display3DPanY>
-  <display3DAngleX>0.00000000000000000000</display3DAngleX>
+  <display3DPanX>12.42500114440917968750</display3DPanX>
+  <display3DPanY>-13.53199672698974609375</display3DPanY>
+  <display3DAngleX>-1.57079637050628662109</display3DAngleX>
   <display3DAngleY>0.00000000000000000000</display3DAngleY>
   <display3DAngleZ>0.00000000000000000000</display3DAngleZ>
-  <display3DFieldOfView>0.01699169538915157318</display3DFieldOfView>
+  <display3DFieldOfView>0.00612998101860284805</display3DFieldOfView>
   <displayFollowPosition>0</displayFollowPosition>
   <displayPosition>1</displayPosition>
   <displayGrid>1</displayGrid>
@@ -150,7 +150,7 @@
   <displayExtents>1</displayExtents>
   <displayG28>0</displayG28>
   <displayG30>0</displayG30>
-  <displayToolSen>1</displayToolSen>
+  <displayToolSen>0</displayToolSen>
   <displayToolpathHistory>0</displayToolpathHistory>
   <displayGauges>7</displayGauges>
   <displayHover>1</displayHover>
@@ -162,21 +162,21 @@
   <singleStepEnabled>0</singleStepEnabled>
   <pauseOptionalEnabled>0</pauseOptionalEnabled>
   <softLimitsIgnore>0</softLimitsIgnore>
-  <settingsPageNumber>35</settingsPageNumber>
-  <description></description>
+  <settingsPageNumber>14</settingsPageNumber>
+  <description>SC4 Lathe</description>
   <units>0</units>
-  <machineType>1</machineType>
+  <machineType>3000</machineType>
   <notes></notes>
   <password></password>
   <checkForUpdates>1</checkForUpdates>
   <connectionTypeUSB>1</connectionTypeUSB>
   <connectionTypeNetwork>1</connectionTypeNetwork>
-  <connectionAdapterIP>100772032</connectionAdapterIP>
+  <connectionAdapterIP>84060352</connectionAdapterIP>
   <connectionPort>4357</connectionPort>
-  <connectionPrimaryDevice>268501041</connectionPrimaryDevice>
-  <connectionPrimarySerial>10194</connectionPrimarySerial>
-  <connectionPrimaryIP>-939415360</connectionPrimaryIP>
-  <connectionPrimaryPort>4357</connectionPrimaryPort>
+  <connectionPrimaryDevice>65585</connectionPrimaryDevice>
+  <connectionPrimarySerial>10319</connectionPrimarySerial>
+  <connectionPrimaryIP>0</connectionPrimaryIP>
+  <connectionPrimaryPort>0</connectionPrimaryPort>
   <connectionPrimaryIdent></connectionPrimaryIdent>
   <uiColorMain>0xff1f2930</uiColorMain>
   <uiColorBack>0xff141b21</uiColorBack>
@@ -209,8 +209,8 @@
   <uiToolbarColorBtn>0xffe0d6cc</uiToolbarColorBtn>
   <uiToolbarColorBtnActive>0xffffa500</uiToolbarColorBtnActive>
   <uiToolbarColorBtnAlert>0xffff0000</uiToolbarColorBtnAlert>
-  <uiToolbarSize>65</uiToolbarSize>
-  <uiToolbarButtons>0</uiToolbarButtons>
+  <uiToolbarSize>42</uiToolbarSize>
+  <uiToolbarButtons>1</uiToolbarButtons>
   <uiToolbarHints>1</uiToolbarHints>
   <uiPositionColorBack>0xff1f2930</uiPositionColorBack>
   <uiPositionColorWork>0xffffa500</uiPositionColorWork>
@@ -226,13 +226,13 @@
   <uiPositionAxisOrder0>0</uiPositionAxisOrder0>
   <uiPositionAxisOrder1>1</uiPositionAxisOrder1>
   <uiPositionAxisOrder2>2</uiPositionAxisOrder2>
-  <uiPositionAxisOrder3>-1</uiPositionAxisOrder3>
-  <uiPositionAxisOrder4>-1</uiPositionAxisOrder4>
-  <uiPositionAxisOrder5>-1</uiPositionAxisOrder5>
-  <uiPositionAxisOrder6>-1</uiPositionAxisOrder6>
-  <uiPositionAxisOrder7>-1</uiPositionAxisOrder7>
-  <uiPositionAxisOrder8>-1</uiPositionAxisOrder8>
-  <uiPositionWorkBtnMode>2</uiPositionWorkBtnMode>
+  <uiPositionAxisOrder3>3</uiPositionAxisOrder3>
+  <uiPositionAxisOrder4>4</uiPositionAxisOrder4>
+  <uiPositionAxisOrder5>5</uiPositionAxisOrder5>
+  <uiPositionAxisOrder6>6</uiPositionAxisOrder6>
+  <uiPositionAxisOrder7>7</uiPositionAxisOrder7>
+  <uiPositionAxisOrder8>8</uiPositionAxisOrder8>
+  <uiPositionWorkBtnMode>1</uiPositionWorkBtnMode>
   <uiPositionMachineBtnMode>1</uiPositionMachineBtnMode>
   <uiSpeedColorBack>0xff1f2930</uiSpeedColorBack>
   <uiSpeedColorValue>0xffe0d6cc</uiSpeedColorValue>
@@ -265,7 +265,7 @@
   <uiJogColorValue>0xffe0d6cc</uiJogColorValue>
   <uiJogColorBtn>0xffe0d6cc</uiJogColorBtn>
   <uiJogColorArrows>0xffe0d6cc</uiJogColorArrows>
-  <uiJogPanel>1</uiJogPanel>
+  <uiJogPanel>2</uiJogPanel>
   <uiJogSize>42</uiJogSize>
   <uiJogCrossXY>1</uiJogCrossXY>
   <uiJogCrossUV>1</uiJogCrossUV>
@@ -305,7 +305,7 @@
   <ui3DToolHolderDia>2.50000000000000000000</ui3DToolHolderDia>
   <ui3DToolOff>1</ui3DToolOff>
   <ui3DToolLen>1</ui3DToolLen>
-  <ui3DToolDia>1</ui3DToolDia>
+  <ui3DToolDia>0</ui3DToolDia>
   <ui3DToolpathHistorySize>8192</ui3DToolpathHistorySize>
   <ui3DRotationX>0.00000000000000000000</ui3DRotationX>
   <ui3DRotationY>0.00000000000000000000</ui3DRotationY>
@@ -314,8 +314,9 @@
   <ui3DScaleY>1.00000000000000000000</ui3DScaleY>
   <ui3DScaleZ>1.00000000000000000000</ui3DScaleZ>
   <ui3DAxisLink>0</ui3DAxisLink>
+  <ui3DAxisThickness>1.19999999999999995559</ui3DAxisThickness>
   <ui3DAxisEnabled0>1</ui3DAxisEnabled0>
-  <ui3DAxisEnabled1>1</ui3DAxisEnabled1>
+  <ui3DAxisEnabled1>0</ui3DAxisEnabled1>
   <ui3DAxisEnabled2>1</ui3DAxisEnabled2>
   <ui3DAxisEnabled3>0</ui3DAxisEnabled3>
   <ui3DAxisEnabled4>0</ui3DAxisEnabled4>
@@ -371,29 +372,33 @@
   <uiGCodeMDIColorFocus>0xff41494f</uiGCodeMDIColorFocus>
   <uiGCodeMDIColorText>0xffe0d6cc</uiGCodeMDIColorText>
   <uiGCodeMDITextSize>25</uiGCodeMDITextSize>
-  <uiGCodeMDIHistory>0</uiGCodeMDIHistory>
+  <uiGCodeMDIHistory>1</uiGCodeMDIHistory>
   <uiMidColorBack>0xff1f2930</uiMidColorBack>
   <uiMidColorText>0xffe0d6cc</uiMidColorText>
   <uiMidColorBtn>0xffe0d6cc</uiMidColorBtn>
   <uiMidUseForEdit>0</uiMidUseForEdit>
   <uiMidUseForCam>0</uiMidUseForCam>
-  <uiMidUseForLog>0</uiMidUseForLog>
+  <uiMidUseForLog>1</uiMidUseForLog>
+  <uiCntLimit>0</uiCntLimit>
+  <uiCntInput>0</uiCntInput>
+  <uiCntJog>0</uiCntJog>
+  <uiCntErrEStp>0</uiCntErrEStp>
   <motorStepWidth>12</motorStepWidth>
-  <motorEnable>0</motorEnable>
+  <motorEnable>1</motorEnable>
   <motorEnableInvert>0</motorEnableInvert>
   <motorEnableEStop>0</motorEnableEStop>
   <motorEnableDynamic>0</motorEnableDynamic>
   <motorOutputOrder0>0</motorOutputOrder0>
-  <motorOutputOrder1>1</motorOutputOrder1>
+  <motorOutputOrder1>2</motorOutputOrder1>
   <motorOutputOrder2>2</motorOutputOrder2>
-  <motorOutputOrder3>-1</motorOutputOrder3>
-  <motorOutputOrder4>-1</motorOutputOrder4>
-  <motorOutputOrder5>-1</motorOutputOrder5>
-  <motorOutputOrder6>-1</motorOutputOrder6>
-  <motorOutputOrder7>-1</motorOutputOrder7>
-  <motorOutputOrder8>-1</motorOutputOrder8>
+  <motorOutputOrder3>3</motorOutputOrder3>
+  <motorOutputOrder4>4</motorOutputOrder4>
+  <motorOutputOrder5>5</motorOutputOrder5>
+  <motorOutputOrder6>6</motorOutputOrder6>
+  <motorOutputOrder7>7</motorOutputOrder7>
+  <motorOutputOrder8>8</motorOutputOrder8>
   <motorOutputReverse0>0</motorOutputReverse0>
-  <motorOutputReverse1>1</motorOutputReverse1>
+  <motorOutputReverse1>0</motorOutputReverse1>
   <motorOutputReverse2>0</motorOutputReverse2>
   <motorOutputReverse3>0</motorOutputReverse3>
   <motorOutputReverse4>0</motorOutputReverse4>
@@ -410,8 +415,8 @@
   <motorOutputInvert6>0</motorOutputInvert6>
   <motorOutputInvert7>0</motorOutputInvert7>
   <motorOutputInvert8>0</motorOutputInvert8>
-  <motorStepsPerUnit0>800.00000000000000000000</motorStepsPerUnit0>
-  <motorStepsPerUnit1>800.00000000000000000000</motorStepsPerUnit1>
+  <motorStepsPerUnit0>1005.00000000000011368684</motorStepsPerUnit0>
+  <motorStepsPerUnit1>1000.00000000000000000000</motorStepsPerUnit1>
   <motorStepsPerUnit2>800.00000000000000000000</motorStepsPerUnit2>
   <motorStepsPerUnit3>100.00000000000000000000</motorStepsPerUnit3>
   <motorStepsPerUnit4>100.00000000000000000000</motorStepsPerUnit4>
@@ -419,27 +424,27 @@
   <motorStepsPerUnit6>100.00000000000000000000</motorStepsPerUnit6>
   <motorStepsPerUnit7>100.00000000000000000000</motorStepsPerUnit7>
   <motorStepsPerUnit8>100.00000000000000000000</motorStepsPerUnit8>
-  <motorMaxSpeed0>100.00000000000000000000</motorMaxSpeed0>
-  <motorMaxSpeed1>83.33333333333332859638</motorMaxSpeed1>
-  <motorMaxSpeed2>66.66666666666667140362</motorMaxSpeed2>
+  <motorMaxSpeed0>66.66666666666667140362</motorMaxSpeed0>
+  <motorMaxSpeed1>40.00000000000000000000</motorMaxSpeed1>
+  <motorMaxSpeed2>83.33333333333332859638</motorMaxSpeed2>
   <motorMaxSpeed3>60.00000000000000000000</motorMaxSpeed3>
   <motorMaxSpeed4>60.00000000000000000000</motorMaxSpeed4>
   <motorMaxSpeed5>60.00000000000000000000</motorMaxSpeed5>
   <motorMaxSpeed6>40.00000000000000000000</motorMaxSpeed6>
   <motorMaxSpeed7>40.00000000000000000000</motorMaxSpeed7>
   <motorMaxSpeed8>40.00000000000000000000</motorMaxSpeed8>
-  <motorMaxAcceleration0>750.00000000000000000000</motorMaxAcceleration0>
-  <motorMaxAcceleration1>750.00000000000000000000</motorMaxAcceleration1>
-  <motorMaxAcceleration2>750.00000000000000000000</motorMaxAcceleration2>
+  <motorMaxAcceleration0>2000.00000000000000000000</motorMaxAcceleration0>
+  <motorMaxAcceleration1>25.00000000000000000000</motorMaxAcceleration1>
+  <motorMaxAcceleration2>1000.00000000000000000000</motorMaxAcceleration2>
   <motorMaxAcceleration3>25.00000000000000000000</motorMaxAcceleration3>
   <motorMaxAcceleration4>25.00000000000000000000</motorMaxAcceleration4>
   <motorMaxAcceleration5>25.00000000000000000000</motorMaxAcceleration5>
   <motorMaxAcceleration6>25.00000000000000000000</motorMaxAcceleration6>
   <motorMaxAcceleration7>25.00000000000000000000</motorMaxAcceleration7>
   <motorMaxAcceleration8>25.00000000000000000000</motorMaxAcceleration8>
-  <motorMaxDeceleration0>750.00000000000000000000</motorMaxDeceleration0>
-  <motorMaxDeceleration1>500.00000000000000000000</motorMaxDeceleration1>
-  <motorMaxDeceleration2>750.00000000000000000000</motorMaxDeceleration2>
+  <motorMaxDeceleration0>2000.00000000000000000000</motorMaxDeceleration0>
+  <motorMaxDeceleration1>25.00000000000000000000</motorMaxDeceleration1>
+  <motorMaxDeceleration2>1000.00000000000000000000</motorMaxDeceleration2>
   <motorMaxDeceleration3>25.00000000000000000000</motorMaxDeceleration3>
   <motorMaxDeceleration4>25.00000000000000000000</motorMaxDeceleration4>
   <motorMaxDeceleration5>25.00000000000000000000</motorMaxDeceleration5>
@@ -456,9 +461,9 @@
   <motorBacklash7>0.00000000000000000000</motorBacklash7>
   <motorBacklash8>0.00000000000000000000</motorBacklash8>
   <motorBacklashType>0</motorBacklashType>
-  <motorLimitNeg0>-0.50000000000000000000</motorLimitNeg0>
-  <motorLimitNeg1>-0.50000000000000000000</motorLimitNeg1>
-  <motorLimitNeg2>-190.00000000000000000000</motorLimitNeg2>
+  <motorLimitNeg0>0.00000000000000000000</motorLimitNeg0>
+  <motorLimitNeg1>0.00000000000000000000</motorLimitNeg1>
+  <motorLimitNeg2>0.00000000000000000000</motorLimitNeg2>
   <motorLimitNeg3>0.00000000000000000000</motorLimitNeg3>
   <motorLimitNeg4>0.00000000000000000000</motorLimitNeg4>
   <motorLimitNeg5>0.00000000000000000000</motorLimitNeg5>
@@ -466,7 +471,7 @@
   <motorLimitNeg7>0.00000000000000000000</motorLimitNeg7>
   <motorLimitNeg8>0.00000000000000000000</motorLimitNeg8>
   <motorLimitNegEn0>1</motorLimitNegEn0>
-  <motorLimitNegEn1>1</motorLimitNegEn1>
+  <motorLimitNegEn1>0</motorLimitNegEn1>
   <motorLimitNegEn2>1</motorLimitNegEn2>
   <motorLimitNegEn3>0</motorLimitNegEn3>
   <motorLimitNegEn4>0</motorLimitNegEn4>
@@ -474,9 +479,9 @@
   <motorLimitNegEn6>0</motorLimitNegEn6>
   <motorLimitNegEn7>0</motorLimitNegEn7>
   <motorLimitNegEn8>0</motorLimitNegEn8>
-  <motorLimitPos0>485.00000000000000000000</motorLimitPos0>
-  <motorLimitPos1>708.00000000000000000000</motorLimitPos1>
-  <motorLimitPos2>0.50000000000000000000</motorLimitPos2>
+  <motorLimitPos0>100.00000000000000000000</motorLimitPos0>
+  <motorLimitPos1>0.00000000000000000000</motorLimitPos1>
+  <motorLimitPos2>450.00000000000000000000</motorLimitPos2>
   <motorLimitPos3>0.00000000000000000000</motorLimitPos3>
   <motorLimitPos4>0.00000000000000000000</motorLimitPos4>
   <motorLimitPos5>0.00000000000000000000</motorLimitPos5>
@@ -484,7 +489,7 @@
   <motorLimitPos7>0.00000000000000000000</motorLimitPos7>
   <motorLimitPos8>0.00000000000000000000</motorLimitPos8>
   <motorLimitPosEn0>1</motorLimitPosEn0>
-  <motorLimitPosEn1>1</motorLimitPosEn1>
+  <motorLimitPosEn1>0</motorLimitPosEn1>
   <motorLimitPosEn2>1</motorLimitPosEn2>
   <motorLimitPosEn3>0</motorLimitPosEn3>
   <motorLimitPosEn4>0</motorLimitPosEn4>
@@ -492,51 +497,51 @@
   <motorLimitPosEn6>0</motorLimitPosEn6>
   <motorLimitPosEn7>0</motorLimitPosEn7>
   <motorLimitPosEn8>0</motorLimitPosEn8>
-  <motorLimitPinNeg0>8</motorLimitPinNeg0>
-  <motorLimitPinNeg1>6</motorLimitPinNeg1>
+  <motorLimitPinNeg0>1</motorLimitPinNeg0>
+  <motorLimitPinNeg1>0</motorLimitPinNeg1>
   <motorLimitPinNeg2>0</motorLimitPinNeg2>
-  <motorLimitPinNeg3>1</motorLimitPinNeg3>
+  <motorLimitPinNeg3>0</motorLimitPinNeg3>
   <motorLimitPinNeg4>0</motorLimitPinNeg4>
   <motorLimitPinNeg5>0</motorLimitPinNeg5>
   <motorLimitPinNeg6>0</motorLimitPinNeg6>
   <motorLimitPinNeg7>0</motorLimitPinNeg7>
   <motorLimitPinNeg8>0</motorLimitPinNeg8>
-  <motorLimitPinPos0>8</motorLimitPinPos0>
-  <motorLimitPinPos1>6</motorLimitPinPos1>
-  <motorLimitPinPos2>7</motorLimitPinPos2>
-  <motorLimitPinPos3>1</motorLimitPinPos3>
+  <motorLimitPinPos0>0</motorLimitPinPos0>
+  <motorLimitPinPos1>0</motorLimitPinPos1>
+  <motorLimitPinPos2>0</motorLimitPinPos2>
+  <motorLimitPinPos3>0</motorLimitPinPos3>
   <motorLimitPinPos4>0</motorLimitPinPos4>
   <motorLimitPinPos5>0</motorLimitPinPos5>
   <motorLimitPinPos6>0</motorLimitPinPos6>
   <motorLimitPinPos7>0</motorLimitPinPos7>
   <motorLimitPinPos8>0</motorLimitPinPos8>
-  <motorLimitPinInv0>0</motorLimitPinInv0>
+  <motorLimitPinInv0>1</motorLimitPinInv0>
   <motorLimitPinInv1>0</motorLimitPinInv1>
   <motorLimitPinInv2>0</motorLimitPinInv2>
   <motorLimitPinInv3>0</motorLimitPinInv3>
   <motorLimitPinInv4>0</motorLimitPinInv4>
-  <motorLimitPinInv5>1</motorLimitPinInv5>
-  <motorLimitPinInv6>1</motorLimitPinInv6>
-  <motorLimitPinInv7>1</motorLimitPinInv7>
+  <motorLimitPinInv5>0</motorLimitPinInv5>
+  <motorLimitPinInv6>0</motorLimitPinInv6>
+  <motorLimitPinInv7>0</motorLimitPinInv7>
   <motorLimitPinInv8>0</motorLimitPinInv8>
-  <motorLimitPinEStop0>1</motorLimitPinEStop0>
+  <motorLimitPinEStop0>0</motorLimitPinEStop0>
   <motorLimitPinEStop1>0</motorLimitPinEStop1>
   <motorLimitPinEStop2>0</motorLimitPinEStop2>
-  <motorLimitPinEStop3>1</motorLimitPinEStop3>
+  <motorLimitPinEStop3>0</motorLimitPinEStop3>
   <motorLimitPinEStop4>0</motorLimitPinEStop4>
-  <motorLimitPinEStop5>1</motorLimitPinEStop5>
-  <motorLimitPinEStop6>1</motorLimitPinEStop6>
-  <motorLimitPinEStop7>1</motorLimitPinEStop7>
+  <motorLimitPinEStop5>0</motorLimitPinEStop5>
+  <motorLimitPinEStop6>0</motorLimitPinEStop6>
+  <motorLimitPinEStop7>0</motorLimitPinEStop7>
   <motorLimitPinEStop8>0</motorLimitPinEStop8>
-  <motionMaxSpeed>100.00000000000000000000</motionMaxSpeed>
-  <motionMaxAcceleration>750.00000000000000000000</motionMaxAcceleration>
-  <motionMaxDeceleration>750.00000000000000000000</motionMaxDeceleration>
+  <motionMaxSpeed>83.33333333333332859638</motionMaxSpeed>
+  <motionMaxAcceleration>1500.00000000000000000000</motionMaxAcceleration>
+  <motionMaxDeceleration>1500.00000000000000000000</motionMaxDeceleration>
   <motionCoordSys0>1</motionCoordSys0>
   <motionCoordSys1>0</motionCoordSys1>
   <motionCoordSys2>0</motionCoordSys2>
-  <motionLimitNeg0>-0.50000000000000000000</motionLimitNeg0>
-  <motionLimitNeg1>-0.50000000000000000000</motionLimitNeg1>
-  <motionLimitNeg2>-190.00000000000000000000</motionLimitNeg2>
+  <motionLimitNeg0>0.00000000000000000000</motionLimitNeg0>
+  <motionLimitNeg1>0.00000000000000000000</motionLimitNeg1>
+  <motionLimitNeg2>0.00000000000000000000</motionLimitNeg2>
   <motionLimitNeg3>0.00000000000000000000</motionLimitNeg3>
   <motionLimitNeg4>0.00000000000000000000</motionLimitNeg4>
   <motionLimitNeg5>0.00000000000000000000</motionLimitNeg5>
@@ -544,7 +549,7 @@
   <motionLimitNeg7>0.00000000000000000000</motionLimitNeg7>
   <motionLimitNeg8>0.00000000000000000000</motionLimitNeg8>
   <motionLimitNegEn0>1</motionLimitNegEn0>
-  <motionLimitNegEn1>1</motionLimitNegEn1>
+  <motionLimitNegEn1>0</motionLimitNegEn1>
   <motionLimitNegEn2>1</motionLimitNegEn2>
   <motionLimitNegEn3>0</motionLimitNegEn3>
   <motionLimitNegEn4>0</motionLimitNegEn4>
@@ -552,9 +557,9 @@
   <motionLimitNegEn6>0</motionLimitNegEn6>
   <motionLimitNegEn7>0</motionLimitNegEn7>
   <motionLimitNegEn8>0</motionLimitNegEn8>
-  <motionLimitPos0>485.00000000000000000000</motionLimitPos0>
-  <motionLimitPos1>708.00000000000000000000</motionLimitPos1>
-  <motionLimitPos2>0.50000000000000000000</motionLimitPos2>
+  <motionLimitPos0>100.00000000000000000000</motionLimitPos0>
+  <motionLimitPos1>0.00000000000000000000</motionLimitPos1>
+  <motionLimitPos2>450.00000000000000000000</motionLimitPos2>
   <motionLimitPos3>0.00000000000000000000</motionLimitPos3>
   <motionLimitPos4>0.00000000000000000000</motionLimitPos4>
   <motionLimitPos5>0.00000000000000000000</motionLimitPos5>
@@ -562,7 +567,7 @@
   <motionLimitPos7>0.00000000000000000000</motionLimitPos7>
   <motionLimitPos8>0.00000000000000000000</motionLimitPos8>
   <motionLimitPosEn0>1</motionLimitPosEn0>
-  <motionLimitPosEn1>1</motionLimitPosEn1>
+  <motionLimitPosEn1>0</motionLimitPosEn1>
   <motionLimitPosEn2>1</motionLimitPosEn2>
   <motionLimitPosEn3>0</motionLimitPosEn3>
   <motionLimitPosEn4>0</motionLimitPosEn4>
@@ -583,7 +588,6 @@
   <motionBreakAngle0>2.87979326579064354164</motionBreakAngle0>
   <motionBreakAngle1>2.87979326579064354164</motionBreakAngle1>
   <motionBreakAngle2>2.87979326579064354164</motionBreakAngle2>
-  <motionKinematics>Trivial</motionKinematics>
   <cycleTime>0.00100000000000000002</cycleTime>
   <motionEngineBuffer>32768</motionEngineBuffer>
   <deviceBuffer>128</deviceBuffer>
@@ -591,7 +595,7 @@
   <deviceMaxPacket>5</deviceMaxPacket>
   <readAhead>500</readAhead>
   <curveTolerance>0.05000000000000000278</curveTolerance>
-  <jogSpeedDef>12.00000000000000000000</jogSpeedDef>
+  <jogSpeedDef>83.33333333333332859638</jogSpeedDef>
   <jogStepDef>0.10000000000000000555</jogStepDef>
   <jogRoundDef>0.10000000000000000555</jogRoundDef>
   <jogContinuousStep>0</jogContinuousStep>
@@ -607,7 +611,7 @@
   <jogPinInvert8>0</jogPinInvert8>
   <jogPinInvert9>0</jogPinInvert9>
   <jogPinInvert10>0</jogPinInvert10>
-  <jogSpeedKbd>12.00000000000000000000</jogSpeedKbd>
+  <jogSpeedKbd>83.33333333333332859638</jogSpeedKbd>
   <jogTimeout>5000</jogTimeout>
   <jogPotCenter>167</jogPotCenter>
   <jogPotCenterR1>3.26855312744997394958</jogPotCenterR1>
@@ -618,17 +622,17 @@
   <ioMPGModeStep0>1</ioMPGModeStep0>
   <ioMPGModeSpeed0>1.66666666666666696273</ioMPGModeSpeed0>
   <ioMPGModeRound0>0.01000000000000000021</ioMPGModeRound0>
-  <ioMPGModeStep1>1</ioMPGModeStep1>
-  <ioMPGModeSpeed1>1.66666666666666696273</ioMPGModeSpeed1>
-  <ioMPGModeRound1>0.10000000000000000555</ioMPGModeRound1>
+  <ioMPGModeStep1>0</ioMPGModeStep1>
+  <ioMPGModeSpeed1>3.33333333333333348136</ioMPGModeSpeed1>
+  <ioMPGModeRound1>0.00000000000000000000</ioMPGModeRound1>
   <ioMPGModeStep2>0</ioMPGModeStep2>
-  <ioMPGModeSpeed2>20.00000000000000000000</ioMPGModeSpeed2>
+  <ioMPGModeSpeed2>6.66666666666666696273</ioMPGModeSpeed2>
   <ioMPGModeRound2>0.00000000000000000000</ioMPGModeRound2>
   <ioMPGModeStep3>0</ioMPGModeStep3>
-  <ioMPGModeSpeed3>40.00000000000000710543</ioMPGModeSpeed3>
+  <ioMPGModeSpeed3>13.33333333333333392545</ioMPGModeSpeed3>
   <ioMPGModeRound3>0.00000000000000000000</ioMPGModeRound3>
   <ioMPGModeStep4>0</ioMPGModeStep4>
-  <ioMPGModeSpeed4>100.00000000000000000000</ioMPGModeSpeed4>
+  <ioMPGModeSpeed4>83.33333333333332859638</ioMPGModeSpeed4>
   <ioMPGModeRound4>0.00000000000000000000</ioMPGModeRound4>
   <ioMPGAxisDir0>1</ioMPGAxisDir0>
   <ioMPGAxisDir1>1</ioMPGAxisDir1>
@@ -639,42 +643,42 @@
   <ioMPGAxisDir6>1</ioMPGAxisDir6>
   <ioMPGAxisDir7>1</ioMPGAxisDir7>
   <ioMPGAxisDir8>1</ioMPGAxisDir8>
-  <eStopEnabled>1</eStopEnabled>
-  <eStopInvert>1</eStopInvert>
-  <errorEnabled>1</errorEnabled>
-  <errorInvert>1</errorInvert>
+  <eStopEnabled>0</eStopEnabled>
+  <eStopInvert>0</eStopInvert>
+  <errorEnabled>0</errorEnabled>
+  <errorInvert>0</errorInvert>
   <outputPinInvert0>0</outputPinInvert0>
   <outputPinInvert1>0</outputPinInvert1>
-  <outputPinInvert2>0</outputPinInvert2>
-  <outputPinInvert3>0</outputPinInvert3>
-  <outputPinInvert4>0</outputPinInvert4>
+  <outputPinInvert2>1</outputPinInvert2>
+  <outputPinInvert3>1</outputPinInvert3>
+  <outputPinInvert4>1</outputPinInvert4>
   <outputPinInvert5>0</outputPinInvert5>
-  <outputPinInvert6>0</outputPinInvert6>
-  <outputPinInvert7>0</outputPinInvert7>
-  <inputPinInvert0>1</inputPinInvert0>
-  <inputPinInvert1>1</inputPinInvert1>
-  <inputPinInvert2>1</inputPinInvert2>
+  <outputPinInvert6>1</outputPinInvert6>
+  <outputPinInvert7>1</outputPinInvert7>
+  <inputPinInvert0>0</inputPinInvert0>
+  <inputPinInvert1>0</inputPinInvert1>
+  <inputPinInvert2>0</inputPinInvert2>
   <inputPinInvert3>0</inputPinInvert3>
   <inputPinInvert4>0</inputPinInvert4>
   <inputPinInvert5>0</inputPinInvert5>
   <inputPinInvert6>0</inputPinInvert6>
-  <inputPinInvert7>1</inputPinInvert7>
-  <spindleMode>1</spindleMode>
+  <inputPinInvert7>0</inputPinInvert7>
+  <spindleMode>0</spindleMode>
   <spindlePinCW>3</spindlePinCW>
   <spindlePinCCW>0</spindlePinCCW>
-  <spindlePinSpeed>6</spindlePinSpeed>
-  <spindleSpeedMin>4000.00000000000000000000</spindleSpeedMin>
-  <spindleSpeedMax>24000.00000000000000000000</spindleSpeedMax>
-  <spindleDelayStart>1.00000000000000000000</spindleDelayStart>
-  <spindleDelayStop>1.00000000000000000000</spindleDelayStop>
-  <spindleFreqMode>0</spindleFreqMode>
+  <spindlePinSpeed>1</spindlePinSpeed>
+  <spindleSpeedMin>0.00000000000000000000</spindleSpeedMin>
+  <spindleSpeedMax>2000.00000000000000000000</spindleSpeedMax>
+  <spindleDelayStart>0.00000000000000000000</spindleDelayStart>
+  <spindleDelayStop>0.00000000000000000000</spindleDelayStop>
+  <spindleFreqMode>1</spindleFreqMode>
   <spindleMinFreq>0</spindleMinFreq>
-  <spindleMaxFreq>1500</spindleMaxFreq>
+  <spindleMaxFreq>7500</spindleMaxFreq>
   <spindleStepWidth>0</spindleStepWidth>
-  <spindlePWMFreq>12000</spindlePWMFreq>
+  <spindlePWMFreq>2000</spindlePWMFreq>
   <spindleRCLo>800</spindleRCLo>
   <spindleRCHi>2400</spindleRCHi>
-  <spindleEncPPR>100</spindleEncPPR>
+  <spindleEncPPR>300</spindleEncPPR>
   <spindleEncReverse>0</spindleEncReverse>
   <spindleEncIdxPPR>1</spindleEncIdxPPR>
   <spindleEncIdxPPRDiv>1</spindleEncIdxPPRDiv>
@@ -682,8 +686,8 @@
   <spindleEncIdxDebounce>100</spindleEncIdxDebounce>
   <spindleSync>0</spindleSync>
   <spindleSyncSignal>0</spindleSyncSignal>
-  <mistPin>5</mistPin>
-  <floodPin>4</floodPin>
+  <mistPin>4</mistPin>
+  <floodPin>5</floodPin>
   <ioI2CFreq>400000</ioI2CFreq>
   <ioTXBaudRate>115200</ioTXBaudRate>
   <ioEncPPR>100</ioEncPPR>
@@ -711,10 +715,10 @@
   <programDistanceModeABC>0</programDistanceModeABC>
   <programLatheMode>0</programLatheMode>
   <programCycleReturnMode>0</programCycleReturnMode>
-  <speedTraverse>6000.00100000000020372681</speedTraverse>
+  <speedTraverse>5000.00100000000020372681</speedTraverse>
   <speedTraverseABC>2400.00000000000000000000</speedTraverseABC>
-  <speedFeed>5000.00100000000020372681</speedFeed>
-  <speedSpindle>6000.00000000000000000000</speedSpindle>
+  <speedFeed>2100.00000000000000000000</speedFeed>
+  <speedSpindle>24000.00000000000000000000</speedSpindle>
   <programTrans0>1.00000000000000000000</programTrans0>
   <programTrans1>0.00000000000000000000</programTrans1>
   <programTrans2>0.00000000000000000000</programTrans2>
@@ -727,11 +731,12 @@
   <programTrans9>0.00000000000000000000</programTrans9>
   <programTrans10>0.00000000000000000000</programTrans10>
   <programTrans11>0.00000000000000000000</programTrans11>
+  <programUseEWord>0</programUseEWord>
   <gcodeSubprocedureFolders>./Scripts
 ../../Samples/Sub
 </gcodeSubprocedureFolders>
   <pythonLib>C:/Program Files/Python37/python37.dll</pythonLib>
-  <midiIn>C:/Program Files/Python37/python37.dll</midiIn>
+  <midiIn></midiIn>
   <midiOut>Microsoft GS Wavetable Synth</midiOut>
   <eventStartFromState>1</eventStartFromState>
   <eventStartFromMist>1</eventStartFromMist>
@@ -745,21 +750,21 @@
   <eventOnStart>OnStart.gcode</eventOnStart>
   <eventOnEnd>OnEnd.gcode</eventOnEnd>
   <eventOnStop>OnStop.gcode</eventOnStop>
-  <probePin0>1</probePin0>
-  <probePin1>2</probePin1>
-  <probeSpeed>200.00100000000000477485</probeSpeed>
-  <probeSpeedLow>20.00000000000000000000</probeSpeedLow>
+  <probePin0>0</probePin0>
+  <probePin1>0</probePin1>
+  <probeSpeed>100.00000000000000000000</probeSpeed>
+  <probeSpeedLow>0.00000000000000000000</probeSpeedLow>
   <probeSwDist>1.00000000000000000000</probeSwDist>
   <probeSizeZ>0.00000000000000000000</probeSizeZ>
   <probeSizeXY>1.00000000000000000000</probeSizeXY>
-  <probeSafeHeight>0.00000000000000000000</probeSafeHeight>
+  <probeSafeHeight>35.00000000000000000000</probeSafeHeight>
   <probeEStop>0</probeEStop>
-  <homeSpeed>2000.00099999999997635314</homeSpeed>
-  <homeSpeedLow>50.00000000000000000000</homeSpeedLow>
-  <homeSwDist>1.00000000000000000000</homeSwDist>
-  <homeOrder0>2</homeOrder0>
-  <homeOrder1>3</homeOrder1>
-  <homeOrder2>1</homeOrder2>
+  <homeSpeed>500.00099999999997635314</homeSpeed>
+  <homeSpeedLow>20.00000000000000000000</homeSpeedLow>
+  <homeSwDist>2.00000000000000000000</homeSwDist>
+  <homeOrder0>1</homeOrder0>
+  <homeOrder1>0</homeOrder1>
+  <homeOrder2>0</homeOrder2>
   <homeOrder3>0</homeOrder3>
   <homeOrder4>0</homeOrder4>
   <homeOrder5>0</homeOrder5>
@@ -767,24 +772,24 @@
   <homeOrder7>0</homeOrder7>
   <homeOrder8>0</homeOrder8>
   <homeDir0>-1</homeDir0>
-  <homeDir1>-1</homeDir1>
-  <homeDir2>1</homeDir2>
+  <homeDir1>0</homeDir1>
+  <homeDir2>-1</homeDir2>
   <homeDir3>0</homeDir3>
   <homeDir4>0</homeDir4>
   <homeDir5>0</homeDir5>
   <homeDir6>0</homeDir6>
   <homeDir7>0</homeDir7>
   <homeDir8>0</homeDir8>
-  <homeSwPos0>-1.00000000000000000000</homeSwPos0>
-  <homeSwPos1>-1.00000000000000000000</homeSwPos1>
-  <homeSwPos2>2.00000000000000000000</homeSwPos2>
+  <homeSwPos0>-2.00000000000000000000</homeSwPos0>
+  <homeSwPos1>0.00000000000000000000</homeSwPos1>
+  <homeSwPos2>0.00000000000000000000</homeSwPos2>
   <homeSwPos3>0.00000000000000000000</homeSwPos3>
   <homeSwPos4>0.00000000000000000000</homeSwPos4>
   <homeSwPos5>0.00000000000000000000</homeSwPos5>
   <homeSwPos6>0.00000000000000000000</homeSwPos6>
   <homeSwPos7>0.00000000000000000000</homeSwPos7>
   <homeSwPos8>0.00000000000000000000</homeSwPos8>
-  <homeMoveTo0>0.00000000000000000000</homeMoveTo0>
+  <homeMoveTo0>95.00000000000000000000</homeMoveTo0>
   <homeMoveTo1>0.00000000000000000000</homeMoveTo1>
   <homeMoveTo2>0.00000000000000000000</homeMoveTo2>
   <homeMoveTo3>0.00000000000000000000</homeMoveTo3>
@@ -793,31 +798,31 @@
   <homeMoveTo6>0.00000000000000000000</homeMoveTo6>
   <homeMoveTo7>0.00000000000000000000</homeMoveTo7>
   <homeMoveTo8>0.00000000000000000000</homeMoveTo8>
-  <tooloffSpeed>750.00099999999997635314</tooloffSpeed>
-  <tooloffSpeedLow>20.00000000000000000000</tooloffSpeedLow>
+  <tooloffSpeed>100.00000000000000000000</tooloffSpeed>
+  <tooloffSpeedLow>0.00000000000000000000</tooloffSpeedLow>
   <tooloffSwDist>1.00000000000000000000</tooloffSwDist>
   <tooloffSafeHeight>0.00000000000000000000</tooloffSafeHeight>
-  <tooloffRapidHeight>-20.00000000000000000000</tooloffRapidHeight>
-  <tooloffSensorPos0>476.00000000000000000000</tooloffSensorPos0>
-  <tooloffSensorPos1>35.00000000000000000000</tooloffSensorPos1>
-  <tooloffSensorPos2>-155.00000000000000000000</tooloffSensorPos2>
-  <workoffSpeed>200.00100000000000477485</workoffSpeed>
-  <workoffSpeedLow>20.00000000000000000000</workoffSpeedLow>
+  <tooloffRapidHeight>0.00000000000000000000</tooloffRapidHeight>
+  <tooloffSensorPos0>0.00000000000000000000</tooloffSensorPos0>
+  <tooloffSensorPos1>0.00000000000000000000</tooloffSensorPos1>
+  <tooloffSensorPos2>0.00000000000000000000</tooloffSensorPos2>
+  <workoffSpeed>100.00000000000000000000</workoffSpeed>
+  <workoffSpeedLow>0.00000000000000000000</workoffSpeedLow>
   <workoffSwDist>1.00000000000000000000</workoffSwDist>
-  <workoffSize>0.00000000000000000000</workoffSize>
-  <tcEnable>1</tcEnable>
-  <tcSkipSame>0</tcSkipSame>
-  <tcSpindleCheck>1</tcSpindleCheck>
+  <workoffSize>1.60000000000000008882</workoffSize>
+  <tcEnable>0</tcEnable>
+  <tcSkipSame>1</tcSkipSame>
+  <tcSpindleCheck>0</tcSpindleCheck>
   <tcSafeHeightEn>1</tcSafeHeightEn>
-  <tcSafeHeight>0.00000000000000000000</tcSafeHeight>
-  <tcPositionEn>1</tcPositionEn>
-  <tcPosition0>100.00000000000000000000</tcPosition0>
-  <tcPosition1>33.00000000000000000000</tcPosition1>
+  <tcSafeHeight>35.00000000000000000000</tcSafeHeight>
+  <tcPositionEn>0</tcPositionEn>
+  <tcPosition0>0.00000000000000000000</tcPosition0>
+  <tcPosition1>0.00000000000000000000</tcPosition1>
   <tcPosition2>0.00000000000000000000</tcPosition2>
   <tcAction>1</tcAction>
-  <tcToolMeasure>2</tcToolMeasure>
-  <tcToolOffEn>1</tcToolOffEn>
-  <tcAutoReturn>1</tcAutoReturn>
+  <tcToolMeasure>0</tcToolMeasure>
+  <tcToolOffEn>0</tcToolOffEn>
+  <tcAutoReturn>0</tcAutoReturn>
   <tcATCEnable>0</tcATCEnable>
   <tcATCSpeed>100.00000000000000000000</tcATCSpeed>
   <tcATCSpeed2>200.00000000000000000000</tcATCSpeed2>
@@ -877,7 +882,16 @@
   <importCAD_Origin>0</importCAD_Origin>
   <importCAD_Loops>1</importCAD_Loops>
   <importCAD_InterpolateArcs>0</importCAD_InterpolateArcs>
+  <importCAD_Smooth>0</importCAD_Smooth>
   <importCAD_SortShapes>1</importCAD_SortShapes>
+  <importCAD_SortReverseShapes>1</importCAD_SortReverseShapes>
+  <importCAD_ProcessShapes>0</importCAD_ProcessShapes>
+  <importCAD_ShapeFill>0</importCAD_ShapeFill>
+  <importCAD_ShapePath>1</importCAD_ShapePath>
+  <importCAD_ShapeStroke>0</importCAD_ShapeStroke>
+  <importCAD_ShapeUnion>0</importCAD_ShapeUnion>
+  <importCAD_ShapeOffset>0.00000000000000000000</importCAD_ShapeOffset>
+  <importCAD_ShapeOffsetRound>1</importCAD_ShapeOffsetRound>
   <importCAD_FeedSpeed>1500.00000000000000000000</importCAD_FeedSpeed>
   <importCAD_PlungeSpeed>100.00000000000000000000</importCAD_PlungeSpeed>
   <importCAD_UseToolChange>0</importCAD_UseToolChange>
@@ -1013,108 +1027,40 @@
   <exportCSV_Separator>9</exportCSV_Separator>
   <exportCSV_SkipUnusedValue>1</exportCSV_SkipUnusedValue>
   <exportCSV_SkipSameValue>0</exportCSV_SkipSameValue>
+  <fileRecent0>C:\CAM\000-Lathe-Code\1002.ngc</fileRecent0>
   <mdiHistoryCount>50</mdiHistoryCount>
-  <fileRecent0>C:\CAM\Gewinde.ngc</fileRecent0>
-  <mdiHistory0>G1 Z0</mdiHistory0>
-  <mdiHistory1>G1 X0</mdiHistory1>
-  <mdiHistory2>G0 X10</mdiHistory2>
-  <mdiHistory3>G1 X0.2</mdiHistory3>
-  <mdiHistory4>G1 Z-1</mdiHistory4>
-  <mdiHistory5>G1 X100 Y100</mdiHistory5>
-  <mdiHistory6>S6000</mdiHistory6>
-  <mdiHistory7>G1 Z-0.1</mdiHistory7>
-  <mdiHistory8>S20000</mdiHistory8>
-  <mdiHistory9>T75 M6</mdiHistory9>
-  <mdiHistory10>T0 </mdiHistory10>
-  <mdiHistory11>G0 Z-0.2</mdiHistory11>
-  <mdiHistory12>G0 Y0</mdiHistory12>
-  <mdiHistory13>G0 Y100</mdiHistory13>
-  <mdiHistory14>S10000</mdiHistory14>
-  <mdiHistory15>T1 M6</mdiHistory15>
-  <mdiHistory16>T4 M6</mdiHistory16>
-  <mdiHistory17>G0 Z 20.1</mdiHistory17>
-  <mdiHistory18>G0 Z 19.8</mdiHistory18>
-  <mdiHistory19>G0 Z 19.2</mdiHistory19>
-  <mdiHistory20>G1 Y0</mdiHistory20>
-  <mdiHistory21>G1 Y640 </mdiHistory21>
-  <mdiHistory22>F4000</mdiHistory22>
-  <mdiHistory23>G0 Z0</mdiHistory23>
-  <mdiHistory24>G0 Z-0.25</mdiHistory24>
-  <mdiHistory25>T12 M06</mdiHistory25>
-  <mdiHistory26>G0 X 115</mdiHistory26>
-  <mdiHistory27>G0 Z-0.2</mdiHistory27>
-  <mdiHistory28>G0 X-0.1</mdiHistory28>
-  <mdiHistory29>G0 Y -0.1</mdiHistory29>
-  <mdiHistory30>G1 Z0.1</mdiHistory30>
-  <mdiHistory31>G1 Z-0.1</mdiHistory31>
-  <mdiHistory32>G0 X 400</mdiHistory32>
-  <mdiHistory33>S12000</mdiHistory33>
-  <mdiHistory34>F1000</mdiHistory34>
-  <mdiHistory35>F750</mdiHistory35>
-  <mdiHistory36>F500</mdiHistory36>
-  <mdiHistory37>S20000</mdiHistory37>
-  <fileRecent1>C:\CAM\Adaptive.ngc</fileRecent1>
-  <mdiHistory38>M06 T1</mdiHistory38>
-  <mdiHistory39>M06</mdiHistory39>
-  <fileRecent2>C:\CAM\Borung.ngc</fileRecent2>
-  <mdiHistory40>G0 Z-0.2</mdiHistory40>
-  <fileRecent3>C:\CAM\Mutter Halter OP30 G55.ngc</fileRecent3>
-  <fileRecent4>C:\CAM\Mutter Halter OP20.ngc</fileRecent4>
-  <fileRecent5>C:\CAM\Mutter Halter OP12.ngc</fileRecent5>
-  <fileRecent6>C:\CAM\Mutter Halter OP11.ngc</fileRecent6>
-  <mdiHistory41>G0 Z-0.1</mdiHistory41>
-  <mdiHistory42>M6 T0</mdiHistory42>
-  <mdiHistory43>M6 T31</mdiHistory43>
-  <mdiHistory44>G0 Z-0.5</mdiHistory44>
-  <mdiHistory45>M6 T2</mdiHistory45>
-  <mdiHistory46>M6 T1</mdiHistory46>
-  <mdiHistory47>M06</mdiHistory47>
-  <mdiHistory48>G0 Z-10</mdiHistory48>
-  <mdiHistory49>G0 Z-1.15</mdiHistory49>
-  <fileRecent7>C:\CAM\Mutter Halter OP10.ngc</fileRecent7>
-  <fileRecent8>C:\CAM\KUS Halter Verschraubung OP20.ngc</fileRecent8>
-  <fileRecent9>C:\CAM\KUS Halter Verschraubung OP10.ngc</fileRecent9>
-  <fileRecent10>C:\CAM\KUS Halte Platte OP20.ngc</fileRecent10>
-  <fileRecent11>C:\CAM\KUS Halte Platte OP11 G56.ngc</fileRecent11>
-  <fileRecent12>C:\CAM\KUS Halte Platte OP10 G56.ngc</fileRecent12>
-  <fileRecent13>C:\CAM\Loslager Spacer.ngc</fileRecent13>
-  <fileRecent14>C:\CAM\Festlager Borhilfe.ngc</fileRecent14>
-  <fileRecent15>C:\CAM\Z-Schlitten Seite 11.ngc</fileRecent15>
-  <fileRecent16>C:\CAM\Z-Schlitten Seite.ngc</fileRecent16>
-  <fileRecent17>C:\CAM\Plattenhalter 1 OP30.ngc</fileRecent17>
-  <fileRecent18>C:\CAM\Plattenhalter 1 OP20.ngc</fileRecent18>
-  <fileRecent19>C:\CAM\Plattenhalter 1 OP11.ngc</fileRecent19>
-  <fileRecent20>C:\CAM\Plattenhalter 1 OP10.ngc</fileRecent20>
-  <fileRecent21>C:\CAM\Planet CNC stuff\2021-06-08 script update\KMS-DIY-CNC\UserCmd\003_Measure_Center_Z_new.nc</fileRecent21>
-  <fileRecent22>C:\CAM\1001.ngc</fileRecent22>
-  <fileRecent23>C:\CAM\1002.ngc</fileRecent23>
-  <programUseEWord>0</programUseEWord>
-  <fileRecent24>C:\CAM\mm.ngc</fileRecent24>
-  <fileRecent25>C:\CAM\POM Planfr&#228;sen.ngc</fileRecent25>
-  <fileRecent26>C:\CAM\Dremel Halter OP30.ngc</fileRecent26>
-  <fileRecent27>C:\CAM\Dremel Halter OP20.ngc</fileRecent27>
-  <fileRecent28>C:\CAM\Dremel Halter OP10.ngc</fileRecent28>
-  <fileRecent29>C:\CAM\Motorhalter OP32.ngc</fileRecent29>
-  <ui3DAxisThickness>1.19999999999999995559</ui3DAxisThickness>
-  <importCAD_SortReverseShapes>1</importCAD_SortReverseShapes>
-  <importCAD_ProcessShapes>0</importCAD_ProcessShapes>
-  <importCAD_ShapeFill>0</importCAD_ShapeFill>
-  <importCAD_ShapePath>1</importCAD_ShapePath>
-  <importCAD_ShapeStroke>0</importCAD_ShapeStroke>
-  <importCAD_ShapeUnion>0</importCAD_ShapeUnion>
-  <importCAD_ShapeOffset>0.00000000000000000000</importCAD_ShapeOffset>
-  <importCAD_ShapeOffsetRound>1</importCAD_ShapeOffsetRound>
-  <uiCntLimit>1</uiCntLimit>
-  <uiCntInput>0</uiCntInput>
-  <uiCntJog>1</uiCntJog>
-  <uiCntErrEStp>1</uiCntErrEStp>
-  <importCAD_Smooth>0</importCAD_Smooth>
+  <fileRecent1>C:\CAM\000-Lathe-Code\1001.ngc</fileRecent1>
+  <fileRecent2>C:\CAM\000-Lathe-Code\Face.ngc</fileRecent2>
+  <mdiHistory0>//Tool: 1, Dia: 0.00, SCLCR1010E06|540</mdiHistory0>
+  <mdiHistory1>//Tool: 2, Dia: 2.00, MGEHR1010-02 Abstechen|541</mdiHistory1>
+  <mdiHistory2>//Edit Tool Table ...|640</mdiHistory2>
+  <mdiHistory3>G0 Z0</mdiHistory3>
+  <mdiHistory4>//Tool: 1, Dia: 0.00, SCLCR1010E06|540</mdiHistory4>
+  <mdiHistory5>//Tool: 2, Dia: 2.00, MGEHR1010-02 Abstechen|541</mdiHistory5>
+  <mdiHistory6>//Edit Tool Table ...|640</mdiHistory6>
+  <mdiHistory7>//Single Step|385</mdiHistory7>
+  <mdiHistory8>G1 X0</mdiHistory8>
+  <mdiHistory9>//Settings ...|224</mdiHistory9>
+  <mdiHistory10>//Edit ...|305</mdiHistory10>
+  <mdiHistory11>G1 X-50</mdiHistory11>
+  <mdiHistory12>G1 X-40</mdiHistory12>
+  <mdiHistory13>G1 X-30</mdiHistory13>
+  <mdiHistory14>G1 X-20</mdiHistory14>
+  <mdiHistory15>G1 X-10</mdiHistory15>
+  <mdiHistory16>G1 X0</mdiHistory16>
+  <mdiHistory17>G1 X10</mdiHistory17>
+  <mdiHistory18>G1 X-50 F500</mdiHistory18>
+  <mdiHistory19>G1 X-40</mdiHistory19>
+  <mdiHistory20>G1 X0</mdiHistory20>
+  <mdiHistory21>G1 X-25</mdiHistory21>
+  <mdiHistory22>G1 X-30</mdiHistory22>
+  <mdiHistory23>G1 X-55 F500</mdiHistory23>
   <connectionSafemode>1</connectionSafemode>
   <uiDialogType>1</uiDialogType>
-  <uiToolbarSizeTop>65</uiToolbarSizeTop>
-  <uiToolbarSizeLeft>65</uiToolbarSizeLeft>
-  <uiToolbarSizeRight>65</uiToolbarSizeRight>
-  <uiToolbarSizeBottom>65</uiToolbarSizeBottom>
+  <uiToolbarSizeTop>42</uiToolbarSizeTop>
+  <uiToolbarSizeLeft>42</uiToolbarSizeLeft>
+  <uiToolbarSizeRight>42</uiToolbarSizeRight>
+  <uiToolbarSizeBottom>42</uiToolbarSizeBottom>
   <uiPositionColorOperator>0xffe84f4f</uiPositionColorOperator>
   <uiLEDColorRed>0xffb22222</uiLEDColorRed>
   <uiLEDColorGreen>0xff00ff7f</uiLEDColorGreen>
@@ -1127,13 +1073,14 @@
   <mistIntOff>0</mistIntOff>
   <floodIntOn>0</floodIntOn>
   <floodIntOff>0</floodIntOff>
-  <probeSizeX>0.96775000000000233058</probeSizeX>
-  <probeSizeY>0.94525000000000858336</probeSizeY>
-  <probeOffX>-0.00781250000000000000</probeOffX>
-  <probeOffY>-0.00843749999999943157</probeOffY>
-  <probeTravel>2.00000000000000000000</probeTravel>
+  <probeSizeX>1.00000000000000000000</probeSizeX>
+  <probeSizeY>1.00000000000000000000</probeSizeY>
+  <probeOffX>0.00000000000000000000</probeOffX>
+  <probeOffY>0.00000000000000000000</probeOffY>
+  <probeTravel>3.00000000000000000000</probeTravel>
   <probeLength>0.00000000000000000000</probeLength>
-  <probeUseToolTable>1</probeUseToolTable>
+  <probeUseToolTable>0</probeUseToolTable>
+  <workoffUseProbe>0</workoffUseProbe>
   <fsSpindleMin>0.00000000000000000000</fsSpindleMin>
   <fsSpindleMax>24000.00000000000000000000</fsSpindleMax>
   <fsSpindlePow>0.00000000000000000000</fsSpindlePow>
@@ -1144,5 +1091,34 @@
   <fsCutDepth>6.00000000000000000000</fsCutDepth>
   <fsCutWidth>1.00000000000000000000</fsCutWidth>
   <fsProfile>100.00000000000000000000</fsProfile>
-  <workoffUseProbe>0</workoffUseProbe>
+  <mdiHistory24>G1 X-40</mdiHistory24>
+  <mdiHistory25>G1 X-50 F500</mdiHistory25>
+  <mdiHistory26>G1 X-10</mdiHistory26>
+  <mdiHistory27>G1 X-25</mdiHistory27>
+  <mdiHistory28>G1 X10</mdiHistory28>
+  <mdiHistory29>G1 X0</mdiHistory29>
+  <mdiHistory30>G1 X-50 F500</mdiHistory30>
+  <mdiHistory31>//Settings ...|224</mdiHistory31>
+  <mdiHistory32>//Single Step|385</mdiHistory32>
+  <mdiHistory33>//Edit ...|305</mdiHistory33>
+  <mdiHistory34>G1 X5</mdiHistory34>
+  <mdiHistory35>G1 X0</mdiHistory35>
+  <mdiHistory36>G1 X-10</mdiHistory36>
+  <mdiHistory37>G1 X0 F50</mdiHistory37>
+  <mdiHistory38>G0 X5 F100</mdiHistory38>
+  <mdiHistory39>G1 X0</mdiHistory39>
+  <mdiHistory40>//Emergency Stop|349</mdiHistory40>
+  <mdiHistory41>//Settings ...|224</mdiHistory41>
+  <mdiHistory42>G0 X8</mdiHistory42>
+  <mdiHistory43>G0 X10</mdiHistory43>
+  <mdiHistory44>//Emergency Stop|349</mdiHistory44>
+  <mdiHistory45>G0 X15</mdiHistory45>
+  <mdiHistory46>G0 X7.5</mdiHistory46>
+  <mdiHistory47>//Settings ...|224</mdiHistory47>
+  <mdiHistory48>G0 Z200</mdiHistory48>
+  <mdiHistory49>G0 X0</mdiHistory49>
+  <fileRecent3>C:\CAM\000-Lathe-Code\Second OP.ngc</fileRecent3>
+  <fileRecent4>C:\CAM\000-Lathe-Code\1005.ngc</fileRecent4>
+  <fileRecent5>C:\CAM\000-Lathe-Code\1003.ngc</fileRecent5>
+  <fileRecent6>C:\CAM\000-Lathe-Code\1004.ngc</fileRecent6>
 </Settings>

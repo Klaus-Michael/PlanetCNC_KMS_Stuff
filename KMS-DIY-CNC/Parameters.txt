@@ -1,8 +1,8 @@
-_coordsys 4
+_coordsys 1
 
 _workoff_x 0.0
 _workoff_y 0.0
-_workoff_z -19.6225
+_workoff_z 0.0
 _workoff_a 0.0
 _workoff_b 0.0
 _workoff_c 0.0
@@ -32,13 +32,17 @@ _home2_w 0.0
 
 _probeing_edge 20.0
 _warmup_number_steps 5.0
-_probeing_size 65.0
-_probeing_center_stock_size_x 90.0
+_probeing_size 10.0
+_probeing_center_set_z_hight 1.0
+_probeing_center_stock_size_x 60.0
+_probeing_center_set_origin 1.0
 _warmup_max_feedrate 5000.0
-_spindle_total_ontime 496.081436
-_probeing_center_stock_size_y 230.0
+_spindle_total_ontime 79.277318
+_probeing_center_stock_size_y 40.0
 _warmup_number_iterations 2.0
 _warmup_min_feedrate 1000.0
 _warmup_min_z -100.0
 _warmup_min_rpm 4000.0
 _warmup_max_rpm 24000.0
+_probeing_center_move_to_pos 1.0
+_probeing_move_to_pos 1.0
