@@ -4,12 +4,11 @@ Most scripts are based on the original PlanetCNC scripts that can be accessed th
 The copyright of the original parts belongs to PlanetCNC.
 Custom Icons were created by Daniel aka Bambusbjoern (Thanks a lot)
 
-The Profile for the Lathe is still in an early stage. Basic operations are working but some work needs to be done for tool changing and the GUI will need some adaptions to wokr nicely on the touchescreen.
-
+The Profile for the Lathe is still in an early stage. Its working fine so far but is still considered very much a work in progress.
 
 Feel free to use whatever script you like, but please test everything beforehand. All Scripts should be threated as experimental and a work in progress. 
 ## Use everything at your own risk!!!!!!!
-## Measruement Scripts requiere at last Planet CNC Version 2021.06.17 or newer!!!!
+## Measurement Scripts requiere at last Planet CNC Version 2021.06.17 or newer!!!!
 I take no responsibility of any damage done to you or your machine from using anything from this repository.
 
 Some of the changes I made include:
