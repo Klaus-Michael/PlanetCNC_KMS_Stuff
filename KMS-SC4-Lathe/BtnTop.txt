@@ -1,0 +1,25 @@
+cmd: "Machine.Emergency_Stop" image="ownicons/estop.svg" updatefast="true" imagechange="False" 
+---
+cmd: "File.Open_..." image="ownicons/open.svg" imagechange="True"  
+cmd: "Program.Edit_..." image="ownicons/Edit.svg" imagechange="True"
+---
+cmd: "Machine.Start" image="ownicons/start.svg"  imagechange="True"
+cmd: "Machine.Stop" image="ownicons/stop.svg" imagechange="True"
+cmd: "Machine.Pause" image="ownicons/pause.svg" updown="_mybutton == 1" updatefast="true" imagechange="True"
+---
+cmd: "View.Top_View" image="ownicons/top.svg" imagechange="True" 
+cmd: "View.Side_View" image="ownicons/side.svg" imagechange="True" 
+cmd: "View.Front_View" image="ownicons/front.svg" imagechange="True" 
+cmd: "View.Perspective_View" image="ownicons/perspective.svg" imagechange="True" 
++++
+cmd: "View.Zoom_Position" image="ownicons/zoomposition.svg" imagechange="True"  
+cmd: "View.Zoom_Part" image="ownicons/zoompart.svg" imagechange="True"  
+cmd: "View.Zoom_In" image="ownicons/zoomin.svg" imagechange="True"  
+cmd: "View.Zoom_Out" image="ownicons/zoomout.svg" imagechange="True"  
+---
++++
+cmd: "Machine.Mist" "MMS"  updatefast="true" imagechange="True"
+cmd: "Machine.Flood" "Flood"  updatefast="true" imagechange="True"
++++
+cmd: "Machine.Spindle" image="ownicons/Spindle.svg"   updatefast="true"  imagechange="True"  
++++

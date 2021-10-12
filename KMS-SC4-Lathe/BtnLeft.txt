@@ -1,0 +1,12 @@
++++
+cmd: "Machine.Home" image="ownicons/home.svg" imagechange="True" 
++++ 
+---
+cmd: "Machine.Move.To_Zero" image="ownicons/zero.svg" imagechange="True"
+cmd: "Machine.Move.Axis_To_Zero.XY" image="ownicons/xy.svg" imagechange="True"
+cmd: "Machine.Move.Axis_To_Zero.Z" "Z To Zero" imagechange="True"
+---
+cmd: "Machine.Coordinate_System.Axis_To_Zero.Z" image="ownicons/tozero.svg" imagechange="True" 
+---
+expr: "startcode('G94')" "G94 Feed/min" 
+expr: "startcode('G95')" "G95 Feed/rev" 

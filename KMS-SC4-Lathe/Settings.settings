@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Settings>
-  <version>20210617</version>
+  <version>20210826</version>
   <firmware>20210326</firmware>
   <serial>10319</serial>
   <controllerCode>CUB771P0HA6MMKGA9J83QV23X4YZ8</controllerCode>
-  <computerCode>KUBHQPSV2D35KEY1PPQ0RDQMDG67D</computerCode>
-  <applicatonStart>2021/07/15 17:36:19</applicatonStart>
-  <applicatonEnd>2021/07/15 17:54:11</applicatonEnd>
+  <computerCode>KUDWHV0W244QKNS8JR77Y9XBEVRNQ</computerCode>
+  <applicatonStart>2021/10/11 20:54:00</applicatonStart>
+  <applicatonEnd>2021/10/11 22:06:31</applicatonEnd>
   <os>Windows 10 (64 bit)</os>
   <cpu>GenuineIntel (4)</cpu>
   <mem>8095</mem>
@@ -17,15 +17,15 @@
   <commRd>0</commRd>
   <commErr>0</commErr>
   <commDpl>0</commDpl>
-  <cnt>35</cnt>
-  <tim>5325</tim>
+  <cnt>86</cnt>
+  <tim>9774</tim>
   <lang></lang>
   <codepage>0</codepage>
-  <fileLastOpen>C:\CAM\000-Lathe-Code\1002.ngc</fileLastOpen>
+  <fileLastOpen>C:\CAM\000-Lathe-Code\T1 Side A Cuck Front.ngc</fileLastOpen>
   <fileRecentSize>30</fileRecentSize>
-  <fileRecentCount>7</fileRecentCount>
+  <fileRecentCount>23</fileRecentCount>
   <speedTraverseOverride>1.00000000000000000000</speedTraverseOverride>
-  <speedFeedOverride>1.00000000000000000000</speedFeedOverride>
+  <speedFeedOverride>0.99999999999999977796</speedFeedOverride>
   <speedSpindleOverride>1.00000000000000000000</speedSpindleOverride>
   <enableExprEval>1</enableExprEval>
   <cameraOffset10>0.00000000000000000000</cameraOffset10>
@@ -36,9 +36,9 @@
   <cameraOffset22>0.00000000000000000000</cameraOffset22>
   <cameraCalDist>10.00000000000000000000</cameraCalDist>
   <warpResolution>1.00000000000000000000</warpResolution>
-  <simPosition0>12240.00000000000000000000</simPosition0>
-  <simPosition1>260.00000000000000000000</simPosition1>
-  <simPosition2>26280.00000000000000000000</simPosition2>
+  <simPosition0>20603.00000000000000000000</simPosition0>
+  <simPosition1>9689.00000000000000000000</simPosition1>
+  <simPosition2>85920.00000000000000000000</simPosition2>
   <simPosition3>0.00000000000000000000</simPosition3>
   <simPosition4>0.00000000000000000000</simPosition4>
   <simPosition5>0.00000000000000000000</simPosition5>
@@ -62,13 +62,13 @@
   <displayH>893</displayH>
   <displayPanelLeft>1</displayPanelLeft>
   <displayPanel3D>1</displayPanel3D>
-  <displayPanelMid>0</displayPanelMid>
+  <displayPanelMid>1</displayPanelMid>
   <displayPanelRight>1</displayPanelRight>
   <displayBarLeft>260</displayBarLeft>
   <displayBarRight>260</displayBarRight>
-  <displayBarMid>380</displayBarMid>
-  <displayDlgX>985</displayDlgX>
-  <displayDlgY>569</displayDlgY>
+  <displayBarMid>221</displayBarMid>
+  <displayDlgX>558</displayDlgX>
+  <displayDlgY>555</displayDlgY>
   <displaySetX>962</displaySetX>
   <displaySetY>569</displaySetY>
   <displaySetW>785</displaySetW>
@@ -78,10 +78,10 @@
   <displayEditW>480</displayEditW>
   <displayEditH>310</displayEditH>
   <displayEditVisible>0</displayEditVisible>
-  <displayScriptX>-1</displayScriptX>
-  <displayScriptY>-1</displayScriptY>
-  <displayScriptW>480</displayScriptW>
-  <displayScriptH>310</displayScriptH>
+  <displayScriptX>1087</displayScriptX>
+  <displayScriptY>659</displayScriptY>
+  <displayScriptW>735</displayScriptW>
+  <displayScriptH>580</displayScriptH>
   <displayCamX>-1</displayCamX>
   <displayCamY>-1</displayCamY>
   <displayCamW>480</displayCamW>
@@ -94,16 +94,16 @@
   <displayLogY>-1</displayLogY>
   <displayLogW>542</displayLogW>
   <displayLogH>480</displayLogH>
-  <displayTTX>985</displayTTX>
-  <displayTTY>569</displayTTY>
+  <displayTTX>432</displayTTX>
+  <displayTTY>701</displayTTY>
   <displayTTW>660</displayTTW>
   <displayTTH>585</displayTTH>
-  <displayCSX>-1</displayCSX>
-  <displayCSY>-1</displayCSY>
-  <displayCSW>0</displayCSW>
-  <displayCSH>0</displayCSH>
+  <displayCSX>432</displayCSX>
+  <displayCSY>701</displayCSY>
+  <displayCSW>610</displayCSW>
+  <displayCSH>385</displayCSH>
   <displayPosTab>0</displayPosTab>
-  <displayStateTab>1</displayStateTab>
+  <displayStateTab>0</displayStateTab>
   <displayStateTabScroll0>0</displayStateTabScroll0>
   <displayStateTabScroll1>0</displayStateTabScroll1>
   <displayStateTabScroll2>0</displayStateTabScroll2>
@@ -135,12 +135,12 @@
   <displayStateTabScroll28>0</displayStateTabScroll28>
   <displayStateTabScroll29>0</displayStateTabScroll29>
   <displayMidTab>0</displayMidTab>
-  <display3DPanX>12.42500114440917968750</display3DPanX>
-  <display3DPanY>-13.53199672698974609375</display3DPanY>
+  <display3DPanX>12.82351779937744140625</display3DPanX>
+  <display3DPanY>26.94897460937500000000</display3DPanY>
   <display3DAngleX>-1.57079637050628662109</display3DAngleX>
   <display3DAngleY>0.00000000000000000000</display3DAngleY>
   <display3DAngleZ>0.00000000000000000000</display3DAngleZ>
-  <display3DFieldOfView>0.00612998101860284805</display3DFieldOfView>
+  <display3DFieldOfView>0.00652997894212603569</display3DFieldOfView>
   <displayFollowPosition>0</displayFollowPosition>
   <displayPosition>1</displayPosition>
   <displayGrid>1</displayGrid>
@@ -162,7 +162,7 @@
   <singleStepEnabled>0</singleStepEnabled>
   <pauseOptionalEnabled>0</pauseOptionalEnabled>
   <softLimitsIgnore>0</softLimitsIgnore>
-  <settingsPageNumber>14</settingsPageNumber>
+  <settingsPageNumber>1</settingsPageNumber>
   <description>SC4 Lathe</description>
   <units>0</units>
   <machineType>3000</machineType>
@@ -171,12 +171,12 @@
   <checkForUpdates>1</checkForUpdates>
   <connectionTypeUSB>1</connectionTypeUSB>
   <connectionTypeNetwork>1</connectionTypeNetwork>
-  <connectionAdapterIP>84060352</connectionAdapterIP>
+  <connectionAdapterIP>100772032</connectionAdapterIP>
   <connectionPort>4357</connectionPort>
-  <connectionPrimaryDevice>65585</connectionPrimaryDevice>
+  <connectionPrimaryDevice>268501041</connectionPrimaryDevice>
   <connectionPrimarySerial>10319</connectionPrimarySerial>
-  <connectionPrimaryIP>0</connectionPrimaryIP>
-  <connectionPrimaryPort>0</connectionPrimaryPort>
+  <connectionPrimaryIP>-922638144</connectionPrimaryIP>
+  <connectionPrimaryPort>4357</connectionPrimaryPort>
   <connectionPrimaryIdent></connectionPrimaryIdent>
   <uiColorMain>0xff1f2930</uiColorMain>
   <uiColorBack>0xff141b21</uiColorBack>
@@ -210,7 +210,7 @@
   <uiToolbarColorBtnActive>0xffffa500</uiToolbarColorBtnActive>
   <uiToolbarColorBtnAlert>0xffff0000</uiToolbarColorBtnAlert>
   <uiToolbarSize>42</uiToolbarSize>
-  <uiToolbarButtons>1</uiToolbarButtons>
+  <uiToolbarButtons>0</uiToolbarButtons>
   <uiToolbarHints>1</uiToolbarHints>
   <uiPositionColorBack>0xff1f2930</uiPositionColorBack>
   <uiPositionColorWork>0xffffa500</uiPositionColorWork>
@@ -221,17 +221,17 @@
   <uiPositionColorBtnLimNeg>0xffff0000</uiPositionColorBtnLimNeg>
   <uiPositionColorBtnLimPos>0xffdc143c</uiPositionColorBtnLimPos>
   <uiPositionSize>42</uiPositionSize>
-  <uiPositionNoOfRows>4</uiPositionNoOfRows>
+  <uiPositionNoOfRows>2</uiPositionNoOfRows>
   <uiPositionNoOfDecimals>3</uiPositionNoOfDecimals>
   <uiPositionAxisOrder0>0</uiPositionAxisOrder0>
-  <uiPositionAxisOrder1>1</uiPositionAxisOrder1>
-  <uiPositionAxisOrder2>2</uiPositionAxisOrder2>
-  <uiPositionAxisOrder3>3</uiPositionAxisOrder3>
-  <uiPositionAxisOrder4>4</uiPositionAxisOrder4>
-  <uiPositionAxisOrder5>5</uiPositionAxisOrder5>
-  <uiPositionAxisOrder6>6</uiPositionAxisOrder6>
-  <uiPositionAxisOrder7>7</uiPositionAxisOrder7>
-  <uiPositionAxisOrder8>8</uiPositionAxisOrder8>
+  <uiPositionAxisOrder1>2</uiPositionAxisOrder1>
+  <uiPositionAxisOrder2>-1</uiPositionAxisOrder2>
+  <uiPositionAxisOrder3>-1</uiPositionAxisOrder3>
+  <uiPositionAxisOrder4>-1</uiPositionAxisOrder4>
+  <uiPositionAxisOrder5>-1</uiPositionAxisOrder5>
+  <uiPositionAxisOrder6>-1</uiPositionAxisOrder6>
+  <uiPositionAxisOrder7>-1</uiPositionAxisOrder7>
+  <uiPositionAxisOrder8>-1</uiPositionAxisOrder8>
   <uiPositionWorkBtnMode>1</uiPositionWorkBtnMode>
   <uiPositionMachineBtnMode>1</uiPositionMachineBtnMode>
   <uiSpeedColorBack>0xff1f2930</uiSpeedColorBack>
@@ -253,7 +253,7 @@
   <uiSpindleOverrideMin>0.00000000000000000000</uiSpindleOverrideMin>
   <uiSpindleOverrideMax>10.00000000000000000000</uiSpindleOverrideMax>
   <uiSpindleOverrideStep>0.10000000000000000555</uiSpindleOverrideStep>
-  <uiSpindleRPM>0</uiSpindleRPM>
+  <uiSpindleRPM>2</uiSpindleRPM>
   <uiStateColorBack>0xff1f2930</uiStateColorBack>
   <uiStateColorValue>0xffe0d6cc</uiStateColorValue>
   <uiStateColorLabel>0xffe0d6cc</uiStateColorLabel>
@@ -415,7 +415,7 @@
   <motorOutputInvert6>0</motorOutputInvert6>
   <motorOutputInvert7>0</motorOutputInvert7>
   <motorOutputInvert8>0</motorOutputInvert8>
-  <motorStepsPerUnit0>1005.00000000000011368684</motorStepsPerUnit0>
+  <motorStepsPerUnit0>1000.00000000000000000000</motorStepsPerUnit0>
   <motorStepsPerUnit1>1000.00000000000000000000</motorStepsPerUnit1>
   <motorStepsPerUnit2>800.00000000000000000000</motorStepsPerUnit2>
   <motorStepsPerUnit3>100.00000000000000000000</motorStepsPerUnit3>
@@ -433,7 +433,7 @@
   <motorMaxSpeed6>40.00000000000000000000</motorMaxSpeed6>
   <motorMaxSpeed7>40.00000000000000000000</motorMaxSpeed7>
   <motorMaxSpeed8>40.00000000000000000000</motorMaxSpeed8>
-  <motorMaxAcceleration0>2000.00000000000000000000</motorMaxAcceleration0>
+  <motorMaxAcceleration0>500.00000000000000000000</motorMaxAcceleration0>
   <motorMaxAcceleration1>25.00000000000000000000</motorMaxAcceleration1>
   <motorMaxAcceleration2>1000.00000000000000000000</motorMaxAcceleration2>
   <motorMaxAcceleration3>25.00000000000000000000</motorMaxAcceleration3>
@@ -442,7 +442,7 @@
   <motorMaxAcceleration6>25.00000000000000000000</motorMaxAcceleration6>
   <motorMaxAcceleration7>25.00000000000000000000</motorMaxAcceleration7>
   <motorMaxAcceleration8>25.00000000000000000000</motorMaxAcceleration8>
-  <motorMaxDeceleration0>2000.00000000000000000000</motorMaxDeceleration0>
+  <motorMaxDeceleration0>500.00000000000000000000</motorMaxDeceleration0>
   <motorMaxDeceleration1>25.00000000000000000000</motorMaxDeceleration1>
   <motorMaxDeceleration2>1000.00000000000000000000</motorMaxDeceleration2>
   <motorMaxDeceleration3>25.00000000000000000000</motorMaxDeceleration3>
@@ -479,7 +479,7 @@
   <motorLimitNegEn6>0</motorLimitNegEn6>
   <motorLimitNegEn7>0</motorLimitNegEn7>
   <motorLimitNegEn8>0</motorLimitNegEn8>
-  <motorLimitPos0>100.00000000000000000000</motorLimitPos0>
+  <motorLimitPos0>92.00000000000000000000</motorLimitPos0>
   <motorLimitPos1>0.00000000000000000000</motorLimitPos1>
   <motorLimitPos2>450.00000000000000000000</motorLimitPos2>
   <motorLimitPos3>0.00000000000000000000</motorLimitPos3>
@@ -557,7 +557,7 @@
   <motionLimitNegEn6>0</motionLimitNegEn6>
   <motionLimitNegEn7>0</motionLimitNegEn7>
   <motionLimitNegEn8>0</motionLimitNegEn8>
-  <motionLimitPos0>100.00000000000000000000</motionLimitPos0>
+  <motionLimitPos0>92.00000000000000000000</motionLimitPos0>
   <motionLimitPos1>0.00000000000000000000</motionLimitPos1>
   <motionLimitPos2>450.00000000000000000000</motionLimitPos2>
   <motionLimitPos3>0.00000000000000000000</motionLimitPos3>
@@ -679,13 +679,13 @@
   <spindleRCLo>800</spindleRCLo>
   <spindleRCHi>2400</spindleRCHi>
   <spindleEncPPR>300</spindleEncPPR>
-  <spindleEncReverse>0</spindleEncReverse>
+  <spindleEncReverse>1</spindleEncReverse>
   <spindleEncIdxPPR>1</spindleEncIdxPPR>
   <spindleEncIdxPPRDiv>1</spindleEncIdxPPRDiv>
   <spindleEncIdxInvert>0</spindleEncIdxInvert>
   <spindleEncIdxDebounce>100</spindleEncIdxDebounce>
-  <spindleSync>0</spindleSync>
-  <spindleSyncSignal>0</spindleSyncSignal>
+  <spindleSync>2</spindleSync>
+  <spindleSyncSignal>1</spindleSyncSignal>
   <mistPin>4</mistPin>
   <floodPin>5</floodPin>
   <ioI2CFreq>400000</ioI2CFreq>
@@ -713,7 +713,7 @@
   <programDistanceMode>0</programDistanceMode>
   <programDistanceModeIJK>1</programDistanceModeIJK>
   <programDistanceModeABC>0</programDistanceModeABC>
-  <programLatheMode>0</programLatheMode>
+  <programLatheMode>1</programLatheMode>
   <programCycleReturnMode>0</programCycleReturnMode>
   <speedTraverse>5000.00100000000020372681</speedTraverse>
   <speedTraverseABC>2400.00000000000000000000</speedTraverseABC>
@@ -789,7 +789,7 @@
   <homeSwPos6>0.00000000000000000000</homeSwPos6>
   <homeSwPos7>0.00000000000000000000</homeSwPos7>
   <homeSwPos8>0.00000000000000000000</homeSwPos8>
-  <homeMoveTo0>95.00000000000000000000</homeMoveTo0>
+  <homeMoveTo0>70.00000000000000000000</homeMoveTo0>
   <homeMoveTo1>0.00000000000000000000</homeMoveTo1>
   <homeMoveTo2>0.00000000000000000000</homeMoveTo2>
   <homeMoveTo3>0.00000000000000000000</homeMoveTo3>
@@ -810,19 +810,19 @@
   <workoffSpeedLow>0.00000000000000000000</workoffSpeedLow>
   <workoffSwDist>1.00000000000000000000</workoffSwDist>
   <workoffSize>1.60000000000000008882</workoffSize>
-  <tcEnable>0</tcEnable>
-  <tcSkipSame>1</tcSkipSame>
+  <tcEnable>1</tcEnable>
+  <tcSkipSame>0</tcSkipSame>
   <tcSpindleCheck>0</tcSpindleCheck>
   <tcSafeHeightEn>1</tcSafeHeightEn>
-  <tcSafeHeight>35.00000000000000000000</tcSafeHeight>
+  <tcSafeHeight>90.00000000000000000000</tcSafeHeight>
   <tcPositionEn>0</tcPositionEn>
   <tcPosition0>0.00000000000000000000</tcPosition0>
   <tcPosition1>0.00000000000000000000</tcPosition1>
   <tcPosition2>0.00000000000000000000</tcPosition2>
   <tcAction>1</tcAction>
   <tcToolMeasure>0</tcToolMeasure>
-  <tcToolOffEn>0</tcToolOffEn>
-  <tcAutoReturn>0</tcAutoReturn>
+  <tcToolOffEn>1</tcToolOffEn>
+  <tcAutoReturn>1</tcAutoReturn>
   <tcATCEnable>0</tcATCEnable>
   <tcATCSpeed>100.00000000000000000000</tcATCSpeed>
   <tcATCSpeed2>200.00000000000000000000</tcATCSpeed2>
@@ -1027,40 +1027,40 @@
   <exportCSV_Separator>9</exportCSV_Separator>
   <exportCSV_SkipUnusedValue>1</exportCSV_SkipUnusedValue>
   <exportCSV_SkipSameValue>0</exportCSV_SkipSameValue>
-  <fileRecent0>C:\CAM\000-Lathe-Code\1002.ngc</fileRecent0>
+  <fileRecent0>C:\CAM\000-Lathe-Code\T1 Side A Cuck Front.ngc</fileRecent0>
   <mdiHistoryCount>50</mdiHistoryCount>
-  <fileRecent1>C:\CAM\000-Lathe-Code\1001.ngc</fileRecent1>
-  <fileRecent2>C:\CAM\000-Lathe-Code\Face.ngc</fileRecent2>
-  <mdiHistory0>//Tool: 1, Dia: 0.00, SCLCR1010E06|540</mdiHistory0>
-  <mdiHistory1>//Tool: 2, Dia: 2.00, MGEHR1010-02 Abstechen|541</mdiHistory1>
-  <mdiHistory2>//Edit Tool Table ...|640</mdiHistory2>
-  <mdiHistory3>G0 Z0</mdiHistory3>
-  <mdiHistory4>//Tool: 1, Dia: 0.00, SCLCR1010E06|540</mdiHistory4>
-  <mdiHistory5>//Tool: 2, Dia: 2.00, MGEHR1010-02 Abstechen|541</mdiHistory5>
-  <mdiHistory6>//Edit Tool Table ...|640</mdiHistory6>
-  <mdiHistory7>//Single Step|385</mdiHistory7>
-  <mdiHistory8>G1 X0</mdiHistory8>
-  <mdiHistory9>//Settings ...|224</mdiHistory9>
-  <mdiHistory10>//Edit ...|305</mdiHistory10>
-  <mdiHistory11>G1 X-50</mdiHistory11>
-  <mdiHistory12>G1 X-40</mdiHistory12>
-  <mdiHistory13>G1 X-30</mdiHistory13>
-  <mdiHistory14>G1 X-20</mdiHistory14>
-  <mdiHistory15>G1 X-10</mdiHistory15>
-  <mdiHistory16>G1 X0</mdiHistory16>
-  <mdiHistory17>G1 X10</mdiHistory17>
-  <mdiHistory18>G1 X-50 F500</mdiHistory18>
-  <mdiHistory19>G1 X-40</mdiHistory19>
-  <mdiHistory20>G1 X0</mdiHistory20>
-  <mdiHistory21>G1 X-25</mdiHistory21>
-  <mdiHistory22>G1 X-30</mdiHistory22>
-  <mdiHistory23>G1 X-55 F500</mdiHistory23>
+  <fileRecent1>C:\CAM\000-Lathe-Code\Spacer 6mm V3.ngc</fileRecent1>
+  <fileRecent2>C:\CAM\000-Lathe-Code\Spacer 6mm V2.ngc</fileRecent2>
+  <mdiHistory0>G0 Z11.8</mdiHistory0>
+  <mdiHistory1>T2 M6</mdiHistory1>
+  <mdiHistory2>T5 M6</mdiHistory2>
+  <mdiHistory3>T3 M6</mdiHistory3>
+  <mdiHistory4>T1 M6</mdiHistory4>
+  <mdiHistory5>(print, [#&lt;_x&gt;/2])</mdiHistory5>
+  <mdiHistory6>(print, #&lt;_x&gt;/2)</mdiHistory6>
+  <mdiHistory7>(print, #&lt;_x&gt;)</mdiHistory7>
+  <mdiHistory8>T3 M6</mdiHistory8>
+  <mdiHistory9>T2 M6</mdiHistory9>
+  <mdiHistory10>//Top View|264</mdiHistory10>
+  <mdiHistory11>G0 Z11.8</mdiHistory11>
+  <mdiHistory12>//Emergency Stop|349</mdiHistory12>
+  <mdiHistory13>G1 Z11.8</mdiHistory13>
+  <mdiHistory14>T2 M6</mdiHistory14>
+  <mdiHistory15>//Settings ...|224</mdiHistory15>
+  <mdiHistory16>//Set Parameters ...|977</mdiHistory16>
+  <mdiHistory17>T3 M6</mdiHistory17>
+  <mdiHistory18>//Reconnect|973</mdiHistory18>
+  <mdiHistory19>//Settings ...|224</mdiHistory19>
+  <mdiHistory20>//Emergency Stop|349</mdiHistory20>
+  <mdiHistory21>G0 Z 48</mdiHistory21>
+  <mdiHistory22>T1 M6</mdiHistory22>
+  <mdiHistory23>G0 Z0</mdiHistory23>
   <connectionSafemode>1</connectionSafemode>
   <uiDialogType>1</uiDialogType>
-  <uiToolbarSizeTop>42</uiToolbarSizeTop>
-  <uiToolbarSizeLeft>42</uiToolbarSizeLeft>
-  <uiToolbarSizeRight>42</uiToolbarSizeRight>
-  <uiToolbarSizeBottom>42</uiToolbarSizeBottom>
+  <uiToolbarSizeTop>72</uiToolbarSizeTop>
+  <uiToolbarSizeLeft>72</uiToolbarSizeLeft>
+  <uiToolbarSizeRight>72</uiToolbarSizeRight>
+  <uiToolbarSizeBottom>72</uiToolbarSizeBottom>
   <uiPositionColorOperator>0xffe84f4f</uiPositionColorOperator>
   <uiLEDColorRed>0xffb22222</uiLEDColorRed>
   <uiLEDColorGreen>0xff00ff7f</uiLEDColorGreen>
@@ -1088,37 +1088,53 @@
   <fsSpindleAdj>100</fsSpindleAdj>
   <machineLoadAdj>100</machineLoadAdj>
   <fsMaterial>1</fsMaterial>
-  <fsCutDepth>6.00000000000000000000</fsCutDepth>
-  <fsCutWidth>1.00000000000000000000</fsCutWidth>
+  <fsCutDepth>0.00000000000000000000</fsCutDepth>
+  <fsCutWidth>0.00000000000000000000</fsCutWidth>
   <fsProfile>100.00000000000000000000</fsProfile>
-  <mdiHistory24>G1 X-40</mdiHistory24>
-  <mdiHistory25>G1 X-50 F500</mdiHistory25>
-  <mdiHistory26>G1 X-10</mdiHistory26>
-  <mdiHistory27>G1 X-25</mdiHistory27>
-  <mdiHistory28>G1 X10</mdiHistory28>
-  <mdiHistory29>G1 X0</mdiHistory29>
-  <mdiHistory30>G1 X-50 F500</mdiHistory30>
-  <mdiHistory31>//Settings ...|224</mdiHistory31>
-  <mdiHistory32>//Single Step|385</mdiHistory32>
-  <mdiHistory33>//Edit ...|305</mdiHistory33>
-  <mdiHistory34>G1 X5</mdiHistory34>
-  <mdiHistory35>G1 X0</mdiHistory35>
-  <mdiHistory36>G1 X-10</mdiHistory36>
-  <mdiHistory37>G1 X0 F50</mdiHistory37>
-  <mdiHistory38>G0 X5 F100</mdiHistory38>
-  <mdiHistory39>G1 X0</mdiHistory39>
-  <mdiHistory40>//Emergency Stop|349</mdiHistory40>
-  <mdiHistory41>//Settings ...|224</mdiHistory41>
-  <mdiHistory42>G0 X8</mdiHistory42>
-  <mdiHistory43>G0 X10</mdiHistory43>
-  <mdiHistory44>//Emergency Stop|349</mdiHistory44>
-  <mdiHistory45>G0 X15</mdiHistory45>
-  <mdiHistory46>G0 X7.5</mdiHistory46>
-  <mdiHistory47>//Settings ...|224</mdiHistory47>
-  <mdiHistory48>G0 Z200</mdiHistory48>
-  <mdiHistory49>G0 X0</mdiHistory49>
-  <fileRecent3>C:\CAM\000-Lathe-Code\Second OP.ngc</fileRecent3>
-  <fileRecent4>C:\CAM\000-Lathe-Code\1005.ngc</fileRecent4>
-  <fileRecent5>C:\CAM\000-Lathe-Code\1003.ngc</fileRecent5>
-  <fileRecent6>C:\CAM\000-Lathe-Code\1004.ngc</fileRecent6>
+  <mdiHistory24>//Emergency Stop|349</mdiHistory24>
+  <mdiHistory25>T2 M6</mdiHistory25>
+  <mdiHistory26>T1 M6</mdiHistory26>
+  <mdiHistory27>T8 M6</mdiHistory27>
+  <mdiHistory28>//Edit Tool Table ...|640</mdiHistory28>
+  <mdiHistory29>T6 M6</mdiHistory29>
+  <mdiHistory30>T3 M6</mdiHistory30>
+  <mdiHistory31>T2 M6</mdiHistory31>
+  <mdiHistory32>T1 M6</mdiHistory32>
+  <mdiHistory33>G0 Z48.5</mdiHistory33>
+  <mdiHistory34>G0 Z 48.5</mdiHistory34>
+  <mdiHistory35>G0 Z 53</mdiHistory35>
+  <mdiHistory36>T1 M6</mdiHistory36>
+  <mdiHistory37>T2 M6</mdiHistory37>
+  <mdiHistory38>T3 M6</mdiHistory38>
+  <mdiHistory39>T6 M6</mdiHistory39>
+  <mdiHistory40>T1 M6</mdiHistory40>
+  <mdiHistory41>T1</mdiHistory41>
+  <mdiHistory42>T3 M6</mdiHistory42>
+  <mdiHistory43>T2 M6</mdiHistory43>
+  <mdiHistory44>T1 M6</mdiHistory44>
+  <mdiHistory45>G0 Z0</mdiHistory45>
+  <mdiHistory46>G43 H1</mdiHistory46>
+  <mdiHistory47>//Edit Tool Table ...|640</mdiHistory47>
+  <mdiHistory48>G1 Z50 F1</mdiHistory48>
+  <mdiHistory49>G1 Z50</mdiHistory49>
+  <fileRecent3>C:\CAM\000-Lathe-Code\1001.ngc</fileRecent3>
+  <fileRecent4>C:\CAM\000-Lathe-Code\Spacer.ngc</fileRecent4>
+  <fileRecent5>C:\CAM\000-Lathe-Code\T1 Side A Steel.ngc</fileRecent5>
+  <fileRecent6>C:\CAM\000-Lathe-Code\T1 Side B.ngc</fileRecent6>
+  <fileRecent7>C:\CAM\000-Lathe-Code\T1 Bottom recut.ngc</fileRecent7>
+  <fileRecent8>C:\CAM\000-Lathe-Code\T1 Side B finish.ngc</fileRecent8>
+  <fileRecent9>C:\CAM\000-Lathe-Code\T2 Side B.ngc</fileRecent9>
+  <fileRecent10>C:\CAM\000-Lathe-Code\T1 Side A Cuck Front parting  0-05.ngc</fileRecent10>
+  <fileRecent11>C:\CAM\000-Lathe-Code\T1 Side A Cuck Front parting  0-1.ngc</fileRecent11>
+  <fileRecent12>C:\CAM\000-Lathe-Code\Round Tool Side B.ngc</fileRecent12>
+  <fileRecent13>C:\CAM\000-Lathe-Code\Round Tool Side A.ngc</fileRecent13>
+  <fileRecent14>C:\CAM\000-Lathe-Code\G95 test.ngc</fileRecent14>
+  <fileRecent15>C:\CAM\000-Lathe-Code\1001 g95 test.ngc</fileRecent15>
+  <fileRecent16>C:\CAM\000-Lathe-Code\Thread.ngc</fileRecent16>
+  <fileRecent17>C:\CAM\000-Lathe-Code\1002.ngc</fileRecent17>
+  <fileRecent18>C:\CAM\000-Lathe-Code\Face.ngc</fileRecent18>
+  <fileRecent19>C:\CAM\000-Lathe-Code\Second OP.ngc</fileRecent19>
+  <fileRecent20>C:\CAM\000-Lathe-Code\1005.ngc</fileRecent20>
+  <fileRecent21>C:\CAM\000-Lathe-Code\1003.ngc</fileRecent21>
+  <fileRecent22>C:\CAM\000-Lathe-Code\1004.ngc</fileRecent22>
 </Settings>

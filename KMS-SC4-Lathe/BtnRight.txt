@@ -1,0 +1,5 @@
+cmd: "Machine.User_Commands.UserCommand_1" "OD CAL CUT" imagechange="true" stroke=1.1
+cmd: "Machine.User_Commands.UserCommand_2" "ID CAL CUT" imagechange="true" stroke=1.1
+cmd: "Machine.User_Commands.UserCommand_3" "FACE CAL CUT" imagechange="true" stroke=1.1
+cmd: "Machine.User_Commands.UserCommand_4" "Set Tool X" imagechange="true" stroke=1.1
+cmd: "Machine.User_Commands.UserCommand_5" "Set Tool Z" imagechange="true" stroke=1.1
