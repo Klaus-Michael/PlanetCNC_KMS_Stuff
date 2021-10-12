@@ -7,12 +7,12 @@ O<PlanetCNC> endif
 
 M73
 G17 G90 G91.1 G90.2 G08 G15 G94
-;M50P0 ;disable speed override
-M55P0 ;disable trans
-M56P0 ;disable warp
-M57P0 ;disable swap
-M10P1 ;motor enable
-M11P1 ;limits/probe enable
+M50P0
+M55P0
+M56P0
+M57P0
+M10P1
+M11P1
 
 O<en> if [ACTIVE[] AND #<_tc_enable>]
   (print,Toolchange)
@@ -46,13 +46,30 @@ O<en> if [ACTIVE[] AND #<_tc_enable>]
     G09
 
     O<ac> if [AND[#<_tc_action>, 1]]
-      (msg,Change tool:\      #<_current_tool,0> : #<_tool_dia_num|#<_current_tool>,2>mm $<_current_tool>\to\      #<_selected_tool,0> : #<_tool_dia_num|#<_selected_tool,0>,2>mm $<_selected_tool>)
+      O<tn> if [#<_toolchangename>]
+        (msg,Change tool to\  $<_toolchangename>)
+      O<tn> else
+        (msg,Change tool:\  #<_current_tool,0>: $<_current_tool>\to\  #<_selected_tool,0>: $<_selected_tool>)
+      O<tn> endif
     O<ac> else
-      (print,  Change tool #<_current_tool,0> to #<_selected_tool,0>)
+      O<tn> if [#<_toolchangename>]
+        (print,  Change tool to $<_toolchangename>)
+      O<tn> else
+        (print,  Change tool #<_current_tool,0> to #<_selected_tool,0>)
+      O<tn> endif
     O<ac> endif
     O<ac> if [AND[#<_tc_action>, 2]]
       M0
     O<ac> endif
+    O<PROBE_CK> if [#<_tool_isprobe_num|#<_selected_tool>> EQ 1]
+      (print, Probe selected enable Probe E-STOP!!!)
+      #<_probe_estop>=1
+    O<PROBE_CK> else
+      (print, normale tool selected Probe E-STOP disabled)
+      #<_probe_estop>=0
+    O<PROBE_CK> endif		
+    G09
+
     O<atcen> if [#<_tc_atc_en>]
       (print,  ATC enabled)
       O<un> if [#<_current_tool> GT 0]
@@ -200,14 +217,15 @@ O<en> if [ACTIVE[] AND #<_tc_enable>]
       #<soz> = [DEF[#<_tool_so_z_num|#<_current_tool>>,0]]
 
       G53 G00 Z#<_tooloff_safeheight>
-      G53 G00 X[#<_tooloff_sensorX> - #<sox>] Y[#<_tooloff_sensorY> - #<soy>]
+      G53 G00 X[#<_tooloff_sensorx> - #<sox>] Y[#<_tooloff_sensory> - #<soy>]
       G53 G00 Z#<_tooloff_rapidheight>
 
-      M11P0 G38.2 Z-100000 F#<_tooloff_speed>
-      G91 G01 Z[+#<_tooloff_swdist>]
+      M11P0
+      G53 G38.2 Z-100000 F#<_tooloff_speed>
+      G91 G53 G01 Z[+#<_tooloff_swdist>]
       o<low> if [#<_tooloff_speed_low> GT 0]
-        G90 G38.2 Z-100000 F#<_tooloff_speed_low>
-        G91 G01 Z[+#<_tooloff_swdist>] F#<_tooloff_speed>
+        G90 G53 G38.2 Z-100000 F#<_tooloff_speed_low>
+        G91 G53 G01 Z[+#<_tooloff_swdist>] F#<_tooloff_speed>
       o<low> endif
       M11P1 G90
 
@@ -217,7 +235,7 @@ O<en> if [ACTIVE[] AND #<_tc_enable>]
         M2
       o<chk> endif
 
-      #<off> = [#<_probe_z> - #<_tooloff_sensorZ> - #<soz>]
+      #<off> = [#<_probe_z> - #<_tooloff_sensorz> - #<soz>]
 
       O<tmset> if [#<_tc_toolmeasure> EQ 2]
         (print,  Set tooltable Z#<off>)
@@ -234,12 +252,12 @@ O<en> if [ACTIVE[] AND #<_tc_enable>]
     M72
     M71
     (print,  Enable tool offset)
-    O<tois> if [#<toisset> EQ 2]
+    O<tois> if [#<_tc_tooloff_en> EQ 2]
       G43
-    O<tois> elseif [#<toisset> EQ 1]
+    O<tois> elseif [#<_tc_tooloff_en> EQ 1]
       G43.1
     O<tois> endif
-  O<toen> endif
+  O<toen> endif																		  
   o<ar> if [#<_tc_autoreturn>]
     G00 X#<wstartx> Y#<wstarty>
   O<ar> endif
