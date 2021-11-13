@@ -1,0 +1,7 @@
+_warmup_number_steps 5.0
+_warmup_max_feedrate 5000.0
+_warmup_number_iterations 2.0
+_warmup_min_feedrate 2000.0
+_warmup_min_z -100.0
+_warmup_min_rpm 4000.0
+_warmup_max_rpm 24000.0
