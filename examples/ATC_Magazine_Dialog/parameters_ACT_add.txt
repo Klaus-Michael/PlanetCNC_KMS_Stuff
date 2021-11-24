@@ -1,0 +1,10 @@
+_ATC_Tool_Pocket_0 0
+_ATC_Tool_Pocket_1 0
+_ATC_Tool_Pocket_2 0
+_ATC_Tool_Pocket_3 0
+_ATC_Tool_Pocket_4 0
+_ATC_Tool_Pocket_5 0
+_ATC_Tool_Pocket_6 0
+_ATC_Tool_Pocket_7 0
+_ATC_Tool_Pocket_8 0
+_ATC_Tool_Pocket_9 0
