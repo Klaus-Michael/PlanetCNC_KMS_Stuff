@@ -54,9 +54,9 @@
 #<ATC_Pocket_Z_9> = -10
 
 (dlgname,ATC Magazine)
-(dlg,This Dialog will adapt the ATC XYZ Values of your tooltable, typ=label, x=20, w=455, color=0xffa500)
+(dlg,This Dialog will change the ATC XYZ Values of your tooltable, typ=label, x=20, w=455, color=0xffa500)
 (dlg,Make sure the Pockets of you Magazine are configured correctly in the Script!, typ=label, x=20, w=455, color=0xffa500)
-(dlg,Enter 0 if no Tool is present or if pocket does not exist, typ=label, x=20, w=455, color=0xffa500)
+(dlg,Enter 0 if no Tool is in the pocket or the pocket does not exist, typ=label, x=20, w=455, color=0xffa500)
 
 (dlg,Tool Number Pocket 0, x=100, dec=0, def=#<_ATC_Tool_Pocket_0>, min=0, max=999, param=_ATC_Tool_Pocket_0)
 (dlg,Tool Number Pocket 1, x=100, dec=0, def=#<_ATC_Tool_Pocket_1>, min=0, max=999, param=_ATC_Tool_Pocket_1)
