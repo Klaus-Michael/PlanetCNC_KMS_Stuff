@@ -16,6 +16,7 @@ o<chk> endif
 (dlg,data::MeasureAxis, typ=image, x=0)
 (dlg,|X+|X-|Y+|Y-, typ=checkbox, x=50, w=110, def=1, store, param=orient)
 (dlg,Move to Position, typ=checkbox, x=50, w=110, def=#<_probeing_move_to_pos>,  param=_probeing_move_to_pos)
+(dlg,Set X/Y to 0, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_origin>,  param=_probeing_center_set_origin)
 (dlgshow)
 
 M73
@@ -53,5 +54,9 @@ o<chk> if[#<_probeing_move_to_pos> EQ 1]
   G53 G00 H#<axis> E#<_measure_axis|#<axis>>  
 o<chk> endif
 
+o<xy_origin>if[#<_probeing_center_set_origin> EQ 1]
+  ;$<cmd_setworkoffset> (uncomment this line to set work offset automatically)
+  $<cmd_setcsoffset> (uncomment this line to set coordinate system automatically)
+o<xy_origin>endif
 
 M2

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="212.11mm"
+   height="212.11mm"
+   viewBox="-106.055 -106.055 212.11 212.11"
+   version="1.1"
+   style="stroke-linecap:round;stroke-linejoin:round;fill:none"
+   id="svg80"
+   sodipodi:docname="probe_long.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata86">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs84" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     id="namedview82"
+     showgrid="false"
+     inkscape:zoom="1.0615266"
+     inkscape:cx="400.8378"
+     inkscape:cy="400.8378"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="text90" />
+  <g
+     transform="scale(1,-1)"
+     id="g78">
+    <!-- Kreisbogen -->
+    <path
+       d="M-0.4,-62.6508 A1.6,1.6 0 1,1 0.4,-62.6508"
+       style="stroke:#000000;stroke-width:2;"
+       id="path10" />
+    <!-- Linie -->
+    <line
+       x1="-0.4"
+       y1="-62.6508"
+       x2="-0.4"
+       y2="-48.2"
+       style="stroke:#000000;stroke-width:2;"
+       id="line12" />
+    <!-- Linie -->
+    <line
+       x1="-0.4"
+       y1="-48.2"
+       x2="-2.4"
+       y2="-32.2"
+       style="stroke:#000000;stroke-width:2;"
+       id="line14" />
+    <!-- Linie -->
+    <line
+       x1="-2.4"
+       y1="-32.2"
+       x2="-2.4"
+       y2="-16.2"
+       style="stroke:#000000;stroke-width:2;"
+       id="line16" />
+    <!-- Linie -->
+    <line
+       x1="-2.4"
+       y1="-16.2"
+       x2="2.4"
+       y2="-16.2"
+       style="stroke:#000000;stroke-width:2;"
+       id="line18" />
+    <!-- Linie -->
+    <line
+       x1="2.4"
+       y1="-16.2"
+       x2="2.4"
+       y2="-32.2"
+       style="stroke:#000000;stroke-width:2;"
+       id="line20" />
+    <!-- Linie -->
+    <line
+       x1="2.4"
+       y1="-32.2"
+       x2="0.4"
+       y2="-48.2"
+       style="stroke:#000000;stroke-width:2;"
+       id="line22" />
+    <!-- Linie -->
+    <line
+       x1="0.4"
+       y1="-48.2"
+       x2="0.4"
+       y2="-62.6508"
+       style="stroke:#000000;stroke-width:2;"
+       id="line24" />
+    <!-- Schraffur -->
+    <path
+       d="M-2.4,-16.2 L2.4,-16.2 L2.4,-32.2 L0.4,-48.2 L0.4,-62.6508 A1.6,1.6 0 1 0 -0.4,-62.6508 L-0.4,-48.2 L-2.4,-32.2 Z"
+       style="fill:#000000;fill-rule:evenodd;"
+       id="path26" />
+    <!-- Schraffur -->
+    <path
+       d="M100,-85.5 L100,85.5 A14.5,14.5 0 0 1 85.5,100 L-85.5,100 A14.5,14.5 0 0 1 -100,85.5 L-100,-85.5 A14.5,14.5 0 0 1 -85.5,-100 L85.5,-100 A14.5,14.5 0 0 1 100,-85.5M-85.5,95 A9.5,9.5 0 0 1 -95,85.5 L-95,-85.5 A9.5,9.5 0 0 1 -85.5,-95 L85.5,-95 A9.5,9.5 0 0 1 95,-85.5 L95,85.5 A9.5,9.5 0 0 1 85.5,95 Z"
+       style="fill:#000000;fill-rule:evenodd;"
+       id="path28" />
+    <!-- Linie -->
+    <line
+       x1="-18.75"
+       y1="37.5"
+       x2="18.75"
+       y2="37.5"
+       style="stroke:#000000;stroke-width:2;"
+       id="line30" />
+    <!-- Linie -->
+    <line
+       x1="-33.75"
+       y1="52.5"
+       x2="-33.75"
+       y2="58.6875"
+       style="stroke:#000000;stroke-width:2;"
+       id="line32" />
+    <!-- Kreisbogen -->
+    <path
+       d="M-33.75,58.6875 A1.3125,1.3125 0 0,0 -32.4375,60"
+       style="stroke:#000000;stroke-width:2;"
+       id="path34" />
+    <!-- Linie -->
+    <line
+       x1="-32.4375"
+       y1="60"
+       x2="32.4375"
+       y2="60"
+       style="stroke:#000000;stroke-width:2;"
+       id="line36" />
+    <!-- Kreisbogen -->
+    <path
+       d="M32.4375,60 A1.3125,1.3125 0 0,0 33.75,58.6875"
+       style="stroke:#000000;stroke-width:2;"
+       id="path38" />
+    <!-- Linie -->
+    <line
+       x1="33.75"
+       y1="58.6875"
+       x2="33.75"
+       y2="52.5"
+       style="stroke:#000000;stroke-width:2;"
+       id="line40" />
+    <!-- Linie -->
+    <line
+       x1="33.75"
+       y1="45"
+       x2="33.75"
+       y2="38.8125"
+       style="stroke:#000000;stroke-width:2;"
+       id="line42" />
+    <!-- Kreisbogen -->
+    <path
+       d="M33.75,38.8125 A1.3125,1.3125 0 0,0 32.4375,37.5"
+       style="stroke:#000000;stroke-width:2;"
+       id="path44" />
+    <!-- Linie -->
+    <line
+       x1="32.4375"
+       y1="37.5"
+       x2="-32.4375"
+       y2="37.5"
+       style="stroke:#000000;stroke-width:2;"
+       id="line46" />
+    <!-- Kreisbogen -->
+    <path
+       d="M-32.4375,37.5 A1.3125,1.3125 0 0,0 -33.75,38.8125"
+       style="stroke:#000000;stroke-width:2;"
+       id="path48" />
+    <!-- Linie -->
+    <line
+       x1="-33.75"
+       y1="38.8125"
+       x2="-33.75"
+       y2="45"
+       style="stroke:#000000;stroke-width:2;"
+       id="line50" />
+    <!-- Linie -->
+    <line
+       x1="-33.75"
+       y1="52.5"
+       x2="-30"
+       y2="52.5"
+       style="stroke:#000000;stroke-width:2;"
+       id="line52" />
+    <!-- Linie -->
+    <line
+       x1="-30"
+       y1="52.5"
+       x2="-30"
+       y2="45"
+       style="stroke:#000000;stroke-width:2;"
+       id="line54" />
+    <!-- Linie -->
+    <line
+       x1="-30"
+       y1="45"
+       x2="-33.75"
+       y2="45"
+       style="stroke:#000000;stroke-width:2;"
+       id="line56" />
+    <!-- Linie -->
+    <line
+       x1="33.75"
+       y1="52.5"
+       x2="30"
+       y2="52.5"
+       style="stroke:#000000;stroke-width:2;"
+       id="line58" />
+    <!-- Linie -->
+    <line
+       x1="30"
+       y1="52.5"
+       x2="30"
+       y2="45"
+       style="stroke:#000000;stroke-width:2;"
+       id="line60" />
+    <!-- Linie -->
+    <line
+       x1="30"
+       y1="45"
+       x2="33.75"
+       y2="45"
+       style="stroke:#000000;stroke-width:2;"
+       id="line62" />
+    <!-- Linie -->
+    <line
+       x1="-30"
+       y1="52.5"
+       x2="30"
+       y2="52.5"
+       style="stroke:#000000;stroke-width:2;"
+       id="line64" />
+    <!-- Linie -->
+    <line
+       x1="30"
+       y1="45"
+       x2="-30"
+       y2="45"
+       style="stroke:#000000;stroke-width:2;"
+       id="line66" />
+    <!-- Linie -->
+    <line
+       x1="-25"
+       y1="37.5"
+       x2="-25"
+       y2="-14"
+       style="stroke:#000000;stroke-width:2;"
+       id="line68" />
+    <!-- Linie -->
+    <line
+       x1="-25"
+       y1="-14"
+       x2="25"
+       y2="-14"
+       style="stroke:#000000;stroke-width:2;"
+       id="line70" />
+    <!-- Linie -->
+    <line
+       x1="25"
+       y1="-14"
+       x2="25"
+       y2="37.5"
+       style="stroke:#000000;stroke-width:2;"
+       id="line72" />
+    <!-- Linie -->
+    <line
+       x1="-25"
+       y1="-6"
+       x2="25"
+       y2="-6"
+       style="stroke:#000000;stroke-width:2.11;"
+       id="line74" />
+    <!-- Linie -->
+    <line
+       x1="25"
+       y1="-1"
+       x2="-25"
+       y2="-1"
+       style="stroke:#000000;stroke-width:2.11;"
+       id="line76" />
+  </g>
+  <g
+     aria-label="Long"
+     id="text90"
+     style="font-style:normal;font-weight:normal;font-size:38.8056px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583">
+    <path
+       d="m -22.602839,86.36441 h -17.84906 V 58.150769 h 3.751713 v 24.878785 h 14.097347 z"
+       style="font-size:38.8056px;stroke-width:0.264583"
+       id="path92" />
+    <path
+       d="m -1.0968068,75.7914 q 0,5.172817 -2.6527265,8.166608 -2.6527265,2.993792 -7.1055177,2.993792 -4.490687,0 -7.143413,-2.993792 -2.633779,-2.993791 -2.633779,-8.166608 0,-5.172816 2.633779,-8.166608 2.652726,-3.012739 7.143413,-3.012739 4.4527912,0 7.1055177,3.012739 2.6527265,2.993792 2.6527265,8.166608 z m -3.675921,0 q 0,-4.111726 -1.6105839,-6.101271 -1.610584,-2.008492 -4.4717393,-2.008492 -2.899051,0 -4.509635,2.008492 -1.591636,1.989545 -1.591636,6.101271 0,3.97909 1.610584,6.044427 1.610584,2.046389 4.490687,2.046389 2.8422073,0 4.4527912,-2.027441 1.629532,-2.046389 1.629532,-6.063375 z"
+       style="font-size:38.8056px;stroke-width:0.264583"
+       id="path94" />
+    <path
+       d="M 22.11455,86.36441 H 18.552317 V 74.313453 q 0,-1.459 -0.170532,-2.728519 -0.170533,-1.288467 -0.625286,-2.008493 -0.473701,-0.795818 -1.364259,-1.174779 -0.890558,-0.397909 -2.311662,-0.397909 -1.458999,0 -3.050635,0.720026 -1.5916361,0.720026 -3.0506357,1.837961 V 86.36441 H 4.4170745 V 65.199442 H 7.9793073 V 67.549 q 1.6674281,-1.383207 3.4485447,-2.160077 1.781116,-0.77687 3.656973,-0.77687 3.429596,0 5.229661,2.065337 1.800064,2.065337 1.800064,5.949687 z"
+       style="font-size:38.8056px;stroke-width:0.264583"
+       id="path96" />
+    <path
+       d="m 46.140672,83.958008 q 0,5.381246 -2.444298,7.901336 -2.444298,2.52009 -7.522374,2.52009 -1.686377,0 -3.296961,-0.246325 -1.591635,-0.227376 -3.145375,-0.663181 v -3.638025 h 0.18948 q 0.87161,0.341065 2.766415,0.833714 1.894805,0.511597 3.789609,0.511597 1.819013,0 3.01274,-0.435805 1.193727,-0.435805 1.856908,-1.212675 0.663182,-0.738974 0.947403,-1.781116 0.28422,-1.042143 0.28422,-2.33061 v -1.932701 q -1.610584,1.288467 -3.088531,1.932701 -1.459,0.625286 -3.732765,0.625286 -3.78961,0 -6.025479,-2.728519 -2.216922,-2.747467 -2.216922,-7.730803 0,-2.728519 0.757922,-4.699116 0.77687,-1.989544 2.103233,-3.429596 1.231623,-1.345311 2.993792,-2.084285 1.762168,-0.757922 3.505388,-0.757922 1.837961,0 3.069584,0.378961 1.250571,0.360013 2.633778,1.117935 l 0.227377,-0.909507 h 3.334856 z M 42.578439,80.54736 V 69.008 q -1.421103,-0.644234 -2.652726,-0.909506 -1.212675,-0.284221 -2.42535,-0.284221 -2.936947,0 -4.623324,1.970597 -1.686376,1.970597 -1.686376,5.72231 0,3.562233 1.250571,5.400193 1.250571,1.837961 4.149623,1.837961 1.553739,0 3.107479,-0.58739 1.572688,-0.606337 2.880103,-1.610584 z"
+       style="font-size:38.8056px;stroke-width:0.264583"
+       id="path98" />
+  </g>
+</svg>

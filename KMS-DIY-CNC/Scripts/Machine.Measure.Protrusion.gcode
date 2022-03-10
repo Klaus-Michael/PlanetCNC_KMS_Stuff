@@ -1,5 +1,4 @@
-(name,Measure Tab)
-
+(name,Measure Protrusion)
 o<chk> if[[#<_probe_pin_1> EQ 0] AND [#<_probe_pin_2> EQ 0]]
   (msg,Probe pin is not configured)
   M2
@@ -11,15 +10,15 @@ o<chk> if [[#<_probe_use_tooltable> GT 0] AND [#<_tool_isprobe_num|#<_current_to
 o<chk> endif
 
 
-(dlgname,Measure Tab)
-(dlg,Select tab orientation, typ=label, x=20, color=0xffa500)
-(dlg,data::MeasureTab, typ=image, x=20)
-(dlg,|X|Y, typ=checkbox, x=50, w=110, def=1, store, param=orient)
-(dlg,Tab size, typ=label, x=20, color=0xffa500)
-(dlg,Size, x=0, dec=2, def='setunit(20, 1);', min=0.1, max=10000, setunits, store, param=size)
+(dlgname,Measure Protrusion)
+(dlg,Select start postition, typ=label, x=20, color=0xffa500)
+(dlg,data::MeasureProtrusion, typ=image, x=60)
+(dlg,Protrusion size, typ=label, x=20, color=0xffa500)
+(dlg,Size X, x=0, dec=2, def='setunit(30, 1);', min=0.1, max=10000, setunits, store, param=sizex)
+(dlg,Size Y, x=0, dec=2, def='setunit(30, 1);', min=0.1, max=10000, setunits, store, param=sizey)
 (dlg,Z_Drop, x=0, dec=2, def='setunit(0, 0.5);', min=0.0, max=10000, setunits, store, param=z_drop)
 (dlg,Set X/Y to 0, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_origin>,  param=_probeing_center_set_origin)
-(dlg,Set Z to 0, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_z_hight>,  param=_probeing_center_set_z_hight)
+(dlg,Set Z-Hight to 0, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_z_hight>,  param=_probeing_center_set_z_hight)
 (dlgshow)
 
 M73
@@ -31,16 +30,7 @@ M57P0
 M10P1
 M11P1
 
-o<st> if [#<orient> EQ 1]
-  #<axis> = 0
-o<st> elseif [#<orient> EQ 2]
-  #<axis> = 1
-o<st> else
-  (msg,Error)
-  M2
-o<st> endif
-
-G65 P165 H#<axis> D#<size>  Z#<z_drop>
+G65 P155 I#<sizex> J#<sizey> Z#<z_drop>
 
 o<xy_origin>if[#<_probeing_center_set_origin> EQ 1]
   ;$<cmd_setworkoffset> (uncomment this line to set work offset automatically)
@@ -56,7 +46,7 @@ o<setzhight> if[#<_probeing_center_set_z_hight> EQ 1]
   #<off> = [#<off> - #<_warp_offset>]
   #<cs> = DEF[#<qvalue>,#<_coordsys>]
   G10 L2 P#<cs> Z#<off>
-  (print,|!  Setting Coordinate System Z Hight)
+  (print,|!  Setting Coordinate System Z Hight to #<_measure_Z>)
 o<setzhight> endif
 
 M2

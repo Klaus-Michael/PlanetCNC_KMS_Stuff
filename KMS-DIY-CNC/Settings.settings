@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Settings>
-  <version>20210826</version>
+  <version>20211020</version>
   <firmware>20210326</firmware>
   <serial>10194</serial>
   <controllerCode>CUKT8PC8MD8DTEFB6EHRNXTBXDV29</controllerCode>
   <computerCode>KUDWHV0W244QKNS8JR77Y9XBEVRNQ</computerCode>
-  <applicatonStart>2021/10/09 21:05:32</applicatonStart>
-  <applicatonEnd>2021/10/09 22:10:54</applicatonEnd>
+  <applicatonStart>2021/12/20 19:36:49</applicatonStart>
+  <applicatonEnd>2021/12/20 20:22:11</applicatonEnd>
   <os>Windows 10 (64 bit)</os>
   <cpu>GenuineIntel (4)</cpu>
   <mem>8095</mem>
@@ -17,11 +17,11 @@
   <commRd>0</commRd>
   <commErr>0</commErr>
   <commDpl>0</commDpl>
-  <cnt>292</cnt>
-  <tim>41011</tim>
+  <cnt>335</cnt>
+  <tim>45025</tim>
   <lang></lang>
   <codepage>0</codepage>
-  <fileLastOpen>C:\CAM\1001.ngc</fileLastOpen>
+  <fileLastOpen>C:\CAM\000-Lathe-Code\1002.ngc</fileLastOpen>
   <fileRecentSize>30</fileRecentSize>
   <fileRecentCount>30</fileRecentCount>
   <speedTraverseOverride>1.00000000000000000000</speedTraverseOverride>
@@ -65,7 +65,7 @@
   <displayPanelMid>1</displayPanelMid>
   <displayPanelRight>1</displayPanelRight>
   <displayBarLeft>260</displayBarLeft>
-  <displayBarRight>337</displayBarRight>
+  <displayBarRight>540</displayBarRight>
   <displayBarMid>245</displayBarMid>
   <displayDlgX>983</displayDlgX>
   <displayDlgY>513</displayDlgY>
@@ -73,8 +73,8 @@
   <displaySetY>524</displaySetY>
   <displaySetW>785</displaySetW>
   <displaySetH>750</displaySetH>
-  <displayEditX>1002</displayEditX>
-  <displayEditY>630</displayEditY>
+  <displayEditX>402</displayEditX>
+  <displayEditY>531</displayEditY>
   <displayEditW>568</displayEditW>
   <displayEditH>531</displayEditH>
   <displayEditVisible>0</displayEditVisible>
@@ -103,7 +103,7 @@
   <displayCSW>610</displayCSW>
   <displayCSH>385</displayCSH>
   <displayPosTab>0</displayPosTab>
-  <displayStateTab>0</displayStateTab>
+  <displayStateTab>1</displayStateTab>
   <displayStateTabScroll0>0</displayStateTabScroll0>
   <displayStateTabScroll1>0</displayStateTabScroll1>
   <displayStateTabScroll2>0</displayStateTabScroll2>
@@ -135,12 +135,12 @@
   <displayStateTabScroll28>0</displayStateTabScroll28>
   <displayStateTabScroll29>0</displayStateTabScroll29>
   <displayMidTab>0</displayMidTab>
-  <display3DPanX>-18.46673965454101562500</display3DPanX>
-  <display3DPanY>-10.51717376708984375000</display3DPanY>
+  <display3DPanX>-0.00000183105464657200</display3DPanX>
+  <display3DPanY>0.00001220703143189800</display3DPanY>
   <display3DAngleX>0.00000000000000000000</display3DAngleX>
   <display3DAngleY>0.00000000000000000000</display3DAngleY>
   <display3DAngleZ>0.00000000000000000000</display3DAngleZ>
-  <display3DFieldOfView>0.01832425966858863831</display3DFieldOfView>
+  <display3DFieldOfView>0.06782773137092590332</display3DFieldOfView>
   <displayFollowPosition>0</displayFollowPosition>
   <displayPosition>1</displayPosition>
   <displayGrid>1</displayGrid>
@@ -162,7 +162,7 @@
   <singleStepEnabled>0</singleStepEnabled>
   <pauseOptionalEnabled>0</pauseOptionalEnabled>
   <softLimitsIgnore>0</softLimitsIgnore>
-  <settingsPageNumber>27</settingsPageNumber>
+  <settingsPageNumber>37</settingsPageNumber>
   <description></description>
   <units>0</units>
   <machineType>1</machineType>
@@ -617,15 +617,15 @@
   <ioMPGReverse>0</ioMPGReverse>
   <ioMPGModeStep0>1</ioMPGModeStep0>
   <ioMPGModeSpeed0>1.66666666666666696273</ioMPGModeSpeed0>
-  <ioMPGModeRound0>0.01000000000000000021</ioMPGModeRound0>
+  <ioMPGModeRound0>0.00100000000000000002</ioMPGModeRound0>
   <ioMPGModeStep1>1</ioMPGModeStep1>
   <ioMPGModeSpeed1>1.66666666666666696273</ioMPGModeSpeed1>
-  <ioMPGModeRound1>0.10000000000000000555</ioMPGModeRound1>
-  <ioMPGModeStep2>0</ioMPGModeStep2>
-  <ioMPGModeSpeed2>20.00000000000000000000</ioMPGModeSpeed2>
-  <ioMPGModeRound2>0.00000000000000000000</ioMPGModeRound2>
+  <ioMPGModeRound1>0.01000000000000000021</ioMPGModeRound1>
+  <ioMPGModeStep2>1</ioMPGModeStep2>
+  <ioMPGModeSpeed2>1.66666666666666696273</ioMPGModeSpeed2>
+  <ioMPGModeRound2>0.10000000000000000555</ioMPGModeRound2>
   <ioMPGModeStep3>0</ioMPGModeStep3>
-  <ioMPGModeSpeed3>40.00000000000000710543</ioMPGModeSpeed3>
+  <ioMPGModeSpeed3>20.00000000000000000000</ioMPGModeSpeed3>
   <ioMPGModeRound3>0.00000000000000000000</ioMPGModeRound3>
   <ioMPGModeStep4>0</ioMPGModeStep4>
   <ioMPGModeSpeed4>100.00000000000000000000</ioMPGModeSpeed4>
@@ -799,7 +799,7 @@
   <tooloffSafeHeight>0.00000000000000000000</tooloffSafeHeight>
   <tooloffRapidHeight>-20.00000000000000000000</tooloffRapidHeight>
   <tooloffSensorPos0>476.00000000000000000000</tooloffSensorPos0>
-  <tooloffSensorPos1>35.00000000000000000000</tooloffSensorPos1>
+  <tooloffSensorPos1>36.00000000000000000000</tooloffSensorPos1>
   <tooloffSensorPos2>-155.00000000000000000000</tooloffSensorPos2>
   <workoffSpeed>200.00100000000000477485</workoffSpeed>
   <workoffSpeedLow>20.00000000000000000000</workoffSpeedLow>
@@ -816,7 +816,7 @@
   <tcPosition2>0.00000000000000000000</tcPosition2>
   <tcAction>1</tcAction>
   <tcToolMeasure>2</tcToolMeasure>
-  <tcToolOffEn>1</tcToolOffEn>
+  <tcToolOffEn>2</tcToolOffEn>
   <tcAutoReturn>1</tcAutoReturn>
   <tcATCEnable>0</tcATCEnable>
   <tcATCSpeed>100.00000000000000000000</tcATCSpeed>
@@ -1014,87 +1014,87 @@
   <exportCSV_SkipUnusedValue>1</exportCSV_SkipUnusedValue>
   <exportCSV_SkipSameValue>0</exportCSV_SkipSameValue>
   <mdiHistoryCount>50</mdiHistoryCount>
-  <fileRecent0>C:\CAM\1001.ngc</fileRecent0>
-  <mdiHistory0>S24000</mdiHistory0>
-  <mdiHistory1>T4 M6</mdiHistory1>
-  <mdiHistory2>T1 M6</mdiHistory2>
-  <mdiHistory3>M6</mdiHistory3>
-  <mdiHistory4>G1 X460 F400</mdiHistory4>
-  <mdiHistory5>T124 M6</mdiHistory5>
-  <mdiHistory6>G0 Z0</mdiHistory6>
-  <mdiHistory7>G1 Y0 F50</mdiHistory7>
-  <mdiHistory8>G1 Z0 F50</mdiHistory8>
-  <mdiHistory9>T105 M6</mdiHistory9>
-  <mdiHistory10>G0 X0</mdiHistory10>
-  <mdiHistory11>T31 M6</mdiHistory11>
-  <mdiHistory12>G1 Z 20</mdiHistory12>
-  <mdiHistory13>G0 Y0</mdiHistory13>
+  <fileRecent0>C:\CAM\000-Lathe-Code\1002.ngc</fileRecent0>
+  <mdiHistory0>G0 Y-300</mdiHistory0>
+  <mdiHistory1>G0 Y100</mdiHistory1>
+  <mdiHistory2>G0 Y0</mdiHistory2>
+  <mdiHistory3>T30 M6</mdiHistory3>
+  <mdiHistory4>T1M6</mdiHistory4>
+  <mdiHistory5>T1 M6</mdiHistory5>
+  <mdiHistory6>G1 Z0.001</mdiHistory6>
+  <mdiHistory7>G1 Z0.005</mdiHistory7>
+  <mdiHistory8>G1 Z0.5</mdiHistory8>
+  <mdiHistory9>G1 Z0.01</mdiHistory9>
+  <mdiHistory10>G1 Z0</mdiHistory10>
+  <mdiHistory11>G1 Z-0.01</mdiHistory11>
+  <mdiHistory12>G1 Z-0.1</mdiHistory12>
+  <mdiHistory13>G1 Z0.5</mdiHistory13>
   <mdiHistory14>G1 Z0</mdiHistory14>
-  <mdiHistory15>S24000</mdiHistory15>
-  <mdiHistory16>S15000</mdiHistory16>
-  <mdiHistory17>T4 M6</mdiHistory17>
-  <mdiHistory18>G1 Z0 F50</mdiHistory18>
-  <mdiHistory19>T12 M6</mdiHistory19>
-  <mdiHistory20>G1 Z-2</mdiHistory20>
-  <mdiHistory21>G1 Z-1.9</mdiHistory21>
-  <mdiHistory22>G1 Z-1.5</mdiHistory22>
-  <mdiHistory23>G1 Z0 </mdiHistory23>
-  <mdiHistory24>T500 M6</mdiHistory24>
-  <mdiHistory25>T4 M6</mdiHistory25>
-  <mdiHistory26>G0 Z0</mdiHistory26>
-  <mdiHistory27>G1 Y 0</mdiHistory27>
-  <mdiHistory28>G1 Z -0.1</mdiHistory28>
-  <mdiHistory29>G1 X 0</mdiHistory29>
-  <mdiHistory30>T4 M6</mdiHistory30>
-  <mdiHistory31>S10000</mdiHistory31>
-  <mdiHistory32>G1 Z-10 F10000</mdiHistory32>
-  <mdiHistory33>G1 Z-150 F8000</mdiHistory33>
-  <mdiHistory34>G1 Z-150 F4000</mdiHistory34>
-  <mdiHistory35>G1 Z-10 F6000</mdiHistory35>
-  <mdiHistory36>G0 Z-10 F6000</mdiHistory36>
-  <mdiHistory37>G0 Z-150 F4000</mdiHistory37>
-  <fileRecent1>C:\CAM\Side B in Fixture OP20.ngc</fileRecent1>
-  <mdiHistory38>G0 Z-10 F2000</mdiHistory38>
-  <mdiHistory39>G0 Z-150 F2000</mdiHistory39>
-  <fileRecent2>C:\CAM\Side 1 Series OP10 G54.ngc</fileRecent2>
-  <mdiHistory40>G1 X400 F6000</mdiHistory40>
-  <fileRecent3>C:\CAM\Fixture Plate.ngc</fileRecent3>
-  <fileRecent4>C:\CAM\Schleifhilfe 3.ngc</fileRecent4>
-  <fileRecent5>C:\CAM\Schleifhilfe 2.ngc</fileRecent5>
-  <fileRecent6>C:\CAM\Schleifhilfe 1.ngc</fileRecent6>
-  <mdiHistory41>G1 X10 F10000</mdiHistory41>
-  <mdiHistory42>G1 X400 F9000</mdiHistory42>
-  <mdiHistory43>G1 X10 F9000</mdiHistory43>
-  <mdiHistory44>G1 X400 F8000</mdiHistory44>
-  <mdiHistory45>G1 X10 F8000</mdiHistory45>
-  <mdiHistory46>G1 X400 F7000</mdiHistory46>
-  <mdiHistory47>G1 X10 F7000</mdiHistory47>
-  <mdiHistory48>G1 X10 F5000</mdiHistory48>
-  <mdiHistory49>G1 X400 F5000</mdiHistory49>
-  <fileRecent7>C:\CAM\Bug Fix.ngc</fileRecent7>
-  <fileRecent8>C:\CAM\Side B in Fixture OP20 Mamba Dragon.ngc</fileRecent8>
-  <fileRecent9>C:\CAM\Side B in Fixture OP20 missing .ngc</fileRecent9>
-  <fileRecent10>C:\CAM\Side B in Fixture OP20 G54 G55 Mamba.ngc</fileRecent10>
-  <fileRecent11>C:\CAM\Side B in Fixture OP20 G54 G55.ngc</fileRecent11>
-  <fileRecent12>C:\CAM\Kurz OP20.ngc</fileRecent12>
-  <fileRecent13>C:\CAM\Lang OP20.ngc</fileRecent13>
-  <fileRecent14>C:\CAM\Lang.ngc</fileRecent14>
-  <fileRecent15>C:\CAM\bore.ngc</fileRecent15>
-  <fileRecent16>C:\CAM\Pumpen Halter .ngc</fileRecent16>
-  <fileRecent17>C:\CAM\Side 1 Series OP10 3 parts.ngc</fileRecent17>
-  <fileRecent18>C:\CAM\BlueTape Alu Platte.ngc</fileRecent18>
-  <fileRecent19>C:\CAM\Side 1-2-Clip Series OP10 G54 55 56.ngc</fileRecent19>
-  <fileRecent20>C:\CAM\Gravur Test.ngc</fileRecent20>
-  <fileRecent21>C:\CAM\Fixture OP21.ngc</fileRecent21>
-  <fileRecent22>C:\CAM\Fixture OP20.ngc</fileRecent22>
-  <fileRecent23>C:\CAM\Fixture Origin OP10.ngc</fileRecent23>
+  <mdiHistory15>G1 Z0 X0 Y0 F20</mdiHistory15>
+  <mdiHistory16>T1 M6</mdiHistory16>
+  <mdiHistory17>S12000</mdiHistory17>
+  <mdiHistory18>G1 Z0.022</mdiHistory18>
+  <mdiHistory19>G1 Z0.024</mdiHistory19>
+  <mdiHistory20>G1 Z0.029</mdiHistory20>
+  <mdiHistory21>G1 Z0.0295</mdiHistory21>
+  <mdiHistory22>G1 Z0.03</mdiHistory22>
+  <mdiHistory23>G1 Z0</mdiHistory23>
+  <mdiHistory24>G90</mdiHistory24>
+  <mdiHistory25>G91 G1 Z -0.0025 F20</mdiHistory25>
+  <mdiHistory26>G91 G1 Z 0.02 F20</mdiHistory26>
+  <mdiHistory27>G91 G1 Z 0.0025 F20</mdiHistory27>
+  <mdiHistory28>G90</mdiHistory28>
+  <mdiHistory29>G91 G1 Z -0.0025 F20</mdiHistory29>
+  <mdiHistory30>G91 G1 Z -0.00125 F20</mdiHistory30>
+  <mdiHistory31>G91 G1 Z 0.021 F20</mdiHistory31>
+  <mdiHistory32>G91 G1 Z 0.0021 F20</mdiHistory32>
+  <mdiHistory33>G91 G1 Z -0.0125 F20</mdiHistory33>
+  <mdiHistory34>G91 Z -0.0125</mdiHistory34>
+  <mdiHistory35>G91 Z -0.00125</mdiHistory35>
+  <mdiHistory36>T1 M6</mdiHistory36>
+  <mdiHistory37>(msg, test)</mdiHistory37>
+  <fileRecent1>C:\CAM\1001.ngc</fileRecent1>
+  <mdiHistory38>G1 X26</mdiHistory38>
+  <mdiHistory39>G1 X20</mdiHistory39>
+  <fileRecent2>C:\CAM\WLS test 7.ngc.ptp</fileRecent2>
+  <mdiHistory40>G1 Z15</mdiHistory40>
+  <fileRecent3>C:\CAM\WLS test center.ngc</fileRecent3>
+  <fileRecent4>C:\CAM\WLS test 4.ngc.ptp</fileRecent4>
+  <fileRecent5>C:\CAM\WLS test validate.ngc</fileRecent5>
+  <fileRecent6>C:\CAM\WLS Test Plate.ngc</fileRecent6>
+  <mdiHistory41>G0 X-70</mdiHistory41>
+  <mdiHistory42>G0 X70</mdiHistory42>
+  <mdiHistory43>T1 M6</mdiHistory43>
+  <mdiHistory44>G1 Z0 F500</mdiHistory44>
+  <mdiHistory45>G0 Z20</mdiHistory45>
+  <mdiHistory46>S4000</mdiHistory46>
+  <mdiHistory47>G1Y200 F200</mdiHistory47>
+  <mdiHistory48>G1Y0 F200</mdiHistory48>
+  <mdiHistory49>G1X0 F500</mdiHistory49>
+  <fileRecent7>C:\CAM\Star3.ngc</fileRecent7>
+  <fileRecent8>C:\CAM\Einhorn.ngc</fileRecent8>
+  <fileRecent9>C:\CAM\10mm test.ngc</fileRecent9>
+  <fileRecent10>C:\CAM\Star2.ngc</fileRecent10>
+  <fileRecent11>C:\CAM\Snowflake.ngc</fileRecent11>
+  <fileRecent12>C:\CAM\Star.ngc</fileRecent12>
+  <fileRecent13>C:\CAM\Halter Fr&#228;se OP30.ngc</fileRecent13>
+  <fileRecent14>C:\CAM\1002.ngc</fileRecent14>
+  <fileRecent15>C:\CAM\Halter Fr&#228;se OP11.ngc</fileRecent15>
+  <fileRecent16>C:\CAM\Halter Fr&#228;se OP10.ngc</fileRecent16>
+  <fileRecent17>C:\CAM\Pocket Clip  Top m2-5.ngc</fileRecent17>
+  <fileRecent18>C:\CAM\Pocket Clip  Top.ngc</fileRecent18>
+  <fileRecent19>C:\CAM\Fixture Trailmaster 3.ngc</fileRecent19>
+  <fileRecent20>C:\CAM\Clips Series OP10 G54.ngc</fileRecent20>
+  <fileRecent21>C:\CAM\Pocket Clip  Top pattern.ngc</fileRecent21>
+  <fileRecent22>C:\CAM\Webschiffchen.ngc</fileRecent22>
+  <fileRecent23>C:\CAM\Schalen Top.ngc</fileRecent23>
   <programUseEWord>0</programUseEWord>
-  <fileRecent24>C:\CAM\MMS OP30.ngc</fileRecent24>
-  <fileRecent25>C:\CAM\MMS OP20.ngc</fileRecent25>
-  <fileRecent26>C:\CAM\MMS OP10 G54 G55.ngc</fileRecent26>
-  <fileRecent27>C:\CAM\STP OP21.ngc</fileRecent27>
-  <fileRecent28>C:\CAM\STP OP20.ngc</fileRecent28>
-  <fileRecent29>C:\CAM\STP OP10.ngc</fileRecent29>
+  <fileRecent24>C:\CAM\Schalen Top Trace .ngc</fileRecent24>
+  <fileRecent25>C:\CAM\Schalen Bottom flat.ngc</fileRecent25>
+  <fileRecent26>C:\CAM\Schalen Bottom.ngc</fileRecent26>
+  <fileRecent27>C:\CAM\Schalen Bottom chamfer.ngc</fileRecent27>
+  <fileRecent28>C:\CAM\Gabel_18.ngc</fileRecent28>
+  <fileRecent29>C:\CAM\Gabel.ngc</fileRecent29>
   <ui3DAxisThickness>1.19999999999999995559</ui3DAxisThickness>
   <importCAD_SortReverseShapes>1</importCAD_SortReverseShapes>
   <importCAD_ProcessShapes>0</importCAD_ProcessShapes>
