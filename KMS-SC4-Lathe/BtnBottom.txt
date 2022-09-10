@@ -1,4 +1,6 @@
 cmd: "Machine.User_Commands.UserCommand_6" "OD Turn" imagechange="true" stroke=1.1
 ---
-
-
+expr: "startcode('G94')" "G94 Feed/min" 
+expr: "_jog_step=0.01" "J0.01" updown="_jog_step==0.01" updatefast="true"
+expr: "_jog_step=0.1" "J0.1" updown="_jog_step==0.1" updatefast="true"
+expr: "_jog_step=1" "J1" updown="_jog_step==1" updatefast="true"

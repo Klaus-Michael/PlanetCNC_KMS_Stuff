@@ -1,4 +1,6 @@
 (print,Stop spindle)
+
+
 M5
 
 O<ToolCheck> if [ #<_current_tool> EQ #<_tool_life_toolnumber> and #<_tool_life_starttime> gt 0]
@@ -12,7 +14,7 @@ O<ToolCheck> if [ #<_current_tool> EQ #<_tool_life_toolnumber> and #<_tool_life_
 	O<ToolCheckRecord>  endif
 	#<tool_life_new_runtime> = [#<tool_life_old_runtime> + #<_tool_life_runtime>]
 	#<_tool_par1_num|#<_current_tool>>= #<tool_life_new_runtime> 
-	(print, Tool Number: #<_current_tool>, Starttime: #<_tool_life_starttime>, Endtime: #<_tool_life_endtime>, Runtime: #<_tool_life_runtime>, old runtime  #<tool_life_old_runtime>. New Total Tool Runtime: #<tool_life_new_runtime>  )
+	(print, Tool Number: #<_current_tool>, Runtime: #<_tool_life_runtime>, Total Tool Runtime: #<tool_life_new_runtime>, Starttime: #<_tool_life_starttime>, Endtime: #<_tool_life_endtime>, old runtime  #<tool_life_old_runtime>.  )
 	O<CheckToolTableChange> if [ #<_tool_par1_num|#<_current_tool>> NE #<tool_life_new_runtime>  ]
 		(print, Tool Table update NOT successfull. Trying again! tool table value #<_tool_par1_num|#<_current_tool>> should be value #<tool_life_new_runtime>)
 		#<_tool_par1_num|#<_current_tool>>= #<tool_life_new_runtime> 
@@ -25,7 +27,15 @@ O<ToolCheck> else
 	(print current tool number #<_current_tool> does not match expected tool number #<_tool_life_toolnumber>. Runtime was NOT recorded!!!!!!)
 O<ToolCheck> endif
 
+;turn of mms 
+M09
+
+	O<checkforspindlerun> while [#<_input_num|5> EQ 1]
+	;	(print,spindle still running, waiting)
+		G04 P1
+	O<checkforspindlerun> endwhile
+
 O<PlanetCNC> if [#<_spindle_delay_stop> GT 0]
-	G04 P#<_spindle_delay_stop>
+;	G04 P#<_spindle_delay_stop>
 O<PlanetCNC> endif
 

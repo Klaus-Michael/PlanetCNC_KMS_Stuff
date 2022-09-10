@@ -1,5 +1,8 @@
 (print,Stop spindle)
 M5
+;M62 P5 Q1
+;G04 P1
+;M62 P5 Q0
 
 O<ToolCheck> if [ #<_current_tool> EQ #<_tool_life_toolnumber> and #<_tool_life_starttime> gt 0]
 	#<_tool_life_endtime> = DateTime[]

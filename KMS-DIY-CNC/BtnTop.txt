@@ -21,5 +21,8 @@ cmd: "View.Zoom_Out" image="ownicons/zoomout.svg" imagechange="True"
 cmd: "Machine.Mist" "MMS"  updatefast="true" imagechange="True"
 cmd: "Machine.Flood" "Flood"  updatefast="true" imagechange="True"
 +++
-cmd: "Machine.Spindle" image="ownicons/Spindle.svg"   updatefast="true"  imagechange="True"  
+cmd: "Machine.Spindle" image="ownicons/Spindle.svg"   updatefast="true"  imagechange="True" 
+--- 
 +++
+---
+cmd: "Machine.Outputs.Output_2" "ATC Open" updatefast="true" imagechange="True"

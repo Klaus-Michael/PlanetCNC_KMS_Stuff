@@ -47,7 +47,7 @@ O<en> if [ACTIVE[] AND #<_tc_enable>]
       O<tn> if [#<_toolchangename>]
         (msg,Change tool to\  $<_toolchangename>)
       O<tn> else
-        (msg,Change tool:\  #<_current_tool,0>: $<_current_tool>\to\  #<_selected_tool,0>: $<_selected_tool>)
+        (msg,Change tool:\  #<_current_tool,0>: $<tool_name|#<_current_tool>> \to\  #<_selected_tool,0>: $<tool_name|#<_selected_tool>>)
       O<tn> endif
     O<ac> else
       O<tn> if [#<_toolchangename>]

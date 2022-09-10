@@ -9,5 +9,10 @@ cmd: "Machine.User_Commands.UserCommand_2" "Warmup" imagechange="true" stroke=1.
 ---
 cmd: "Machine.User_Commands.UserCommand_4" "TC POS" imagechange="true" stroke=1.1
 cmd: "Machine.User_Commands.UserCommand_5" "MAX POS" imagechange="true" stroke=1.1
+cmd: "Machine.User_Commands.UserCommand_7" "T0 MAX POS" imagechange="true" stroke=1.1
 ---
-
+expr: "startcode('T0 M6')" "T0"  imagechange="True"
+---
+cmd: "Machine.User_Commands.UserCommand_6" "ATC" imagechange="true" stroke=1.1
+---
+cmd: "Machine.Outputs.Output_3" "MAG Open" updatefast="true" imagechange="True"

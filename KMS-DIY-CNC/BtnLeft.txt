@@ -12,7 +12,3 @@ cmd: "Machine.Coordinate_System.Measure_Height" image="ownicons/zheight.svg" ima
 expr: "startcode('T255 M6')" "Probe Long" image="ownicons/probe_long.svg"  imagechange="True"
 ---
 expr: "startcode('T256 M6')" "Probe Short" image="ownicons/probe_short.svg"  imagechange="True"
----
-expr: "startcode('M63 P1 R5')" "Open WLS" 
-expr: "startcode('M63 P1 R85')" "Close WLS" 
-
