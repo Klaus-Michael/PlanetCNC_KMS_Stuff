@@ -17,6 +17,7 @@ o<chk> endif
 (dlg,X-Size, x=0, dec=2, def=#<_probeing_center_stock_size_x>, min=0.1, max=10000, param=x_size)
 (dlg,Y-Size, x=0, dec=2, def=#<_probeing_center_stock_size_y>, min=0.1, max=10000, param=y_size)
 (dlg,XY Overtravel, x=0, dec=2, def=10, min=0.1, max=10000, param=overtravel)
+(dlg,Z_Drop, x=0, dec=2, def='setunit(0, 0.5);', min=0.0, max=10000, setunits, def=#<_kms_z_drop>, store, param=_kms_z_drop)
 (dlg,Set X/Y Origin, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_origin>,  param=set_origin)
 (dlg,Set Z-Hight, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_z_hight>,  param=set_z_hight)
 (dlgshow)
@@ -53,7 +54,7 @@ o<chk> endif
 
 ; start with X Axis
   #<axis> = 0
-  G65 P131 H#<axis> E1 D[#<x_size>/2+#<overtravel>] Z2;Probe Z Hight and move to right side
+  G65 P131 H#<axis> E1 D[#<x_size>/2+#<overtravel>] Z#<_kms_z_drop>;Probe Z Hight and move to right side
   #<measureZ> = #<_measure_z>
   (print, measureZ: #<measureZ>)
   #<travelZ> = [#<measureZ> + #<_probe_trav>] 
@@ -69,7 +70,7 @@ o<chk> endif
 
   G53 G00 Z#<travelZ>
   G53 G00 H#<axis> E#<startx>
-  G65 P131 H#<axis> E-1 D[#<x_size>/2+#<overtravel>] K#<measureZ>  Z2; move to left side 
+  G65 P131 H#<axis> E-1 D[#<x_size>/2+#<overtravel>] K#<measureZ>  Z#<_kms_z_drop>; move to left side 
   G65 P110 H#<axis> E1 R0 ;probe left side
   o<chk> if[NOTEXISTS[#<_return>] OR [#<_measure> EQ 0]]
     (msg,Measure error: Measure Tab)
@@ -87,7 +88,7 @@ o<chk> endif
 
 ; Continue with Y Axis
   #<axis> = 1
-  G65 P131 H#<axis> E1 D[#<y_size>/2+#<overtravel>]  K#<measureZ> Z2; move to top side 
+  G65 P131 H#<axis> E1 D[#<y_size>/2+#<overtravel>]  K#<measureZ> Z#<_kms_z_drop>; move to top side 
   (print, travelZ: #<travelZ>) 
   G65 P110 H#<axis> E-1 R0 ;probe top side
   o<chk> if[NOTEXISTS[#<_return>] OR [#<_measure> EQ 0]]
@@ -100,7 +101,7 @@ o<chk> endif
 
   G53 G00 Z#<travelZ>
   G53 G00 H#<axis> E#<starty>
-  G65 P131 H#<axis> E-1 D[#<y_size>/2+#<overtravel>] K#<measureZ> Z2; move to lower side 
+  G65 P131 H#<axis> E-1 D[#<y_size>/2+#<overtravel>] K#<measureZ> Z#<_kms_z_drop>; move to lower side 
   G65 P110 H#<axis> E1 R0 ;probe lower side
   o<chk> if[NOTEXISTS[#<_return>] OR [#<_measure> EQ 0]]
     (msg,Measure error: Measure Tab)
