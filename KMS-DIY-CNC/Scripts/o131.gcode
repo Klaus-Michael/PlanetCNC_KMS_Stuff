@@ -56,6 +56,7 @@ o<mov> while[1]
   M11P0
   #<z_target>= [#<measureZ> - #<_probe_trav>] 
   o<z_drop> if[EXISTS[#<Zvalue>]]
+  (print, Zvalue exists with #<Zvalue>)
     o<z_drop2> if[#<Zvalue> GT 0]
       #<z_target>=[#<measureZ> - #<Zvalue>] 
     o<z_drop2> endif

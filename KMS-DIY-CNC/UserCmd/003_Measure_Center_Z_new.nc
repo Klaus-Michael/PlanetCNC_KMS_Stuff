@@ -53,7 +53,7 @@ o<chk> endif
 
 ; start with X Axis
   #<axis> = 0
-  G65 P131 H#<axis> E1 D[#<x_size>/2+#<overtravel>] ;Probe Z Hight and move to right side
+  G65 P131 H#<axis> E1 D[#<x_size>/2+#<overtravel>] Z2;Probe Z Hight and move to right side
   #<measureZ> = #<_measure_z>
   (print, measureZ: #<measureZ>)
   #<travelZ> = [#<measureZ> + #<_probe_trav>] 
@@ -69,7 +69,7 @@ o<chk> endif
 
   G53 G00 Z#<travelZ>
   G53 G00 H#<axis> E#<startx>
-  G65 P131 H#<axis> E-1 D[#<x_size>/2+#<overtravel>] K#<measureZ> ; move to left side 
+  G65 P131 H#<axis> E-1 D[#<x_size>/2+#<overtravel>] K#<measureZ>  Z2; move to left side 
   G65 P110 H#<axis> E1 R0 ;probe left side
   o<chk> if[NOTEXISTS[#<_return>] OR [#<_measure> EQ 0]]
     (msg,Measure error: Measure Tab)
@@ -87,7 +87,7 @@ o<chk> endif
 
 ; Continue with Y Axis
   #<axis> = 1
-  G65 P131 H#<axis> E1 D[#<y_size>/2+#<overtravel>]  K#<measureZ> ; move to top side 
+  G65 P131 H#<axis> E1 D[#<y_size>/2+#<overtravel>]  K#<measureZ> Z2; move to top side 
   (print, travelZ: #<travelZ>) 
   G65 P110 H#<axis> E-1 R0 ;probe top side
   o<chk> if[NOTEXISTS[#<_return>] OR [#<_measure> EQ 0]]
@@ -100,7 +100,7 @@ o<chk> endif
 
   G53 G00 Z#<travelZ>
   G53 G00 H#<axis> E#<starty>
-  G65 P131 H#<axis> E-1 D[#<y_size>/2+#<overtravel>] K#<measureZ> ; move to lower side 
+  G65 P131 H#<axis> E-1 D[#<y_size>/2+#<overtravel>] K#<measureZ> Z2; move to lower side 
   G65 P110 H#<axis> E1 R0 ;probe lower side
   o<chk> if[NOTEXISTS[#<_return>] OR [#<_measure> EQ 0]]
     (msg,Measure error: Measure Tab)

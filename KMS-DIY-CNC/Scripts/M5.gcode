@@ -32,7 +32,7 @@ M09
 
 	O<checkforspindlerun> while [#<_input_num|5> EQ 1]
 	;	(print,spindle still running, waiting)
-		G04 P1
+		G04 P0.1
 	O<checkforspindlerun> endwhile
 
 O<PlanetCNC> if [#<_spindle_delay_stop> GT 0]

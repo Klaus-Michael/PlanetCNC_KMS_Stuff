@@ -2,8 +2,9 @@ O<ProbeCheck> if [[#<_tool_isprobe_num|#<_current_tool>>] EQ 1]
   (msg,Current tool is a probe. Spindle NOT Started)
   M2
 O<ProbeCheck> else
-
-	O<checkfortool> while [#<_input_num|7> EQ 0]
+	#<spindle_try>=0
+	O<checkfortool> while [[#<_input_num|7> EQ 0] AND [#<spindle_try> LT 5]]
+		#<spindle_try> = [#<spindle_try> +1]
 		(msg,No Tool in Spindle, cannot start)
 	O<checkfortool> endwhile
 

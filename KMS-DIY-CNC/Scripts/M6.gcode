@@ -8,6 +8,8 @@
 #<tc_clamp_open_pin> = 8
 #<tc_tool_in_spindle_pin> = 7
 
+#<kms_3d_probe_pin>=1
+
 O<PlanetCNC> if[[#<_tc_toolmeasure>] AND [#<_probe_pin_1> EQ 0] AND [#<_probe_pin_2> EQ 0]]
   (msg,Sensor is not configured)
   M2
@@ -28,7 +30,7 @@ O<chmagcl>if [#<_input_num|4> EQ 1]
 O<chmagcl>endif
 ;Open Magazin
 M62 P3 Q1
-G04 P1
+G04 P1.5
 G9
 O<chmagco>if [#<_input_num|4> EQ 0]
   (msg,Magazin did not open correctly)
@@ -329,6 +331,18 @@ O<noatcen> endif
       M6
     O<atcen> endif
 
+
+    (check is the current tool is a probe, if yes enable probe pin, otherwhise disable probe)
+
+O<ProbeCheck> if [[#<_tool_isprobe_num|#<_current_tool>>] EQ 1]
+      #<_probe_pin_1> = #<kms_3d_probe_pin>
+      #<_probe_estop>=1
+    o<ProbeCheck> else
+      #<_probe_pin_1>=0
+      #<_probe_estop>=0
+    o<ProbeCheck> endif
+
+    (tool length measurement)
     O<tm> if [[#<_tc_toolmeasure> GT 0] AND [#<_tool_skipmeasure_num|#<_current_tool>> EQ 0]]
       G09
       (print,  Measure tool)

@@ -16,7 +16,7 @@ o<chk> endif
 (dlg,Protrusion size, typ=label, x=20, color=0xffa500)
 (dlg,Size X, x=0, dec=2, def='setunit(30, 1);', min=0.1, max=10000, setunits, store, param=sizex)
 (dlg,Size Y, x=0, dec=2, def='setunit(30, 1);', min=0.1, max=10000, setunits, store, param=sizey)
-(dlg,Z_Drop, x=0, dec=2, def='setunit(0, 0.5);', min=0.0, max=10000, setunits, store, param=z_drop)
+(dlg,Z_Drop, x=0, dec=2, def='setunit(0, 0.5);', min=0.0, max=10000, setunits, def=#<_kms_z_drop>, store, param=_kms_z_drop)
 (dlg,Set X/Y to 0, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_origin>,  param=_probeing_center_set_origin)
 (dlg,Set Z-Hight to 0, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_z_hight>,  param=_probeing_center_set_z_hight)
 (dlgshow)
@@ -30,7 +30,7 @@ M57P0
 M10P1
 M11P1
 
-G65 P155 I#<sizex> J#<sizey> Z#<z_drop>
+G65 P155 I#<sizex> J#<sizey> Z#<_kms_z_drop>
 
 o<xy_origin>if[#<_probeing_center_set_origin> EQ 1]
   ;$<cmd_setworkoffset> (uncomment this line to set work offset automatically)

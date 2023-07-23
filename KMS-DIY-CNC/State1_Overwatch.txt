@@ -1,10 +1,8 @@
 io custom name="Controller:" led="ES,,,TH,SL,LM,,,MT,AL,,,ER"
 
-io custom name="WLS / Probe:" led="I8, I1, I3"
-
-io custom name="End-Stop G  X Y Z:" led="L1,,L2,L4,L3"
-
-io custom name="Spindle / Air / MMS:" led="O3,O4,O5"
+io custom name="Input:" led="I8, I7, I6, I5, I4, I3, I2, I1"
+io custom name="Output:" led="O8, O7, O6, O5, O4, O3, O2, O1"
+io custom name="Limit:" led="L8,L7,L6,L5,L4,L3,L2,L1"
 
 panel gcodes
 

@@ -1,0 +1,7 @@
+#OnInit
+state_estop_4th = 0; 
+
+#Loop 
+if(_hw_input_num|3 == 1&& state_estop_4th==0, exec(state_estop_4th=1,estop(1),print('4th Axis error')));
+if(_hw_input_num|3 == 0 , exec(state_estop_4th=0));
+

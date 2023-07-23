@@ -47,7 +47,7 @@ o<chk> endif
 
 G53 G00 Z#<travelZ>
 G53 G00 X#<posX>
-G65 P131 H0 E-1 D[#<distx>/2] K#<measureZ>
+G65 P131 H0 E-1 D[#<distx>/2] K#<measureZ> Z#<z_drop>
 G65 P110 H0 E1 R0
 o<chk> if[NOTEXISTS[#<_return>] OR [#<_measure> EQ 0]]
   (msg,Measure error: Measure Protrusion)
@@ -59,7 +59,7 @@ o<chk> endif
 G53 G00 Z#<travelZ>
 #<posX> = [[#<measure01> + #<measure02>] / 2]
 G53 G00 X#<posX>
-G65 P131 H1 E1 D[#<disty>/2] K#<measureZ>
+G65 P131 H1 E1 D[#<disty>/2] K#<measureZ> Z#<z_drop>
 G65 P110 H1 E-1 R0
 o<chk> if[NOTEXISTS[#<_return>] OR [#<_measure> EQ 0]]
   (msg,Measure error: Measure Protrusion)
@@ -70,7 +70,7 @@ o<chk> endif
 
 G53 G00 Z#<travelZ>
 G53 G00 Y#<posY>
-G65 P131 H1 E-1 D[#<disty>/2] K#<measureZ>
+G65 P131 H1 E-1 D[#<disty>/2] K#<measureZ> Z#<z_drop>
 G65 P110 H1 E1 R0
 o<chk> if[NOTEXISTS[#<_return>] OR [#<_measure> EQ 0]]
   (msg,Measure error: Measure Protrusion)
@@ -82,7 +82,7 @@ o<chk> endif
 G53 G00 Z#<travelZ>
 #<posY> = [[#<measure11> + #<measure12>] / 2]
 G53 G00 Y#<posY>
-G65 P131 H0 E1 D[#<distx>/2] K#<measureZ>
+G65 P131 H0 E1 D[#<distx>/2] K#<measureZ> Z#<z_drop>
 G65 P110 H0 E-1 R0
 o<chk> if[NOTEXISTS[#<_return>] OR [#<_measure> EQ 0]]
   (msg,Measure error: Measure Protrusion)
@@ -93,7 +93,7 @@ o<chk> endif
 
 G53 G00 Z#<travelZ>
 G53 G00 X#<posX>
-G65 P131 H0 E-1 D[#<distx>/2] K#<measureZ>
+G65 P131 H0 E-1 D[#<distx>/2] K#<measureZ> Z#<z_drop>
 G65 P110 H0 E1 R0
 o<chk> if[NOTEXISTS[#<_return>] OR [#<_measure> EQ 0]]
   (msg,Measure error: Measure Protrusion)

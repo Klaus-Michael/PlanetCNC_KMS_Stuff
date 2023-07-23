@@ -1,10 +1,6 @@
 (name,Home)
 
-;check that there is no tool in the spindle
-o<chk_for_tool> if [#<_input_num|7> EQ 1]
-  (msg, Can not Home with a Tool in the Spindle!)
-  M2
-o<chk_for_tool> endif
+
 M73
 G17 G08 G15 G90 G91.1 G90.2 G94
 M50P0
