@@ -10,7 +10,7 @@ o<chk> if [[#<_probe_use_tooltable> GT 0] AND [#<_tool_isprobe_num|#<_current_to
 o<chk> endif
 (dlgname,Measure Hole)
 (dlg,data::MeasureHole, typ=image, x=80)
-(dlg,Vertical Retract distance, x=50,  dec=2, def='setunit(0, 0.5);', min=0.0, max=10000, setunits, def=#<_probe_swdist>, store, param=_K_return)
+(dlg,X/Y Retract distance, x=50,  dec=2, def='setunit(0, 0.5);', min=0.0, max=10000, setunits, def=#<_probe_swdist>, store, param=_K_return)
 (dlg,Set X/Y to 0, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_origin>,  param=_probeing_center_set_origin)
 
 (dlgshow)
