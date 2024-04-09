@@ -7,7 +7,7 @@
 
 #<tc_clamp_open_pin> = 8
 #<tc_tool_in_spindle_pin> = 7
-
+#<wls_clean_pin> = 5
 #<kms_3d_probe_pin>=1
 
 O<PlanetCNC> if[[#<_tc_toolmeasure>] AND [#<_probe_pin_1> EQ 0] AND [#<_probe_pin_2> EQ 0]]
@@ -28,13 +28,7 @@ M11P1
 O<chmagcl>if [#<_input_num|4> EQ 1]
   (msg,Magazin seems to be open, is this correct?)
 O<chmagcl>endif
-;Open Magazin
-M62 P3 Q1
-G04 P1.5
-G9
-O<chmagco>if [#<_input_num|4> EQ 0]
-  (msg,Magazin did not open correctly)
-O<chmagco>endif
+
 
 O<en> if [ACTIVE[] AND #<_tc_enable>]
   (print,Toolchange)
@@ -51,6 +45,14 @@ O<en> if [ACTIVE[] AND #<_tc_enable>]
   O<st> if [#<_tc_skipsame> AND [#<_current_tool> EQ #<_selected_tool>]]
     (print,  Skip same tool)
   O<st> else
+    ;Open Magazin
+    M62 P3 Q1
+    G04 P1.5
+    G9
+    O<chmagco>if [#<_input_num|4> EQ 0]
+      (msg,Magazin did not open correctly)
+    O<chmagco>endif
+
     O<sh> if [#<_tc_safeheight_en>]
     (print,  Move to safe height)
       G53 G00 Z#<_tc_safeheight>
@@ -365,17 +367,17 @@ O<ProbeCheck> if [[#<_tool_isprobe_num|#<_current_tool>>] EQ 1]
 
       M11P0
       ;clean WLS wit air from out 7
-      M62 P7 Q1
+      M62 P#<wls_clean_pin> Q1
       G04 P1 
       G9
-      M62 P7 Q0
+      M62 P#<wls_clean_pin> Q0
       G53 G38.2 Z-100000 F#<_tooloff_speed>
       G91 G53 G01 Z[+#<_tooloff_swdist>]
       o<low> if [#<_tooloff_speed_low> GT 0]
-        M62 P7 Q1
+        M62 P#<wls_clean_pin> Q1
         G04 P0.5
         G9
-        M62 P7 Q0
+        M62 P#<wls_clean_pin> Q0
         G90 G53 G38.2 Z-100000 F#<_tooloff_speed_low>
         G91 G53 G01 Z[+#<_tooloff_swdist>] F#<_tooloff_speed>
         
@@ -427,5 +429,4 @@ O<en> endif
 
 ;Close Magazin
 M62 P3 Q0
-G04 P1
 G9

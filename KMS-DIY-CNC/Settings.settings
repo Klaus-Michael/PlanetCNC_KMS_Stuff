@@ -6,22 +6,22 @@
   <serial>13954</serial>
   <controllerCode>CUC2FM0YRW0V5S4V30460M7DZ300D</controllerCode>
   <computerCode>KUKC5GB1HPXHPN8S4H3HDKFJ5H0B3</computerCode>
-  <applicatonStart>2023/07/21 09:58:32</applicatonStart>
-  <applicatonEnd>2023/07/21 16:06:38</applicatonEnd>
+  <applicatonStart>2024/04/07 10:19:27</applicatonStart>
+  <applicatonEnd>2024/04/07 12:44:32</applicatonEnd>
   <os>Linux (64 bit)</os>
   <cpu>GenuineIntel (2/4)</cpu>
-  <mem>7852</mem>
+  <mem>7836</mem>
   <gfx>Intel;Mesa Intel(R) HD Graphics 4400;4.6 (Compatibility Profile) Me</gfx>
   <commCnt>0</commCnt>
   <commSd>0</commSd>
   <commRd>0</commRd>
   <commErr>0</commErr>
   <commDpl>0</commDpl>
-  <cnt>662</cnt>
-  <tim>84011</tim>
+  <cnt>713</cnt>
+  <tim>89125</tim>
   <lang></lang>
   <codepage>0</codepage>
-  <fileLastOpen>//CAM/000-Mill-Code/Front Cover OP21.ngc</fileLastOpen>
+  <fileLastOpen>//CAM/000-Mill-Code/Blade Holder Lock Plate OP25.ngc</fileLastOpen>
   <fileRecentSize>30</fileRecentSize>
   <fileRecentCount>30</fileRecentCount>
   <speedTraverseOverride>1.00000000000000000000</speedTraverseOverride>
@@ -73,7 +73,7 @@
   <displaySetY>524</displaySetY>
   <displaySetW>790</displaySetW>
   <displaySetH>750</displaySetH>
-  <displayEditX>1377</displayEditX>
+  <displayEditX>1223</displayEditX>
   <displayEditY>669</displayEditY>
   <displayEditW>1023</displayEditW>
   <displayEditH>821</displayEditH>
@@ -135,12 +135,12 @@
   <displayStateTabScroll28>0</displayStateTabScroll28>
   <displayStateTabScroll29>0</displayStateTabScroll29>
   <displayMidTab>0</displayMidTab>
-  <display3DPanX>0.00000152587892898737</display3DPanX>
-  <display3DPanY>-28.84997558593750000000</display3DPanY>
+  <display3DPanX>1.78999865055084228516</display3DPanX>
+  <display3DPanY>0.00001414843791280800</display3DPanY>
   <display3DAngleX>0.00000000000000000000</display3DAngleX>
   <display3DAngleY>0.00000000000000000000</display3DAngleY>
   <display3DAngleZ>0.00000000000000000000</display3DAngleZ>
-  <display3DFieldOfView>0.01103991549462080002</display3DFieldOfView>
+  <display3DFieldOfView>0.02660483308136463165</display3DFieldOfView>
   <displayFollowPosition>0</displayFollowPosition>
   <displayPosition>1</displayPosition>
   <displayGrid>1</displayGrid>
@@ -162,7 +162,7 @@
   <singleStepEnabled>0</singleStepEnabled>
   <pauseOptionalEnabled>0</pauseOptionalEnabled>
   <softLimitsIgnore>0</softLimitsIgnore>
-  <settingsPageNumber>34</settingsPageNumber>
+  <settingsPageNumber>36</settingsPageNumber>
   <description></description>
   <units>0</units>
   <machineType>1</machineType>
@@ -1014,87 +1014,87 @@
   <exportCSV_SkipUnusedValue>1</exportCSV_SkipUnusedValue>
   <exportCSV_SkipSameValue>0</exportCSV_SkipSameValue>
   <mdiHistoryCount>50</mdiHistoryCount>
-  <fileRecent0>//CAM/000-Mill-Code/Front Cover OP21.ngc</fileRecent0>
-  <mdiHistory0>G0Z20.3</mdiHistory0>
-  <mdiHistory1>S24000</mdiHistory1>
-  <mdiHistory2>S12000</mdiHistory2>
-  <mdiHistory3>S6000</mdiHistory3>
-  <mdiHistory4>T211M6</mdiHistory4>
-  <mdiHistory5>S20000</mdiHistory5>
-  <mdiHistory6>S18000</mdiHistory6>
-  <mdiHistory7>S12000</mdiHistory7>
+  <fileRecent0>//CAM/000-Mill-Code/Blade Holder Lock Plate OP25.ngc</fileRecent0>
+  <mdiHistory0>G4 P1</mdiHistory0>
+  <mdiHistory1>S12000</mdiHistory1>
+  <mdiHistory2>T70M6</mdiHistory2>
+  <mdiHistory3>S20000</mdiHistory3>
+  <mdiHistory4>T1M6</mdiHistory4>
+  <mdiHistory5>T70M6</mdiHistory5>
+  <mdiHistory6>S20000</mdiHistory6>
+  <mdiHistory7>G0Z0</mdiHistory7>
   <mdiHistory8>T211M6</mdiHistory8>
-  <mdiHistory9>T12M6</mdiHistory9>
-  <mdiHistory10>T187M6</mdiHistory10>
-  <mdiHistory11>T187</mdiHistory11>
+  <mdiHistory9>S6000</mdiHistory9>
+  <mdiHistory10>S20000</mdiHistory10>
+  <mdiHistory11>S12000</mdiHistory11>
   <mdiHistory12>G0Z0</mdiHistory12>
-  <mdiHistory13>S24000</mdiHistory13>
-  <mdiHistory14>S12000</mdiHistory14>
-  <mdiHistory15>G0B0</mdiHistory15>
-  <mdiHistory16>G0B90</mdiHistory16>
-  <mdiHistory17>G0B180</mdiHistory17>
-  <mdiHistory18>T188M6</mdiHistory18>
-  <mdiHistory19>G0 X 300</mdiHistory19>
-  <mdiHistory20>G1 X0 F60</mdiHistory20>
-  <mdiHistory21>G1 X0 F200</mdiHistory21>
-  <mdiHistory22>G1X0F8000</mdiHistory22>
-  <mdiHistory23>G1X200F5000</mdiHistory23>
-  <mdiHistory24>T211M6</mdiHistory24>
-  <mdiHistory25>G1 Y200 F12000</mdiHistory25>
-  <mdiHistory26>G1 Y000 F11000</mdiHistory26>
-  <mdiHistory27>G1 Y200 F10000</mdiHistory27>
-  <mdiHistory28>G1 Y000 F9000</mdiHistory28>
-  <mdiHistory29>G1 Y200 F8000</mdiHistory29>
-  <mdiHistory30>G1 Y000 F7000</mdiHistory30>
-  <mdiHistory31>G1 Y200 F6000</mdiHistory31>
-  <mdiHistory32>G0Z9.9</mdiHistory32>
-  <mdiHistory33>G0Z9.95</mdiHistory33>
-  <mdiHistory34>G0Z10</mdiHistory34>
-  <mdiHistory35>T187M6</mdiHistory35>
-  <mdiHistory36>T187</mdiHistory36>
-  <mdiHistory37>S12000</mdiHistory37>
-  <fileRecent1>//CAM/000-Mill-Code/Front Cover Soft Yaw OP10.ngc</fileRecent1>
-  <mdiHistory38>G0X-5Y-5</mdiHistory38>
-  <mdiHistory39>S24000</mdiHistory39>
-  <fileRecent2>//CAM/000-Mill-Code/Front Cover OP20.ngc</fileRecent2>
-  <mdiHistory40>T187M6</mdiHistory40>
-  <fileRecent3>//CAM/000-Mill-Code/Front Cover OP10.ngc</fileRecent3>
-  <fileRecent4>//CAM/000-Mill-Code/Back Motormounts OP31.ngc</fileRecent4>
-  <fileRecent5>//CAM/000-Mill-Code/Tension arm OP10.ngc</fileRecent5>
-  <fileRecent6>//CAM/000-Mill-Code/1001.ngc</fileRecent6>
-  <mdiHistory41>T211M6</mdiHistory41>
-  <mdiHistory42>S6000</mdiHistory42>
-  <mdiHistory43>G0Y0</mdiHistory43>
-  <mdiHistory44>G0X0</mdiHistory44>
-  <mdiHistory45>T47M6</mdiHistory45>
+  <mdiHistory13>S6000</mdiHistory13>
+  <mdiHistory14>T211M6</mdiHistory14>
+  <mdiHistory15>S12000</mdiHistory15>
+  <mdiHistory16>S24000</mdiHistory16>
+  <mdiHistory17>T188M6</mdiHistory17>
+  <mdiHistory18>T172M6</mdiHistory18>
+  <mdiHistory19>T211M6</mdiHistory19>
+  <mdiHistory20>T187M6</mdiHistory20>
+  <mdiHistory21>S12000</mdiHistory21>
+  <mdiHistory22>S24000</mdiHistory22>
+  <mdiHistory23>T195M6</mdiHistory23>
+  <mdiHistory24>T20M6</mdiHistory24>
+  <mdiHistory25>T31M6</mdiHistory25>
+  <mdiHistory26>T82M6</mdiHistory26>
+  <mdiHistory27>T74M6</mdiHistory27>
+  <mdiHistory28>G53G0X375</mdiHistory28>
+  <mdiHistory29>G53G0X450</mdiHistory29>
+  <mdiHistory30>G53G1Y6F500</mdiHistory30>
+  <mdiHistory31>G53G0X300</mdiHistory31>
+  <mdiHistory32>G0X300</mdiHistory32>
+  <mdiHistory33>G53 G1 X225 Z-78.5 F1000</mdiHistory33>
+  <mdiHistory34>T20M6</mdiHistory34>
+  <mdiHistory35>G53 G1 X0 Z-78.5 F1000</mdiHistory35>
+  <mdiHistory36>G53 G1 X75 Z-78.8 F1000</mdiHistory36>
+  <mdiHistory37>T0M6</mdiHistory37>
+  <fileRecent1>//CAM/000-Mill-Code/Blade Holder recut OP40.ngc</fileRecent1>
+  <mdiHistory38>G53 G1 X150 Z-79 F200</mdiHistory38>
+  <mdiHistory39>S12000</mdiHistory39>
+  <fileRecent2>//CAM/000-Mill-Code/Blade Holder Dual OP20.ngc</fileRecent2>
+  <mdiHistory40>T82M6</mdiHistory40>
+  <fileRecent3>//CAM/000-Mill-Code/Blade HolderDual OP10.ngc</fileRecent3>
+  <fileRecent4>//CAM/000-Mill-Code/Blade Holder recut OP30.ngc</fileRecent4>
+  <fileRecent5>//CAM/000-Mill-Code/Handles OP20.ngc</fileRecent5>
+  <fileRecent6>//CAM/000-Mill-Code/Handles OP11 G55.ngc</fileRecent6>
+  <mdiHistory41>S18000</mdiHistory41>
+  <mdiHistory42>S24000</mdiHistory42>
+  <mdiHistory43>S16000</mdiHistory43>
+  <mdiHistory44>T42M6</mdiHistory44>
+  <mdiHistory45>S24000</mdiHistory45>
   <mdiHistory46>S12000</mdiHistory46>
-  <mdiHistory47>T211M6</mdiHistory47>
-  <mdiHistory48>T193M6</mdiHistory48>
-  <mdiHistory49>G0Z0</mdiHistory49>
-  <fileRecent7>//CAM/000-Mill-Code/Tensioner Spannblcok.ngc</fileRecent7>
-  <fileRecent8>//CAM/000-Mill-Code/Front Motormounts OP21.ngc</fileRecent8>
-  <fileRecent9>//CAM/000-Mill-Code/Front Motormounts OP20.ngc</fileRecent9>
-  <fileRecent10>//CAM/000-Mill-Code/Front Motormounts OP10.ngc</fileRecent10>
-  <fileRecent11>//CAM/000-Mill-Code/Back Extrusion OP10.ngc</fileRecent11>
-  <fileRecent12>//CAM/000-Mill-Code/Back Motormounts OP30.ngc</fileRecent12>
-  <fileRecent13>//CAM/000-Mill-Code/Large Motormounts OP30.ngc</fileRecent13>
-  <fileRecent14>//CAM/000-Mill-Code/Motor Mounts OP21.ngc</fileRecent14>
-  <fileRecent15>//CAM/000-Mill-Code/Motor Mounts op20.ngc</fileRecent15>
-  <fileRecent16>//CAM/000-Mill-Code/Motor Mounts OP10.ngc</fileRecent16>
-  <fileRecent17>//CAM/000-Mill-Code/Becherhalter_V.34.ngc</fileRecent17>
-  <fileRecent18>//CAM/000-Mill-Code/Becherhalter_V.2.5-Taschen.ngc</fileRecent18>
-  <fileRecent19>//CAM/000-Mill-Code/back plate OP11.ngc</fileRecent19>
-  <fileRecent20>//CAM/000-Mill-Code/back plate OP10.ngc</fileRecent20>
-  <fileRecent21>//CAM/000-Mill-Code/Main Body OP30.ngc</fileRecent21>
-  <fileRecent22>//CAM/000-Mill-Code/Main Body OP20.ngc</fileRecent22>
-  <fileRecent23>//CAM/000-Mill-Code/Main Body OP11.ngc</fileRecent23>
+  <mdiHistory47>T12M6</mdiHistory47>
+  <mdiHistory48>G0Z18</mdiHistory48>
+  <mdiHistory49>T187M6</mdiHistory49>
+  <fileRecent7>//CAM/000-Mill-Code/Handles OP11 Gravir G54.ngc</fileRecent7>
+  <fileRecent8>//CAM/000-Mill-Code/Handles OP10 G54 G55.ngc</fileRecent8>
+  <fileRecent9>//CAM/000-Mill-Code/Blade Holder OP20.ngc</fileRecent9>
+  <fileRecent10>//CAM/000-Mill-Code/Handles OP15.ngc</fileRecent10>
+  <fileRecent11>//CAM/000-Mill-Code/Blade Holder OP10.ngc</fileRecent11>
+  <fileRecent12>//CAM/000-Mill-Code/Handles OP10.ngc</fileRecent12>
+  <fileRecent13>//CAM/000-Mill-Code/Inlay Lid OP10.ngc</fileRecent13>
+  <fileRecent14>//CAM/000-Mill-Code/Inlay BottomOP10.ngc</fileRecent14>
+  <fileRecent15>//CAM/000-Mill-Code/1001.ngc</fileRecent15>
+  <fileRecent16>//CAM/000-Mill-Code/Blade Holder Lock Plate OP20.ngc</fileRecent16>
+  <fileRecent17>//CAM/000-Mill-Code/face.ngc</fileRecent17>
+  <fileRecent18>//CAM/000-Mill-Code/Blade Holder Lock Plate Dual OP10 - 9 - 10.ngc</fileRecent18>
+  <fileRecent19>//CAM/000-Mill-Code/lockchamfer.ngc</fileRecent19>
+  <fileRecent20>//CAM/000-Mill-Code/gravur.ngc</fileRecent20>
+  <fileRecent21>//CAM/000-Mill-Code/Blade Holder Lock Plate Dual OP10 - 7 - 8.ngc</fileRecent21>
+  <fileRecent22>//CAM/000-Mill-Code/Blade Holder Lock Plate Dual OP10.ngc</fileRecent22>
+  <fileRecent23>//CAM/000-Mill-Code/Blade Holder Lock Plate OP10.ngc</fileRecent23>
   <programUseEWord>0</programUseEWord>
-  <fileRecent24>//CAM/000-Mill-Code/Main Body OP10.ngc</fileRecent24>
-  <fileRecent25>//CAM/000-Mill-Code/Schild Schneider.ngc</fileRecent25>
-  <fileRecent26>//CAM/000-Mill-Code/Recut Mark chamfer.ngc</fileRecent26>
-  <fileRecent27>//CAM/000-Mill-Code/Recut Mark.ngc</fileRecent27>
-  <fileRecent28>//CAM/000-Mill-Code/Schild Helga 1.ngc</fileRecent28>
-  <fileRecent29>//CAM/000-Mill-Code/X Motor Mount Part A OP40.ngc</fileRecent29>
+  <fileRecent24>//CAM/000-Mill-Code/Blade Holder OP21 face only.ngc</fileRecent24>
+  <fileRecent25>//CAM/000-Mill-Code/Handles OP11.ngc</fileRecent25>
+  <fileRecent26>//CAM/000-Mill-Code/Blade Holder Dual OP10.ngc</fileRecent26>
+  <fileRecent27>//CAM/000-Mill-Code/Insekten Hotel.ngc</fileRecent27>
+  <fileRecent28>//CAM/000-Mill-Code/chamfer.ngc</fileRecent28>
+  <fileRecent29>//CAM/000-Mill-Code/Insektehotel.ngc</fileRecent29>
   <ui3DAxisThickness>1.19999999999999995559</ui3DAxisThickness>
   <importCAD_SortReverseShapes>1</importCAD_SortReverseShapes>
   <importCAD_ProcessShapes>0</importCAD_ProcessShapes>
@@ -1150,7 +1150,7 @@
   <audioIn></audioIn>
   <audioOut></audioOut>
   <midiInDbg>0</midiInDbg>
-  <memused>123</memused>
+  <memused>129</memused>
   <memusedmax>141</memusedmax>
   <uiFontScale>1.00000000000000000000</uiFontScale>
   <ui3DColorAxisX>0xffff0000</ui3DColorAxisX>

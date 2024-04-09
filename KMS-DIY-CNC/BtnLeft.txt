@@ -7,6 +7,7 @@ cmd: "Machine.Move.Axis_To_Zero.XY" image="ownicons/xy.svg" imagechange="True"
 cmd: "Machine.Coordinate_System.Axis_To_Zero.Z" image="ownicons/tozero.svg" imagechange="True" 
 cmd: "Machine.Coordinate_System.Axis_To_Zero.XY" image="ownicons/toxy.svg" imagechange="True"  
 ---
+cmd: "Machine.Tools.Measure_Current_Tool" "Tool Length" imagechange="true" stroke=1.1
 cmd: "Machine.Coordinate_System.Measure_Height" image="ownicons/zheight.svg" imagechange="True" 
 ---
 expr: "startcode('T255 M6')" "Probe Long" image="ownicons/probe_long.svg"  imagechange="True"

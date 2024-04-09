@@ -15,37 +15,37 @@
 
 #<ATC_Pocket_X_0> = 0
 #<ATC_Pocket_Y_0> = 7
-#<ATC_Pocket_Z_0> = -73
-#<ATC_Pocket_Type_0> = 1
+#<ATC_Pocket_Z_0> = -78.5
+#<ATC_Pocket_Type_0> = 2
 
 #<ATC_Pocket_X_1> = 75
-#<ATC_Pocket_Y_1> = 7
-#<ATC_Pocket_Z_1> = -73
-#<ATC_Pocket_Type_1> = 1
+#<ATC_Pocket_Y_1> = 8
+#<ATC_Pocket_Z_1> = -78.5
+#<ATC_Pocket_Type_1> = 2
 
 #<ATC_Pocket_X_2> = 150
-#<ATC_Pocket_Y_2> = 7
-#<ATC_Pocket_Z_2> = -73
-#<ATC_Pocket_Type_2> = 1
+#<ATC_Pocket_Y_2> = 7.9
+#<ATC_Pocket_Z_2> = -78.5
+#<ATC_Pocket_Type_2> = 2
 
 #<ATC_Pocket_X_3> = 225
-#<ATC_Pocket_Y_3> = 9
-#<ATC_Pocket_Z_3> = -79
+#<ATC_Pocket_Y_3> = 8
+#<ATC_Pocket_Z_3> = -78.5
 #<ATC_Pocket_Type_3> = 2
 
 #<ATC_Pocket_X_4> = 300
-#<ATC_Pocket_Y_4> = 9
-#<ATC_Pocket_Z_4> = -79
+#<ATC_Pocket_Y_4> = 5
+#<ATC_Pocket_Z_4> = -78.5
 #<ATC_Pocket_Type_4> = 2
 
 #<ATC_Pocket_X_5> = 375
-#<ATC_Pocket_Y_5> = 9
+#<ATC_Pocket_Y_5> = 5.5
 #<ATC_Pocket_Z_5> = -79
 #<ATC_Pocket_Type_5> = 2
 
 #<ATC_Pocket_X_6> = 450
-#<ATC_Pocket_Y_6> = 9
-#<ATC_Pocket_Z_6> = -79
+#<ATC_Pocket_Y_6> = 6
+#<ATC_Pocket_Z_6> = -78.5
 #<ATC_Pocket_Type_6> = 2
 
 #<ATC_Pocket_X_7> = 0
