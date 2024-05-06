@@ -58,6 +58,52 @@ O<en> if [ACTIVE[] AND #<_tc_enable>]
       G53 G00 Z#<_tc_safeheight>
     O<sh> endif
 
+  O<toolbreakdetect> if [[#<_kms_tool_break_detect> EQ 1] AND [#<_tool_skipmeasure_num|#<_current_tool>> EQ 0] AND [#<_current_tool> GT 0] AND [#<_input_num|#<tc_tool_in_spindle_pin>> EQ 1]]
+    (print,  Tool Break detect active)
+    #<sox> = [DEF[#<_tool_so_x_num|#<_current_tool>>,0]]
+    #<soy> = [DEF[#<_tool_so_y_num|#<_current_tool>>,0]]
+    #<soz> = [DEF[#<_tool_so_z_num|#<_current_tool>>,0]]
+    G53 G00 Z#<_tooloff_safeheight>
+    G53 G00 X[#<_tooloff_sensorx> - #<sox>] 
+    G53 G00 Y[#<_tooloff_sensory> - #<soy>]
+    o<fastmove>if[#<_tool_off_z_num|#<_current_tool>> gt 0]
+        #<fast_z_target> = [#<_tooloff_sensorz> + #<_tool_off_z_num|#<_current_tool>> + 10]        
+        o<fastmove3>if[#<fast_z_target> lt 0]
+          (print,  old tool lentgh greater 0, move down fast to G53 Z #<fast_z_target>)
+          G90 G53 G38.3 Z#<fast_z_target>  F5000
+        o<fastmove3>endif     
+    o<fastmove>endif
+    M11P0
+    ;clean WLS with air from out 7
+    M62 P#<wls_clean_pin> Q1
+    G04 P1 
+    G9
+    M62 P#<wls_clean_pin> Q0
+    G53 G38.2 Z-100000 F#<_tooloff_speed>
+    G91 G53 G01 Z[+#<_tooloff_swdist>]
+    o<low> if [#<_tooloff_speed_low> GT 0]
+      M62 P#<wls_clean_pin> Q1
+      G04 P0.5
+      G9
+      M62 P#<wls_clean_pin> Q0
+      G90 G53 G38.2 Z-100000 F#<_tooloff_speed_low>
+      G91 G53 G01 Z[+#<_tooloff_swdist>] F#<_tooloff_speed>      
+    o<low> endif
+    M11P1 G90
+    G53 G00 Z#<_tooloff_safeheight>
+    o<chk> if[ACTIVE[] AND NOTEXISTS[#<_probe_z>]]
+      (msg,Measuring failed)
+      M2
+    o<chk> endif
+    #<off_check> = [#<_probe_z> - #<_tooloff_sensorz> - #<soz>]
+    #<off_diff_check>= [#<_tool_off_z_num|#<_current_tool>> - #<off_check>] 
+    (print,  diff #<off_diff_check>, new Z#<off_check> , old #<_tool_off_z_num|#<_current_tool>>)
+      
+    O<toolbreakdetect2> if [[#<off_diff_check> LT -0.5] OR [#<off_diff_check> GT 0.5]]
+      (msg, Tool Length deviation too big! Check tool!)
+    O<toolbreakdetect2> endif
+  O<toolbreakdetect> endif
+
 O<noatcen> if [#<_tc_atc_en> EQ 0]
 (print,  ATC disabled)
 
@@ -102,9 +148,13 @@ O<noatcen> endif
      O<ubload> if [#<_current_tool> GT 0]
         ;check if current tool is in magazine, if not manual change
       O<un_manual> if [#<_tool_tc_x_num|#<_current_tool>> EQ 0 AND #<_tool_tc_y_num|#<_current_tool>> EQ 0 ]
-          G53 G00 Z#<_tc_safeheight>
-          G53 G00 X#<_tc_pos_x> Y#<_tc_pos_y>
-          (msg, remove current tool #<_current_tool,0> $<tool_name|#<_current_tool>> check if new tool #<_selected_tool,0>  $<tool_name|#<_selected_tool>> is manual as well)
+        G53 G00 Z#<_tc_safeheight>
+        G53 G00 X#<_tc_pos_x> Y#<_tc_pos_y>
+        O<un_next_manual> if [#<_tool_tc_x_num|#<_selected_tool>> EQ 0 AND #<_tool_tc_y_num|#<_selected_tool>> EQ 0 ]          
+          (msg, remove current tool #<_current_tool,0> $<tool_name|#<_current_tool>> new tool #<_selected_tool,0>  $<tool_name|#<_selected_tool>> is manual as well)
+        O<un_next_manual> else
+          (msg, remove current tool #<_current_tool,0> $<tool_name|#<_current_tool>>)
+        o<un_next_manual> endif
       O<un_manual> else
         (print,  Move tool #<_selected_tool,0> to magazine)
         ;get the unload position for the current tool
@@ -223,7 +273,20 @@ O<noatcen> endif
         O<ld_manual> if [#<_tool_tc_x_num|#<_selected_tool>> EQ 0 AND #<_tool_tc_y_num|#<_selected_tool>> EQ 0 ]
           G53 G00 Z#<_tc_safeheight>
           G53 G00 X#<_tc_pos_x> Y#<_tc_pos_y>
-        (msg, insert new tool #<_selected_tool,0> $<tool_name|#<_selected_tool>>)
+          (msg, insert new tool #<_selected_tool,0> $<tool_name|#<_selected_tool>>)
+          #<spindle_try>=0
+          O<checkfortool> while [[#<_input_num|#<tc_tool_in_spindle_pin>> EQ 0] AND [#<spindle_try> LT 5]]
+            #<spindle_try> = [#<spindle_try> +1]
+            (msg, no tool in spindle insert new tool #<_selected_tool,0> $<tool_name|#<_selected_tool>>)
+          O<checkfortool> endwhile
+
+          o<chk_for_tool_tl> if [#<_input_num|#<tc_tool_in_spindle_pin>> EQ 0]
+            (msg, no tool in spindle ABORTING!)
+            #<_current_tool>=0
+            #<_selected_tool>=0
+            m6
+            M2
+          o<chk_for_tool_tl> endif
         O<ld_manual> else
           (print,  Load tool #<_selected_tool,0> from magazine)
           #<ldposx> = #<_tool_tc_x_num|#<_selected_tool>>
@@ -347,6 +410,7 @@ O<ProbeCheck> if [[#<_tool_isprobe_num|#<_current_tool>>] EQ 1]
     (tool length measurement)
     O<tm> if [[#<_tc_toolmeasure> GT 0] AND [#<_tool_skipmeasure_num|#<_current_tool>> EQ 0]]
       G09
+
       (print,  Measure tool)
       #<sox> = [DEF[#<_tool_so_x_num|#<_current_tool>>,0]]
       #<soy> = [DEF[#<_tool_so_y_num|#<_current_tool>>,0]]
@@ -358,7 +422,7 @@ O<ProbeCheck> if [[#<_tool_isprobe_num|#<_current_tool>>] EQ 1]
       G53 G00 Z#<_tooloff_rapidheight>
 
       o<fastmove>if[#<_tool_off_z_num|#<_current_tool>> gt 0]
-          #<fast_z_target> = [#<_tooloff_sensorz> + #<_tool_off_z_num|#<_current_tool>> + 50]        
+          #<fast_z_target> = [#<_tooloff_sensorz> + #<_tool_off_z_num|#<_current_tool>> + 20]        
           o<fastmove3>if[#<fast_z_target> lt 0]
             (print,  old tool lentgh greater 0, move down fast to G53 Z #<fast_z_target>)
             G90 G53 G38.3 Z#<fast_z_target>  F5000

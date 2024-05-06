@@ -19,5 +19,6 @@ cmd: "Machine.User_Commands.UserCommand_6" "ATC" imagechange="true" stroke=1.1
 cmd: "Machine.Outputs.Output_3" "MAG Open" updatefast="true" imagechange="True"
 ---
 ---
+expr: "if(_kms_tool_break_detect==1,_kms_tool_break_detect=0,_kms_tool_break_detect=1)" "Break Detect"  updown="_kms_tool_break_detect == 1" update="true" tooltip="MyButton"
 ---
 cmd: "Machine.User_Commands.UserCommand_2" "Warmup" imagechange="true" stroke=1.1
