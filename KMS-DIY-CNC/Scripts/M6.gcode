@@ -58,7 +58,7 @@ O<en> if [ACTIVE[] AND #<_tc_enable>]
       G53 G00 Z#<_tc_safeheight>
     O<sh> endif
 
-  O<toolbreakdetect> if [[#<_kms_tool_break_detect> EQ 1] AND [#<_tool_skipmeasure_num|#<_current_tool>> EQ 0] AND [#<_current_tool> GT 0] AND [#<_input_num|#<tc_tool_in_spindle_pin>> EQ 1]]
+  O<toolbreakdetect> if [[#<_kms_tool_break_detect> EQ 1] AND [#<_tool_skipmeasure_num|#<_current_tool>> EQ 0] AND [#<_current_tool> GT 0] AND [#<_input_num|#<tc_tool_in_spindle_pin>> EQ 1] AND [#<_tool_tc_y_num|#<_current_tool>> NE 0]]
     (print,  Tool Break detect active)
     #<sox> = [DEF[#<_tool_so_x_num|#<_current_tool>>,0]]
     #<soy> = [DEF[#<_tool_so_y_num|#<_current_tool>>,0]]
@@ -156,7 +156,7 @@ O<noatcen> endif
           (msg, remove current tool #<_current_tool,0> $<tool_name|#<_current_tool>>)
         o<un_next_manual> endif
       O<un_manual> else
-        (print,  Move tool #<_selected_tool,0> to magazine)
+        (print,  Move tool #<_current_tool,0> to magazine)
         ;get the unload position for the current tool
         #<unposx> = #<_tool_tc_x_num|#<_current_tool>>
         #<unposy> = #<_tool_tc_y_num|#<_current_tool>>
