@@ -31,7 +31,7 @@ O<chmagcl>endif
 
 
 O<en> if [ACTIVE[] AND #<_tc_enable>]
-  (print,Toolchange)
+  (print,Toolchange from #<_current_tool> to #<_selected_tool>)
   #<toisset>=0
   #<wstartx> = #<_x>
   #<wstarty> = #<_y>
@@ -54,22 +54,24 @@ O<en> if [ACTIVE[] AND #<_tc_enable>]
     O<chmagco>endif
 
     O<sh> if [#<_tc_safeheight_en>]
-    (print,  Move to safe height)
+;    (print,  Move to safe height)
       G53 G00 Z#<_tc_safeheight>
     O<sh> endif
 
-  O<toolbreakdetect> if [[#<_kms_tool_break_detect> EQ 1] AND [#<_tool_skipmeasure_num|#<_current_tool>> EQ 0] AND [#<_current_tool> GT 0] AND [#<_input_num|#<tc_tool_in_spindle_pin>> EQ 1] AND [#<_tool_tc_y_num|#<_current_tool>> NE 0]]
-    (print,  Tool Break detect active)
+
     #<sox> = [DEF[#<_tool_so_x_num|#<_current_tool>>,0]]
     #<soy> = [DEF[#<_tool_so_y_num|#<_current_tool>>,0]]
     #<soz> = [DEF[#<_tool_so_z_num|#<_current_tool>>,0]]
+  O<toolbreakdetect> if [[#<_kms_tool_break_detect> EQ 1] AND [#<_tool_skipmeasure_num|#<_current_tool>> EQ 0] AND [#<_current_tool> GT 0] AND [#<_input_num|#<tc_tool_in_spindle_pin>> EQ 1] AND [#<_tool_tc_y_num|#<_current_tool>> NE 0] AND [#<sox> EQ 0] AND [#<soy> EQ 0]]
+ ;   (print,  Tool Break detect active)
+
     G53 G00 Z#<_tooloff_safeheight>
     G53 G00 X[#<_tooloff_sensorx> - #<sox>] 
     G53 G00 Y[#<_tooloff_sensory> - #<soy>]
     o<fastmove>if[#<_tool_off_z_num|#<_current_tool>> gt 0]
         #<fast_z_target> = [#<_tooloff_sensorz> + #<_tool_off_z_num|#<_current_tool>> + 10]        
         o<fastmove3>if[#<fast_z_target> lt 0]
-          (print,  old tool lentgh greater 0, move down fast to G53 Z #<fast_z_target>)
+ ;         (print,  old tool lentgh greater 0, move down fast to G53 Z #<fast_z_target>)
           G90 G53 G38.3 Z#<fast_z_target>  F5000
         o<fastmove3>endif     
     o<fastmove>endif
@@ -96,8 +98,8 @@ O<en> if [ACTIVE[] AND #<_tc_enable>]
       M2
     o<chk> endif
     #<off_check> = [#<_probe_z> - #<_tooloff_sensorz> - #<soz>]
-    #<off_diff_check>= [#<_tool_off_z_num|#<_current_tool>> - #<off_check>] 
-    (print,  diff #<off_diff_check>, new Z#<off_check> , old #<_tool_off_z_num|#<_current_tool>>)
+    #<off_diff_check>= [ #<off_check>-#<_tool_off_z_num|#<_current_tool>>] 
+    (print,T#<_current_tool> diff #<off_diff_check>, new Z#<off_check> , old #<_tool_off_z_num|#<_current_tool>> during break detect)
       
     O<toolbreakdetect2> if [[#<off_diff_check> LT -0.5] OR [#<off_diff_check> GT 0.5]]
       (msg, Tool Length deviation too big! Check tool!)
@@ -144,7 +146,7 @@ O<noatcen> if [#<_tc_atc_en> EQ 0]
       G09
 O<noatcen> endif
     O<atcen> if [#<_tc_atc_en>]
-      (print,  ATC enabled)
+;      (print,  ATC enabled)
      O<ubload> if [#<_current_tool> GT 0]
         ;check if current tool is in magazine, if not manual change
       O<un_manual> if [#<_tool_tc_x_num|#<_current_tool>> EQ 0 AND #<_tool_tc_y_num|#<_current_tool>> EQ 0 ]
@@ -156,7 +158,7 @@ O<noatcen> endif
           (msg, remove current tool #<_current_tool,0> $<tool_name|#<_current_tool>>)
         o<un_next_manual> endif
       O<un_manual> else
-        (print,  Move tool #<_current_tool,0> to magazine)
+;        (print,  Move tool #<_current_tool,0> to magazine)
         ;get the unload position for the current tool
         #<unposx> = #<_tool_tc_x_num|#<_current_tool>>
         #<unposy> = #<_tool_tc_y_num|#<_current_tool>>
@@ -164,7 +166,7 @@ O<noatcen> endif
         #<pocket_type> = #<_tool_par6_num|#<_current_tool>>
         O<poket_type>if [#<pocket_type>  EQ 1]
           ;poket type 1 is top load
-          (print,  #<_selected_tool,0> needs to be top loaded)
+;          (print,  #<_selected_tool,0> needs to be top loaded)
           ;calcualte the start unload position
           #<unposx_start> = [	#<unposx>]
           #<unposy_start> = [#<unposy> + #<unposy_start_offset>]
@@ -185,7 +187,7 @@ O<noatcen> endif
           G53 G1 Y#<unposy> F4000
           G53 G0 Z#<unposz_start>
           G53 G1 Z#<unposz> F2000
-          (print, arrived at position, opening clamp)
+ ;         (print, arrived at position, opening clamp)
           M62 P2 Q1
           G04 P1
           G9
@@ -205,7 +207,7 @@ O<noatcen> endif
           G9
         O<poket_type> elseif  [#<pocket_type>  EQ 2]
           ;poket type 2 is front load
-          (print,  #<_selected_tool,0> needs to be top loaded)
+;          (print,  #<_selected_tool,0> needs to be top loaded)
           ;calcualte the start unload position
           #<unposx_start> = [	#<unposx>]
           #<unposy_start> = [#<unposy> + #<unposy_start_offset>]
@@ -225,7 +227,7 @@ O<noatcen> endif
           ;move into unload position
           G53 G0 Z#<unposz>
           G53 G1 Y#<unposy> F2000
-          (print, arrived at position, opening clamp)
+;          (print, arrived at position, opening clamp)
           M62 P2 Q1
           G04 P1
           G9
@@ -255,7 +257,7 @@ O<noatcen> endif
           (msg, Tool still in spindle -> Aborting!)
           M2
         o<chk_for_tool> endif
-        (print, Tool successfully unloaded)
+;        (print, Tool successfully unloaded)
 
       O<un_manual> endif
     O<ubload>else
@@ -263,7 +265,7 @@ O<noatcen> endif
     O<ubload> endif
     ;loading new tool
     O<ld> if [#<_selected_tool> GT 0]
-      (print,  Load tool #<_selected_tool,0>)
+;      (print,  Load tool #<_selected_tool,0>)
       O<ex> if [#<_tool_exists|#<_selected_tool>> EQ 0]
         (msg,Selected tool #<_selected_tool,0> does not exist in tool table)
         M2
@@ -288,7 +290,7 @@ O<noatcen> endif
             M2
           o<chk_for_tool_tl> endif
         O<ld_manual> else
-          (print,  Load tool #<_selected_tool,0> from magazine)
+;          (print,  Load tool #<_selected_tool,0> from magazine)
           #<ldposx> = #<_tool_tc_x_num|#<_selected_tool>>
           #<ldposy> = #<_tool_tc_y_num|#<_selected_tool>>
           #<ldposz> = #<_tool_tc_z_num|#<_selected_tool>>
@@ -385,7 +387,7 @@ O<noatcen> endif
 
 
 
-          (print, tool successfully loaded)
+;          (print, tool successfully loaded)
           
 
         O<ld_manual> endif 
@@ -406,12 +408,12 @@ O<ProbeCheck> if [[#<_tool_isprobe_num|#<_current_tool>>] EQ 1]
       #<_probe_pin_1>=0
       #<_probe_estop>=0
     o<ProbeCheck> endif
-
+    #<kms_sk_tlm> = [DEF[#<_kms_sk_tlm>,0]]
     (tool length measurement)
-    O<tm> if [[#<_tc_toolmeasure> GT 0] AND [#<_tool_skipmeasure_num|#<_current_tool>> EQ 0]]
+    O<tm> if [[#<_tc_toolmeasure> GT 0] AND [#<_tool_skipmeasure_num|#<_current_tool>> EQ 0] AND [#<kms_sk_tlm> EQ 0]]
       G09
 
-      (print,  Measure tool)
+;      (print,  Measure tool)
       #<sox> = [DEF[#<_tool_so_x_num|#<_current_tool>>,0]]
       #<soy> = [DEF[#<_tool_so_y_num|#<_current_tool>>,0]]
       #<soz> = [DEF[#<_tool_so_z_num|#<_current_tool>>,0]]
@@ -420,11 +422,15 @@ O<ProbeCheck> if [[#<_tool_isprobe_num|#<_current_tool>>] EQ 1]
       G53 G00 X[#<_tooloff_sensorx> - #<sox>] 
       G53 G00 Y[#<_tooloff_sensory> - #<soy>]
       G53 G00 Z#<_tooloff_rapidheight>
+      
+      O<xyoffset2> if [[#<soy> NE 0]]
+        (msg, Rotate Tool into correct position)
+      O<xyoffset2> endif
 
       o<fastmove>if[#<_tool_off_z_num|#<_current_tool>> gt 0]
           #<fast_z_target> = [#<_tooloff_sensorz> + #<_tool_off_z_num|#<_current_tool>> + 20]        
           o<fastmove3>if[#<fast_z_target> lt 0]
-            (print,  old tool lentgh greater 0, move down fast to G53 Z #<fast_z_target>)
+;            (print,  old tool lentgh greater 0, move down fast to G53 Z #<fast_z_target>)
             G90 G53 G38.3 Z#<fast_z_target>  F5000
           o<fastmove3>endif     
       o<fastmove>endif
@@ -455,13 +461,13 @@ O<ProbeCheck> if [[#<_tool_isprobe_num|#<_current_tool>>] EQ 1]
       o<chk> endif
 
       #<off> = [#<_probe_z> - #<_tooloff_sensorz> - #<soz>]
-
+      #<tool_off_diff>=[#<off> - #<_tool_off_z_num|#<_current_tool>>]
       O<tmset> if [#<_tc_toolmeasure> EQ 2]
-        (print,  Set tooltable Z#<off> , old offset #<_tool_off_z_num|#<_current_tool>>)
+        (print, T#<_current_tool> Set tooltable Z#<off> , old offset #<_tool_off_z_num|#<_current_tool>>, diff #<tool_off_diff>)
         G10 L1 P#<_current_tool> Z#<off>
         #<toisset>=2
       O<tmset> elseif [#<_tc_toolmeasure> EQ 1]
-        (print,  Set tool offset Z#<off>, old offset #<_tool_off_z_num|#<_current_tool>>)
+        (print, T#<_current_tool> Set tool offset Z#<off>, old offset #<_tool_off_z_num|#<_current_tool>>,diff #<tool_off_diff>)
         G43.1 Z#<off>
         #<toisset>=1
       O<tmset> endif
@@ -470,7 +476,7 @@ O<ProbeCheck> if [[#<_tool_isprobe_num|#<_current_tool>>] EQ 1]
   O<toen> if [#<_tc_tooloff_en>]
     M72
     M71
-    (print,  Enable tool offset)
+;    (print,  Enable tool offset)
     O<tois> if [#<_tc_tooloff_en> EQ 2]
       G43
     O<tois> elseif [#<_tc_tooloff_en> EQ 1]
