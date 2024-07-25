@@ -89,6 +89,9 @@ o<chk> endif
 #<off> = #<_measure_z>
 #<tool_off_diff>=[#<off> - #<_tool_off_z_num|#<_current_tool>>]
 #<timesampkms>= DateTime[]
+O<toolbreakdetect2> if [[#<tool_off_diff> LT -0.5] OR [#<tool_off_diff> GT 0.5]]
+  (msg, Tool Length deviation is #<tool_off_diff> Check tool!)
+O<toolbreakdetect2> endif
 o<chk> if[#<rvalue> EQ 1]
   (print,  Set tool offset Z#<off>, old offset #<_tool_off_z_num|#<_current_tool>>, diff #<tool_off_diff>, Time #<timesampkms>) 
   M72
