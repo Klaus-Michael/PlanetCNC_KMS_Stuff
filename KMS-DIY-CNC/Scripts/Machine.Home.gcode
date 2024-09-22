@@ -1,8 +1,29 @@
 (name,Home)
+;move C axis to position where its most likely not triggering the sensor and where it has a short way to home
 
+o<chk> if[#<_hw_limit> EQ 16]
+G0C20
+g9
+o<chk> endif
+
+o<chk> if[#<_hw_limit> NE 0]
+
+  (msg,Limit switches are active)
+  M2
+o<chk> endif
+
+o<chk> if[[#<_probe_pin_1> NE 0] AND [#<_input|#<_probe_pin_1>> NE 0] ]
+  (msg,Probe pin 1 active)
+  M2
+o<chk> endif
+
+o<chk> if[[#<_probe_pin_2> NE 0] AND [#<_input|#<_probe_pin_2>> NE 0] ]
+  (msg,Probe pin 2 active)
+  M2
+o<chk> endif
 
 M73
-G17 G08 G15 G90 G91.1 G90.2 G94
+G17 G08 G15 G40 G90 G91.1 G90.2 G94
 M50P0
 M55P0
 M56P0
@@ -38,7 +59,7 @@ o<mainloop> while [#<main> LT 9]
       o<checkpin> endif
 
       ;--------------------------------------------
-      o<probehome> call [#<axis>] [#<dir>]
+      G65 P115 H#<axis> E#<dir>
       ;--------------------------------------------
 
     o<ord> endif
@@ -55,16 +76,23 @@ o<probehome> sub
   M73
   #<axis> = #1
   #<dir> = #2
+  o<spd> if[[#<axis> GE 3] AND [#<axis> LE 5]]
+    #<speed>=#<_home_speedabc>
+    #<speedlow>=#<_home_speedabc_low>
+  o<spd> else
+    #<speed>=#<_home_speed>
+    #<speedlow>=#<_home_speed_low>
+  o<spd> endif
 
   M11P0
-  G53 G38.1 H#<axis> E#<dir> F#<_home_speed>
+  G53 G38.1 H#<axis> E#<dir> F#<speed>
   G10 L9 H#<axis> E[#<_home_swpos_axis|#<axis>>]
   G91 G91.2 G53 G01 H#<axis> E[-#<dir> * #<_home_swdist>]
 
-  o<low> if [#<_home_speed_low> GT 0]
-    G90 G90.2 G53 G38.1 H#<axis> E#<dir> F#<_home_speed_low>
+  o<low> if [#<speedlow> GT 0]
+    G90 G90.2 G53 G38.1 H#<axis> E#<dir> F#<speedlow>
     G10 L9 H#<axis> E[#<_home_swpos_axis|#<axis>>]
-    G91 G91.2 G53 G01 H#<axis> E[-#<dir> * #<_home_swdist>] F#<_home_speed>
+    G91 G91.2 G53 G01 H#<axis> E[-#<dir> * #<_home_swdist>] F#<speed>
   o<low> endif
 
   M11P1 G90 G90.2

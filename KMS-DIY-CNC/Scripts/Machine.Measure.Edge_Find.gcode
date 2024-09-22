@@ -4,7 +4,7 @@ o<chk> if[[#<_probe_pin_1> EQ 0] AND [#<_probe_pin_2> EQ 0]]
   M2
 o<chk> endif
 
-o<chk> if [[#<_probe_use_tooltable> GT 0] AND [#<_tool_isprobe_num|#<_current_tool>>] EQ 0]
+o<chk> if [[#<_probe_use_tooltable> GT 0] AND [#<_tool_isprobe|#<_current_tool>>] EQ 0]
   (msg,Current tool is not probe)
   M2
 o<chk> endif
@@ -22,7 +22,7 @@ o<chk> endif
 (dlgshow)
 
 M73
-G17 G90 G91.1 G90.2 G08 G15 G94
+G17 G08 G15 G40 G90 G91.1 G90.2 G94
 M50P0
 M55P0
 M56P0

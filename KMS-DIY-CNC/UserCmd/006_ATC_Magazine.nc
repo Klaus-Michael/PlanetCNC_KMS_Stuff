@@ -93,7 +93,7 @@ o<cleanuploop> while [#<loop_tool_number> lt 1000]
 	o<toolexists> endif
 	#<loop_tool_number>  = [#<loop_tool_number> +1]
 o<cleanuploop> endwhile
-
+(print, max loop count: #<loop_tool_number>)
 
 ;now we can set the coordinates for each slot for the correct tool
 

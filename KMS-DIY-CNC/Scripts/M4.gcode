@@ -4,6 +4,9 @@ O<ProbeCheck> if [ #<_current_tool> EQ 255]
 O<ProbeCheck> else
 	(print,Start spindle CCW)
 	M4
+	o<chk> if[LNOT[ACTIVE[]]]
+		M99
+	o<chk> endif
 	O<PlanetCNC> if [#<_spindle_delay_start> GT 0]
 	  G04 P#<_spindle_delay_start>
 	O<PlanetCNC> endif	  

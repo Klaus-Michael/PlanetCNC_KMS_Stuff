@@ -11,22 +11,14 @@ o<chk> endif
 
 #<_return> = NAN[]
 #<num> = DEF[#<qvalue>,#<_current_tool>]
-o<skp> if [#<_tool_skipmeasure_num|#<num>> GT 0]
+o<skp> if [#<_tool_skipmeasure|#<num>> GT 0]
   (print,Measuring skipped)
   M99
 o<skp> endif
 
-;check if magazin is closed (work around due to normaly closed sensor)
-O<chmagcl>if [#<_input_num|4> EQ 1]
-  (msg,Magazin seems to be open, is this correct?)
-O<chmagcl>endif
-;Open Magazin
-M62 P3 Q1
-G04 P1.5
-G9
-O<chmagco>if [#<_input_num|4> EQ 0]
-  (msg,Magazin did not open correctly)
-O<chmagco>endif
+
+;Open Door
+;tbd
 
 #<mist_on>= #<_mist_on>
 O<ckmist> if [[#<mist_on> NE 0]]
@@ -50,9 +42,9 @@ M10P1
 #<startX> = #<_machine_x>
 #<startY> = #<_machine_y>
 
-#<sox> = [DEF[#<_tool_so_x_num|#<_current_tool>>,0]]
-#<soy> = [DEF[#<_tool_so_y_num|#<_current_tool>>,0]]
-#<soz> = [DEF[#<_tool_so_z_num|#<_current_tool>>,0]]
+#<sox> = [DEF[#<_tool_so_x|#<_current_tool>>,0]]
+#<soy> = [DEF[#<_tool_so_y|#<_current_tool>>,0]]
+#<soz> = [DEF[#<_tool_so_z|#<_current_tool>>,0]]
 
 G53 G00 Z#<_tooloff_safeheight>
 G53 G00 X[#<_tooloff_sensorx> - #<sox>] Y[#<_tooloff_sensory> - #<soy>]
@@ -63,8 +55,8 @@ O<xyoffset> if [ [#<soy> NE 0]]
 O<xyoffset> endif
 
 o<chk_fast> if[#<fvalue> EQ 1]
-  o<fastmove>if[#<_tool_off_z_num|#<_current_tool>> gt 0]
-      #<fast_z_target> = [#<_tooloff_sensorz> + #<_tool_off_z_num|#<_current_tool>> + 10]        
+  o<fastmove>if[#<_tool_off_z|#<_current_tool>> gt 0]
+      #<fast_z_target> = [#<_tooloff_sensorz> + #<_tool_off_z|#<_current_tool>> + 10]        
       o<fastmove3>if[#<fast_z_target> lt 0]
 ;            (print,  old tool lentgh greater 0, move down fast to G53 Z #<fast_z_target>)
         G90 G53 G38.3 Z#<fast_z_target>  F5000
@@ -87,18 +79,18 @@ o<chk> if[NOTEXISTS[#<_return>] OR [#<_measure> EQ 0]]
 o<chk> endif
 
 #<off> = #<_measure_z>
-#<tool_off_diff>=[#<off> - #<_tool_off_z_num|#<_current_tool>>]
+#<tool_off_diff>=[#<off> - #<_tool_off_z|#<_current_tool>>]
 #<timesampkms>= DateTime[]
 O<toolbreakdetect2> if [[#<tool_off_diff> LT -0.5] OR [#<tool_off_diff> GT 0.5]]
   (msg, Tool Length deviation is #<tool_off_diff> Check tool!)
 O<toolbreakdetect2> endif
 o<chk> if[#<rvalue> EQ 1]
-  (print,  Set tool offset Z#<off>, old offset #<_tool_off_z_num|#<_current_tool>>, diff #<tool_off_diff>, Time #<timesampkms>) 
+  (print,  Set tool offset Z#<off>, old offset #<_tool_off_z|#<_current_tool>>, diff #<tool_off_diff>, Time #<timesampkms>) 
   M72
   M71
   G43.1 Z#<off>
 o<chk> elseif[#<rvalue> EQ 2]
- (print,  Set tooltable Z#<off> , old offset #<_tool_off_z_num|#<_current_tool>>, diff #<tool_off_diff>, Time #<timesampkms>)
+ (print,  Set tooltable Z#<off> , old offset #<_tool_off_z|#<_current_tool>>, diff #<tool_off_diff>, Time #<timesampkms>)
   G10 L1 P#<num> Z#<off>
   G43.1 Z#<off>
 o<chk> endif
