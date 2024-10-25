@@ -21,7 +21,7 @@
 
 #<kms_atc_umbrealla_pout>=3
 #<kms_atc_clamp_pout>=2
-#<kms_atc_door_pout>=7
+#<kms_atc_door_pout>=1
 #<kms_wls_clean_pout> = 5
 
 O<PlanetCNC> if[[#<_tc_toolmeasure>] AND [#<_probe_pin_1> EQ 0] AND [#<_probe_pin_2> EQ 0]]
@@ -67,13 +67,6 @@ O<en> if [ACTIVE[] AND #<_tc_enable>]
   O<st> if [#<_tc_skipsame> AND [#<_current_tool> EQ #<_selected_tool>]]
     (print,  Skip same tool)
   O<st> else
-    ;Open Door
-    M62 P#<kms_atc_door_pout> Q1
-    G04 P1.5
-    G9
-    O<chmagco>if [#<_input|#<kms_atc_door_pin>> EQ 0]
-      (msg,Door did not open correctly)
-    O<chmagco>endif
 
     O<sh> if [#<_tc_safeheight_en>]
 ;    (print,  Move to safe height)
@@ -193,7 +186,6 @@ O<noatcen> endif
         #<unposz> = #<_slot_tc_z|#<_current_slot>>
         #<unposc> = #<_slot_tc_c|#<_current_slot>>
         #<unposz_end> = [#<unposz>+30]
-
         O<chk_umb_front>if [#<_extin1|#<kms_atc_umbrealla_back_pin>> EQ 0]  
           ;move umbrella back
           M62 P#<kms_atc_umbrealla_pout> Q0
@@ -208,6 +200,15 @@ O<noatcen> endif
         G53 G00 X#<unposx>  Y#<unposy>
         G53 G00 C#<unposc>
         G9
+
+        
+        ;Open Door
+        M62 P#<kms_atc_door_pout> Q1
+        G04 P2
+        G9
+        O<chmagco>if [#<_input|#<kms_atc_door_pin>> EQ 0]
+          (msg,Door did not open correctly)
+        O<chmagco>endif
         ;check if tool pocket is empty
         O<ckemptypocket> if [#<_extin1|#<kms_atc_pocket_empty_pin>> GT 0]
           (msg,Pocket seems to hold a tool, please check)
@@ -267,6 +268,8 @@ O<noatcen> endif
         ;check if selected tool is in magazine, if not manual change
         O<ld_manual> if [#<_selected_slot> EQ 0 ]
           G53 G00 Z#<_tc_safeheight>
+          ;move the umbrealla back as we no longer need it
+          M62 P#<kms_atc_umbrealla_pout> Q0
           G53 G00 X#<_tc_pos_x> Y#<_tc_pos_y>
           (msg, insert new tool #<_selected_tool,0> $<tool_name|#<_selected_tool>>)
           #<spindle_try>=0
@@ -310,14 +313,14 @@ O<noatcen> endif
           G10 L9 C[#<_machine_c> MOD 360]
           G9
           ;check if door is open and if umbrealla is moved forward
-          O<chk_door>if [[#<_input|#<kms_atc_door_pin>> EQ 0]]
+          O<chk_door>if [[#<_output|#<kms_atc_door_pout>> EQ 0]]
             M62 P#<kms_atc_door_pout> Q1
-            G04 P1.5
+            G04 P2
             G9
           O<chk_door>endif
           O<chk_umbrealla>if [#<_output|#<kms_atc_umbrealla_pout>>EQ 0]
             M62 P#<kms_atc_umbrealla_pout> Q1
-            G04 P3 
+            G04 P2 
             G09
             O<chk_umb_front>if [#<_extin1|#<kms_atc_umbrealla_front_pin>> EQ 0]  
               (msg,Umbrealla front sensor not active, check position)
@@ -366,33 +369,35 @@ O<noatcen> endif
           O<chk_umb_back>if [#<_extin1|#<kms_atc_umbrealla_back_pin>> EQ 0]  
             (msg,Umbrealla back sensor not active, check position)
           O<chk_umb_back>endif       
-          ;close door
-          M62 P#<kms_atc_door_pout> Q0
           G53 G0 Z#<_tc_safeheight>
 ;         (print, tool successfully loaded)
         O<ld_manual> endif 
       O<skp> endif
      O<ld>else
       (print, Tool 0 is selected as new tool, nothing todo)
-      ;move the umbrealla back
-      M62 P#<kms_atc_umbrealla_pout> Q0
-      G04P3
-      G9
-      ;wait till umbrealla moved back
-      O<chk_umb_back> while [#<_extin1|#<kms_atc_umbrealla_back_pin>> EQ 0]
-      	;(print,umbrealla still not back, waiting)
-        G04 P0.1
-      O<chk_umb_back> endwhile
-      ;check if move was successfull
-      O<chk_umb_back>if [#<_extin1|#<kms_atc_umbrealla_back_pin>> EQ 0]  
-        (msg,Umbrealla back sensor not active, check position)
-      O<chk_umb_back>endif             
-      ;close door
-      M62 P#<kms_atc_door_pout> Q0
     O<ld> endif
       M6
     O<atcen> endif
 
+    O<check_umbrealla> if [[#<_extin1|#<kms_atc_umbrealla_back_pin>> EQ 0]]
+      ;move the umbrealla back just in case this was somehow missed above
+      M62 P#<kms_atc_umbrealla_pout> Q0
+      G9
+      ;wait till umbrealla moved back
+      O<chk_umb_back> while [#<_extin1|#<kms_atc_umbrealla_back_pin>> EQ 0]
+        (print,umbrealla still not back, waiting)
+        G04 P0.1
+      O<chk_umb_back> endwhile
+      G04 P1
+      G9
+      ;check if move was successfull
+      O<chk_umb_back>if [#<_extin1|#<kms_atc_umbrealla_back_pin>> EQ 0]  
+        (msg,Umbrealla back sensor not active, check position)
+      O<chk_umb_back>endif    
+      G9         
+    O<check_umbrealla> endif 
+    ;close the door
+    M62 P#<kms_atc_door_pout> Q0
 
     (check is the current tool is a probe, if yes enable probe pin, otherwhise disable probe)
 
@@ -487,3 +492,4 @@ O<noatcen> endif
 O<en> else
   M6
 O<en> endif
+
