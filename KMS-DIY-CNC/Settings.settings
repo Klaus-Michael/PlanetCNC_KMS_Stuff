@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Settings>
-  <version>20230330</version>
-  <firmware>20230330</firmware>
+  <version>20240916</version>
+  <firmware>20231115</firmware>
   <serial>13954</serial>
   <controllerCode>CUC2FM0YRW0V5S4V30460M7DZ300D</controllerCode>
-  <computerCode>KUKC5GB1HPXHPN8S4H3HDKFJ5H0B3</computerCode>
-  <applicatonStart>2024/04/07 10:19:27</applicatonStart>
-  <applicatonEnd>2024/04/07 12:44:32</applicatonEnd>
+  <computerCode>KUB46WMVGR26BV0WJNYWDVVJ9P1DW</computerCode>
+  <applicatonStart>2025/01/04 10:01:23</applicatonStart>
+  <applicatonEnd>2025/01/04 11:19:32</applicatonEnd>
   <os>Linux (64 bit)</os>
   <cpu>GenuineIntel (2/4)</cpu>
-  <mem>7836</mem>
+  <mem>7844</mem>
   <gfx>Intel;Mesa Intel(R) HD Graphics 4400;4.6 (Compatibility Profile) Me</gfx>
   <commCnt>0</commCnt>
   <commSd>0</commSd>
   <commRd>0</commRd>
   <commErr>0</commErr>
   <commDpl>0</commDpl>
-  <cnt>713</cnt>
-  <tim>89125</tim>
+  <cnt>836</cnt>
+  <tim>102361</tim>
   <lang></lang>
   <codepage>0</codepage>
-  <fileLastOpen>//CAM/000-Mill-Code/Blade Holder Lock Plate OP25.ngc</fileLastOpen>
+  <fileLastOpen>//CAM/000-Mill-Code/Pocket Clip OP20 - 3 Parts.ngc</fileLastOpen>
   <fileRecentSize>30</fileRecentSize>
   <fileRecentCount>30</fileRecentCount>
   <speedTraverseOverride>1.00000000000000000000</speedTraverseOverride>
@@ -64,19 +64,19 @@
   <displayPanel3D>1</displayPanel3D>
   <displayPanelMid>1</displayPanelMid>
   <displayPanelRight>1</displayPanelRight>
-  <displayBarLeft>260</displayBarLeft>
+  <displayBarLeft>279</displayBarLeft>
   <displayBarRight>569</displayBarRight>
-  <displayBarMid>371</displayBarMid>
+  <displayBarMid>327</displayBarMid>
   <displayDlgX>767</displayDlgX>
   <displayDlgY>521</displayDlgY>
   <displaySetX>962</displaySetX>
   <displaySetY>524</displaySetY>
   <displaySetW>790</displaySetW>
   <displaySetH>750</displaySetH>
-  <displayEditX>1223</displayEditX>
-  <displayEditY>669</displayEditY>
-  <displayEditW>1023</displayEditW>
-  <displayEditH>821</displayEditH>
+  <displayEditX>867</displayEditX>
+  <displayEditY>731</displayEditY>
+  <displayEditW>1031</displayEditW>
+  <displayEditH>337</displayEditH>
   <displayEditVisible>0</displayEditVisible>
   <displayScriptX>988</displayScriptX>
   <displayScriptY>559</displayScriptY>
@@ -95,11 +95,11 @@
   <displayLogW>542</displayLogW>
   <displayLogH>480</displayLogH>
   <displayTTX>767</displayTTX>
-  <displayTTY>521</displayTTY>
+  <displayTTY>536</displayTTY>
   <displayTTW>660</displayTTW>
-  <displayTTH>585</displayTTH>
-  <displayCSX>358</displayCSX>
-  <displayCSY>598</displayCSY>
+  <displayTTH>615</displayTTH>
+  <displayCSX>490</displayCSX>
+  <displayCSY>681</displayCSY>
   <displayCSW>610</displayCSW>
   <displayCSH>385</displayCSH>
   <displayPosTab>0</displayPosTab>
@@ -135,12 +135,12 @@
   <displayStateTabScroll28>0</displayStateTabScroll28>
   <displayStateTabScroll29>0</displayStateTabScroll29>
   <displayMidTab>0</displayMidTab>
-  <display3DPanX>1.78999865055084228516</display3DPanX>
-  <display3DPanY>0.00001414843791280800</display3DPanY>
+  <display3DPanX>21.15299999999996316546</display3DPanX>
+  <display3DPanY>31.46949999999999647571</display3DPanY>
   <display3DAngleX>0.00000000000000000000</display3DAngleX>
   <display3DAngleY>0.00000000000000000000</display3DAngleY>
   <display3DAngleZ>0.00000000000000000000</display3DAngleZ>
-  <display3DFieldOfView>0.02660483308136463165</display3DFieldOfView>
+  <display3DFieldOfView>0.00608129325833370402</display3DFieldOfView>
   <displayFollowPosition>0</displayFollowPosition>
   <displayPosition>1</displayPosition>
   <displayGrid>1</displayGrid>
@@ -162,7 +162,7 @@
   <singleStepEnabled>0</singleStepEnabled>
   <pauseOptionalEnabled>0</pauseOptionalEnabled>
   <softLimitsIgnore>0</softLimitsIgnore>
-  <settingsPageNumber>36</settingsPageNumber>
+  <settingsPageNumber>39</settingsPageNumber>
   <description></description>
   <units>0</units>
   <machineType>1</machineType>
@@ -221,13 +221,13 @@
   <uiPositionColorBtnLimNeg>0xffff0000</uiPositionColorBtnLimNeg>
   <uiPositionColorBtnLimPos>0xffdc143c</uiPositionColorBtnLimPos>
   <uiPositionSize>42</uiPositionSize>
-  <uiPositionNoOfRows>4</uiPositionNoOfRows>
+  <uiPositionNoOfRows>5</uiPositionNoOfRows>
   <uiPositionNoOfDecimals>3</uiPositionNoOfDecimals>
   <uiPositionAxisOrder0>0</uiPositionAxisOrder0>
   <uiPositionAxisOrder1>1</uiPositionAxisOrder1>
   <uiPositionAxisOrder2>2</uiPositionAxisOrder2>
   <uiPositionAxisOrder3>4</uiPositionAxisOrder3>
-  <uiPositionAxisOrder4>-1</uiPositionAxisOrder4>
+  <uiPositionAxisOrder4>5</uiPositionAxisOrder4>
   <uiPositionAxisOrder5>-1</uiPositionAxisOrder5>
   <uiPositionAxisOrder6>-1</uiPositionAxisOrder6>
   <uiPositionAxisOrder7>-1</uiPositionAxisOrder7>
@@ -387,7 +387,7 @@
   <motorOutputOrder1>4</motorOutputOrder1>
   <motorOutputOrder2>2</motorOutputOrder2>
   <motorOutputOrder3>-1</motorOutputOrder3>
-  <motorOutputOrder4>-1</motorOutputOrder4>
+  <motorOutputOrder4>5</motorOutputOrder4>
   <motorOutputOrder5>1</motorOutputOrder5>
   <motorOutputOrder6>0</motorOutputOrder6>
   <motorOutputOrder7>-1</motorOutputOrder7>
@@ -396,7 +396,7 @@
   <motorOutputReverse1>0</motorOutputReverse1>
   <motorOutputReverse2>1</motorOutputReverse2>
   <motorOutputReverse3>0</motorOutputReverse3>
-  <motorOutputReverse4>1</motorOutputReverse4>
+  <motorOutputReverse4>0</motorOutputReverse4>
   <motorOutputReverse5>1</motorOutputReverse5>
   <motorOutputReverse6>0</motorOutputReverse6>
   <motorOutputReverse7>0</motorOutputReverse7>
@@ -415,7 +415,7 @@
   <motorStepsPerUnit2>800.00000000000000000000</motorStepsPerUnit2>
   <motorStepsPerUnit3>222.22222199999998792919</motorStepsPerUnit3>
   <motorStepsPerUnit4>280.55555555555554292368</motorStepsPerUnit4>
-  <motorStepsPerUnit5>100.00000000000000000000</motorStepsPerUnit5>
+  <motorStepsPerUnit5>359.11111111111000582241</motorStepsPerUnit5>
   <motorStepsPerUnit6>100.00000000000000000000</motorStepsPerUnit6>
   <motorStepsPerUnit7>100.00000000000000000000</motorStepsPerUnit7>
   <motorStepsPerUnit8>100.00000000000000000000</motorStepsPerUnit8>
@@ -424,7 +424,7 @@
   <motorMaxSpeed2>83.33333333333332859638</motorMaxSpeed2>
   <motorMaxSpeed3>126.66666666666667140362</motorMaxSpeed3>
   <motorMaxSpeed4>60.00000000000000000000</motorMaxSpeed4>
-  <motorMaxSpeed5>60.00000000000000000000</motorMaxSpeed5>
+  <motorMaxSpeed5>166.66666666666665719276</motorMaxSpeed5>
   <motorMaxSpeed6>40.00000000000000000000</motorMaxSpeed6>
   <motorMaxSpeed7>40.00000000000000000000</motorMaxSpeed7>
   <motorMaxSpeed8>40.00000000000000000000</motorMaxSpeed8>
@@ -433,7 +433,7 @@
   <motorMaxAcceleration2>1000.00000000000000000000</motorMaxAcceleration2>
   <motorMaxAcceleration3>250.00000000000000000000</motorMaxAcceleration3>
   <motorMaxAcceleration4>500.00000000000000000000</motorMaxAcceleration4>
-  <motorMaxAcceleration5>25.00000000000000000000</motorMaxAcceleration5>
+  <motorMaxAcceleration5>500.00000000000000000000</motorMaxAcceleration5>
   <motorMaxAcceleration6>25.00000000000000000000</motorMaxAcceleration6>
   <motorMaxAcceleration7>25.00000000000000000000</motorMaxAcceleration7>
   <motorMaxAcceleration8>25.00000000000000000000</motorMaxAcceleration8>
@@ -442,7 +442,7 @@
   <motorMaxDeceleration2>1000.00000000000000000000</motorMaxDeceleration2>
   <motorMaxDeceleration3>250.00000000000000000000</motorMaxDeceleration3>
   <motorMaxDeceleration4>500.00000000000000000000</motorMaxDeceleration4>
-  <motorMaxDeceleration5>25.00000000000000000000</motorMaxDeceleration5>
+  <motorMaxDeceleration5>500.00000000000000000000</motorMaxDeceleration5>
   <motorMaxDeceleration6>25.00000000000000000000</motorMaxDeceleration6>
   <motorMaxDeceleration7>25.00000000000000000000</motorMaxDeceleration7>
   <motorMaxDeceleration8>25.00000000000000000000</motorMaxDeceleration8>
@@ -497,7 +497,7 @@
   <motorLimitPinNeg2>0</motorLimitPinNeg2>
   <motorLimitPinNeg3>0</motorLimitPinNeg3>
   <motorLimitPinNeg4>0</motorLimitPinNeg4>
-  <motorLimitPinNeg5>0</motorLimitPinNeg5>
+  <motorLimitPinNeg5>5</motorLimitPinNeg5>
   <motorLimitPinNeg6>0</motorLimitPinNeg6>
   <motorLimitPinNeg7>0</motorLimitPinNeg7>
   <motorLimitPinNeg8>0</motorLimitPinNeg8>
@@ -506,7 +506,7 @@
   <motorLimitPinPos2>7</motorLimitPinPos2>
   <motorLimitPinPos3>0</motorLimitPinPos3>
   <motorLimitPinPos4>0</motorLimitPinPos4>
-  <motorLimitPinPos5>0</motorLimitPinPos5>
+  <motorLimitPinPos5>5</motorLimitPinPos5>
   <motorLimitPinPos6>0</motorLimitPinPos6>
   <motorLimitPinPos7>0</motorLimitPinPos7>
   <motorLimitPinPos8>0</motorLimitPinPos8>
@@ -712,7 +712,7 @@
   <programLatheMode>0</programLatheMode>
   <programCycleReturnMode>0</programCycleReturnMode>
   <speedTraverse>8000.00000000000000000000</speedTraverse>
-  <speedTraverseABC>3600.00000000000000000000</speedTraverseABC>
+  <speedTraverseABC>5000.00000000000000000000</speedTraverseABC>
   <speedFeed>5000.00100000000020372681</speedFeed>
   <speedSpindle>6000.00000000000000000000</speedSpindle>
   <programTrans0>1.00000000000000000000</programTrans0>
@@ -762,7 +762,7 @@
   <homeOrder2>1</homeOrder2>
   <homeOrder3>0</homeOrder3>
   <homeOrder4>0</homeOrder4>
-  <homeOrder5>0</homeOrder5>
+  <homeOrder5>4</homeOrder5>
   <homeOrder6>0</homeOrder6>
   <homeOrder7>0</homeOrder7>
   <homeOrder8>0</homeOrder8>
@@ -771,7 +771,7 @@
   <homeDir2>1</homeDir2>
   <homeDir3>0</homeDir3>
   <homeDir4>0</homeDir4>
-  <homeDir5>0</homeDir5>
+  <homeDir5>-1</homeDir5>
   <homeDir6>0</homeDir6>
   <homeDir7>0</homeDir7>
   <homeDir8>0</homeDir8>
@@ -780,7 +780,7 @@
   <homeSwPos2>2.00000000000000000000</homeSwPos2>
   <homeSwPos3>0.00000000000000000000</homeSwPos3>
   <homeSwPos4>0.00000000000000000000</homeSwPos4>
-  <homeSwPos5>0.00000000000000000000</homeSwPos5>
+  <homeSwPos5>-1.60000000000000008882</homeSwPos5>
   <homeSwPos6>0.00000000000000000000</homeSwPos6>
   <homeSwPos7>0.00000000000000000000</homeSwPos7>
   <homeSwPos8>0.00000000000000000000</homeSwPos8>
@@ -798,8 +798,8 @@
   <tooloffSwDist>1.00000000000000000000</tooloffSwDist>
   <tooloffSafeHeight>0.00000000000000000000</tooloffSafeHeight>
   <tooloffRapidHeight>0.00000000000000000000</tooloffRapidHeight>
-  <tooloffSensorPos0>2.00000000000000000000</tooloffSensorPos0>
-  <tooloffSensorPos1>138.00000000000000000000</tooloffSensorPos1>
+  <tooloffSensorPos0>224.00000000000000000000</tooloffSensorPos0>
+  <tooloffSensorPos1>9.50000000000000000000</tooloffSensorPos1>
   <tooloffSensorPos2>-200.00000000000000000000</tooloffSensorPos2>
   <workoffSpeed>200.00100000000000477485</workoffSpeed>
   <workoffSpeedLow>20.00000000000000000000</workoffSpeedLow>
@@ -811,8 +811,8 @@
   <tcSafeHeightEn>1</tcSafeHeightEn>
   <tcSafeHeight>0.00000000000000000000</tcSafeHeight>
   <tcPositionEn>1</tcPositionEn>
-  <tcPosition0>490.00000000000000000000</tcPosition0>
-  <tcPosition1>240.00000000000000000000</tcPosition1>
+  <tcPosition0>500.00000000000000000000</tcPosition0>
+  <tcPosition1>90.00000000000000000000</tcPosition1>
   <tcPosition2>0.00000000000000000000</tcPosition2>
   <tcAction>1</tcAction>
   <tcToolMeasure>2</tcToolMeasure>
@@ -1014,87 +1014,87 @@
   <exportCSV_SkipUnusedValue>1</exportCSV_SkipUnusedValue>
   <exportCSV_SkipSameValue>0</exportCSV_SkipSameValue>
   <mdiHistoryCount>50</mdiHistoryCount>
-  <fileRecent0>//CAM/000-Mill-Code/Blade Holder Lock Plate OP25.ngc</fileRecent0>
-  <mdiHistory0>G4 P1</mdiHistory0>
-  <mdiHistory1>S12000</mdiHistory1>
-  <mdiHistory2>T70M6</mdiHistory2>
-  <mdiHistory3>S20000</mdiHistory3>
-  <mdiHistory4>T1M6</mdiHistory4>
-  <mdiHistory5>T70M6</mdiHistory5>
-  <mdiHistory6>S20000</mdiHistory6>
+  <fileRecent0>//CAM/000-Mill-Code/Pocket Clip OP20 - 3 Parts.ngc</fileRecent0>
+  <mdiHistory0>T82M6</mdiHistory0>
+  <mdiHistory1>T12M6</mdiHistory1>
+  <mdiHistory2>G0C0</mdiHistory2>
+  <mdiHistory3>G0Z0</mdiHistory3>
+  <mdiHistory4>S24000</mdiHistory4>
+  <mdiHistory5>S12000</mdiHistory5>
+  <mdiHistory6>G1Z0</mdiHistory6>
   <mdiHistory7>G0Z0</mdiHistory7>
-  <mdiHistory8>T211M6</mdiHistory8>
-  <mdiHistory9>S6000</mdiHistory9>
-  <mdiHistory10>S20000</mdiHistory10>
-  <mdiHistory11>S12000</mdiHistory11>
-  <mdiHistory12>G0Z0</mdiHistory12>
-  <mdiHistory13>S6000</mdiHistory13>
-  <mdiHistory14>T211M6</mdiHistory14>
-  <mdiHistory15>S12000</mdiHistory15>
-  <mdiHistory16>S24000</mdiHistory16>
-  <mdiHistory17>T188M6</mdiHistory17>
-  <mdiHistory18>T172M6</mdiHistory18>
-  <mdiHistory19>T211M6</mdiHistory19>
-  <mdiHistory20>T187M6</mdiHistory20>
-  <mdiHistory21>S12000</mdiHistory21>
-  <mdiHistory22>S24000</mdiHistory22>
-  <mdiHistory23>T195M6</mdiHistory23>
-  <mdiHistory24>T20M6</mdiHistory24>
-  <mdiHistory25>T31M6</mdiHistory25>
-  <mdiHistory26>T82M6</mdiHistory26>
-  <mdiHistory27>T74M6</mdiHistory27>
-  <mdiHistory28>G53G0X375</mdiHistory28>
-  <mdiHistory29>G53G0X450</mdiHistory29>
-  <mdiHistory30>G53G1Y6F500</mdiHistory30>
-  <mdiHistory31>G53G0X300</mdiHistory31>
-  <mdiHistory32>G0X300</mdiHistory32>
-  <mdiHistory33>G53 G1 X225 Z-78.5 F1000</mdiHistory33>
-  <mdiHistory34>T20M6</mdiHistory34>
-  <mdiHistory35>G53 G1 X0 Z-78.5 F1000</mdiHistory35>
-  <mdiHistory36>G53 G1 X75 Z-78.8 F1000</mdiHistory36>
-  <mdiHistory37>T0M6</mdiHistory37>
-  <fileRecent1>//CAM/000-Mill-Code/Blade Holder recut OP40.ngc</fileRecent1>
-  <mdiHistory38>G53 G1 X150 Z-79 F200</mdiHistory38>
-  <mdiHistory39>S12000</mdiHistory39>
-  <fileRecent2>//CAM/000-Mill-Code/Blade Holder Dual OP20.ngc</fileRecent2>
-  <mdiHistory40>T82M6</mdiHistory40>
-  <fileRecent3>//CAM/000-Mill-Code/Blade HolderDual OP10.ngc</fileRecent3>
-  <fileRecent4>//CAM/000-Mill-Code/Blade Holder recut OP30.ngc</fileRecent4>
-  <fileRecent5>//CAM/000-Mill-Code/Handles OP20.ngc</fileRecent5>
-  <fileRecent6>//CAM/000-Mill-Code/Handles OP11 G55.ngc</fileRecent6>
-  <mdiHistory41>S18000</mdiHistory41>
-  <mdiHistory42>S24000</mdiHistory42>
-  <mdiHistory43>S16000</mdiHistory43>
-  <mdiHistory44>T42M6</mdiHistory44>
-  <mdiHistory45>S24000</mdiHistory45>
-  <mdiHistory46>S12000</mdiHistory46>
-  <mdiHistory47>T12M6</mdiHistory47>
-  <mdiHistory48>G0Z18</mdiHistory48>
-  <mdiHistory49>T187M6</mdiHistory49>
-  <fileRecent7>//CAM/000-Mill-Code/Handles OP11 Gravir G54.ngc</fileRecent7>
-  <fileRecent8>//CAM/000-Mill-Code/Handles OP10 G54 G55.ngc</fileRecent8>
-  <fileRecent9>//CAM/000-Mill-Code/Blade Holder OP20.ngc</fileRecent9>
-  <fileRecent10>//CAM/000-Mill-Code/Handles OP15.ngc</fileRecent10>
-  <fileRecent11>//CAM/000-Mill-Code/Blade Holder OP10.ngc</fileRecent11>
-  <fileRecent12>//CAM/000-Mill-Code/Handles OP10.ngc</fileRecent12>
-  <fileRecent13>//CAM/000-Mill-Code/Inlay Lid OP10.ngc</fileRecent13>
-  <fileRecent14>//CAM/000-Mill-Code/Inlay BottomOP10.ngc</fileRecent14>
-  <fileRecent15>//CAM/000-Mill-Code/1001.ngc</fileRecent15>
-  <fileRecent16>//CAM/000-Mill-Code/Blade Holder Lock Plate OP20.ngc</fileRecent16>
-  <fileRecent17>//CAM/000-Mill-Code/face.ngc</fileRecent17>
-  <fileRecent18>//CAM/000-Mill-Code/Blade Holder Lock Plate Dual OP10 - 9 - 10.ngc</fileRecent18>
-  <fileRecent19>//CAM/000-Mill-Code/lockchamfer.ngc</fileRecent19>
-  <fileRecent20>//CAM/000-Mill-Code/gravur.ngc</fileRecent20>
-  <fileRecent21>//CAM/000-Mill-Code/Blade Holder Lock Plate Dual OP10 - 7 - 8.ngc</fileRecent21>
-  <fileRecent22>//CAM/000-Mill-Code/Blade Holder Lock Plate Dual OP10.ngc</fileRecent22>
-  <fileRecent23>//CAM/000-Mill-Code/Blade Holder Lock Plate OP10.ngc</fileRecent23>
+  <mdiHistory8>T212M6</mdiHistory8>
+  <mdiHistory9>S12000</mdiHistory9>
+  <mdiHistory10>T84M6</mdiHistory10>
+  <mdiHistory11>S24000</mdiHistory11>
+  <mdiHistory12>T21M6</mdiHistory12>
+  <mdiHistory13>T12M6</mdiHistory13>
+  <mdiHistory14>T24M6</mdiHistory14>
+  <mdiHistory15>S24000</mdiHistory15>
+  <mdiHistory16>S12000</mdiHistory16>
+  <mdiHistory17>T21M6</mdiHistory17>
+  <mdiHistory18>G0X-1</mdiHistory18>
+  <mdiHistory19>G0X-2</mdiHistory19>
+  <mdiHistory20>G0X0</mdiHistory20>
+  <mdiHistory21>G0Y0</mdiHistory21>
+  <mdiHistory22>T21M6</mdiHistory22>
+  <mdiHistory23>T82M6</mdiHistory23>
+  <mdiHistory24>T8M6</mdiHistory24>
+  <mdiHistory25>G0B0</mdiHistory25>
+  <mdiHistory26>G0B270</mdiHistory26>
+  <mdiHistory27>G0B210</mdiHistory27>
+  <mdiHistory28>G0B90</mdiHistory28>
+  <mdiHistory29>T190M6</mdiHistory29>
+  <mdiHistory30>T2M6</mdiHistory30>
+  <mdiHistory31>T1M6</mdiHistory31>
+  <mdiHistory32>T5M6</mdiHistory32>
+  <mdiHistory33>T4M6</mdiHistory33>
+  <mdiHistory34>G1M6</mdiHistory34>
+  <mdiHistory35>T2M6</mdiHistory35>
+  <mdiHistory36>G53G0Z-77.5</mdiHistory36>
+  <mdiHistory37>G0Z2</mdiHistory37>
+  <fileRecent1>//CAM/000-Mill-Code/Pocket Clip OP20 - 6 Parts.ngc</fileRecent1>
+  <mdiHistory38>S6000</mdiHistory38>
+  <mdiHistory39>G0Z2.2</mdiHistory39>
+  <fileRecent2>//CAM/000-Mill-Code/Slider OP20.ngc</fileRecent2>
+  <mdiHistory40>T190M6</mdiHistory40>
+  <fileRecent3>//CAM/000-Mill-Code/MidiCut Slider OP10.ngc</fileRecent3>
+  <fileRecent4>//CAM/000-Mill-Code/Pocket Clip OP10.ngc</fileRecent4>
+  <fileRecent5>//CAM/000-Mill-Code/Lock Multiple OP10.ngc</fileRecent5>
+  <fileRecent6>//CAM/000-Mill-Code/1001.ngc</fileRecent6>
+  <mdiHistory41>S24000</mdiHistory41>
+  <mdiHistory42>S12000</mdiHistory42>
+  <mdiHistory43>G0Z-0.1</mdiHistory43>
+  <mdiHistory44>G0Z0</mdiHistory44>
+  <mdiHistory45>S6000</mdiHistory45>
+  <mdiHistory46>T190M6</mdiHistory46>
+  <mdiHistory47>T13M6</mdiHistory47>
+  <mdiHistory48>S24000</mdiHistory48>
+  <mdiHistory49>S12000</mdiHistory49>
+  <fileRecent7>//CAM/000-Mill-Code/Genauigkeit OP20.ngc</fileRecent7>
+  <fileRecent8>//CAM/000-Mill-Code/Genauigkeit.ngc</fileRecent8>
+  <fileRecent9>//CAM/000-Mill-Code/Dach OP10.ngc</fileRecent9>
+  <fileRecent10>//CAM/000-Mill-Code/Hamster Haus Part 3 OP10.ngc</fileRecent10>
+  <fileRecent11>//CAM/000-Mill-Code/Hamster Haus Part 2 OP10.ngc</fileRecent11>
+  <fileRecent12>//CAM/000-Mill-Code/Hamster Haus Part 1 OP10.ngc</fileRecent12>
+  <fileRecent13>//CAM/000-Mill-Code/pi5_bottom_op25.ngc</fileRecent13>
+  <fileRecent14>//CAM/000-Mill-Code/pi5_bottom_op20.ngc</fileRecent14>
+  <fileRecent15>//CAM/000-Mill-Code/Bottom Filler OP20.ngc</fileRecent15>
+  <fileRecent16>//CAM/000-Mill-Code/Bottom Filler OP10.ngc</fileRecent16>
+  <fileRecent17>//CAM/000-Mill-Code/pi5_bottom_op10.ngc</fileRecent17>
+  <fileRecent18>//CAM/000-Mill-Code/pi5_top_op25.ngc</fileRecent18>
+  <fileRecent19>//CAM/000-Mill-Code/pi5_top_op20.ngc</fileRecent19>
+  <fileRecent20>//CAM/000-Mill-Code/pi5_top_op11.ngc</fileRecent20>
+  <fileRecent21>//CAM/000-Mill-Code/pi5_top_op10.ngc</fileRecent21>
+  <fileRecent22>//CAM/000-Mill-Code/1001.nc</fileRecent22>
+  <fileRecent23>//CAM/000-Mill-Code/rpi5cmm 2.ngc</fileRecent23>
   <programUseEWord>0</programUseEWord>
-  <fileRecent24>//CAM/000-Mill-Code/Blade Holder OP21 face only.ngc</fileRecent24>
-  <fileRecent25>//CAM/000-Mill-Code/Handles OP11.ngc</fileRecent25>
-  <fileRecent26>//CAM/000-Mill-Code/Blade Holder Dual OP10.ngc</fileRecent26>
-  <fileRecent27>//CAM/000-Mill-Code/Insekten Hotel.ngc</fileRecent27>
-  <fileRecent28>//CAM/000-Mill-Code/chamfer.ngc</fileRecent28>
-  <fileRecent29>//CAM/000-Mill-Code/Insektehotel.ngc</fileRecent29>
+  <fileRecent24>//CAM/000-Mill-Code/rpi5cmm.ngc</fileRecent24>
+  <fileRecent25>//CAM/000-Mill-Code/SC32 Stuetze OP20.ngc</fileRecent25>
+  <fileRecent26>//CAM/000-Mill-Code/SC32 Stuetze OP10.ngc</fileRecent26>
+  <fileRecent27>//CAM/000-Mill-Code/SC32 Klemme OP10.ngc</fileRecent27>
+  <fileRecent28>//CAM/000-Mill-Code/SC32 Bore.ngc</fileRecent28>
+  <fileRecent29>//CAM/000-Mill-Code/SC32 Bottom OP10.ngc</fileRecent29>
   <ui3DAxisThickness>1.19999999999999995559</ui3DAxisThickness>
   <importCAD_SortReverseShapes>1</importCAD_SortReverseShapes>
   <importCAD_ProcessShapes>0</importCAD_ProcessShapes>
@@ -1150,8 +1150,8 @@
   <audioIn></audioIn>
   <audioOut></audioOut>
   <midiInDbg>0</midiInDbg>
-  <memused>129</memused>
-  <memusedmax>141</memusedmax>
+  <memused>119</memused>
+  <memusedmax>162</memusedmax>
   <uiFontScale>1.00000000000000000000</uiFontScale>
   <ui3DColorAxisX>0xffff0000</ui3DColorAxisX>
   <ui3DColorAxisY>0xff008000</ui3DColorAxisY>
@@ -1275,7 +1275,7 @@
   <ioExt1InInvert>0</ioExt1InInvert>
   <ioExt2InInvert>0</ioExt2InInvert>
   <ioPoKeysSerial>0</ioPoKeysSerial>
-  <homeSpeedABC>360.00000000000000000000</homeSpeedABC>
+  <homeSpeedABC>3600.00000000000000000000</homeSpeedABC>
   <homeSpeedABCLow>0.00000000000000000000</homeSpeedABCLow>
   <importImage_GenerateMode>0</importImage_GenerateMode>
   <uiMenuVisible>1</uiMenuVisible>
@@ -1420,4 +1420,56 @@
   <motionRangePosEn6>0</motionRangePosEn6>
   <motionRangePosEn7>0</motionRangePosEn7>
   <motionRangePosEn8>0</motionRangePosEn8>
+  <simSpindle>10.00000000000000000000</simSpindle>
+  <simSpindleErr>25</simSpindleErr>
+  <displayTSX>767</displayTSX>
+  <displayTSY>521</displayTSY>
+  <displayTSW>660</displayTSW>
+  <displayTSH>585</displayTSH>
+  <uiScale>0.00000000000000000000</uiScale>
+  <uiPositionLatheDiameter>0</uiPositionLatheDiameter>
+  <uiJogCrossXUYV>0</uiJogCrossXUYV>
+  <ui3DColorToolpathSpindleSpeed>0xff960f0f</ui3DColorToolpathSpindleSpeed>
+  <ui3DColorPositionMark>0xe54781c7</ui3DColorPositionMark>
+  <ui3DColorUseSpindleSpeed>0</ui3DColorUseSpindleSpeed>
+  <uiKeyboard>1</uiKeyboard>
+  <uiKeyBtnSize>42</uiKeyBtnSize>
+  <uiKeyNumBtnSize>42</uiKeyNumBtnSize>
+  <uiKeyDelay>400</uiKeyDelay>
+  <kinTableC_Direction>1</kinTableC_Direction>
+  <kinTableC_RotPointX>0.00000000000000000000</kinTableC_RotPointX>
+  <kinTableC_RotPointY>0.00000000000000000000</kinTableC_RotPointY>
+  <kinTableC_RotPointZ>0.00000000000000000000</kinTableC_RotPointZ>
+  <programUseSlots>0</programUseSlots>
+  <programRememberTool>0</programRememberTool>
+  <programDefaultTool>0</programDefaultTool>
+  <programDefaultMotion>1</programDefaultMotion>
+  <programRestoreMotion>1</programRestoreMotion>
+  <eventEStopOutputsPWM>0</eventEStopOutputsPWM>
+  <probeOveredge>3.00000000000000000000</probeOveredge>
+  <tcInitCodeEn>0</tcInitCodeEn>
+  <tcInitCode>(print,Init tool change code)</tcInitCode>
+  <tcBeginCodeEn>0</tcBeginCodeEn>
+  <tcBeginCode>(print,Begin tool change code)</tcBeginCode>
+  <tcEndCodeEn>0</tcEndCodeEn>
+  <tcEndCode>(print,End tool change code)</tcEndCode>
+  <tcATCUnloadInCodeEn>0</tcATCUnloadInCodeEn>
+  <tcATCUnloadInCode>(print,Unload tool #&lt;_current_tool,0&gt; in code)</tcATCUnloadInCode>
+  <tcATCUnloadInEn>0</tcATCUnloadInEn>
+  <tcATCUnloadCodeEn>0</tcATCUnloadCodeEn>
+  <tcATCUnloadCode>(print,Unload tool #&lt;_current_tool,0&gt; code)</tcATCUnloadCode>
+  <tcATCUnloadOutEn>0</tcATCUnloadOutEn>
+  <tcATCUnloadOutCodeEn>0</tcATCUnloadOutCodeEn>
+  <tcATCUnloadOutCode>(print,Unload tool #&lt;_current_tool,0&gt; out code)</tcATCUnloadOutCode>
+  <tcATCLoadInCodeEn>0</tcATCLoadInCodeEn>
+  <tcATCLoadInCode>(print,Load tool #&lt;_selected_tool,0&gt; in code)</tcATCLoadInCode>
+  <tcATCLoadInEn>0</tcATCLoadInEn>
+  <tcATCLoadCodeEn>0</tcATCLoadCodeEn>
+  <tcATCLoadCode>(print,Load tool #&lt;_selected_tool,0&gt; code)</tcATCLoadCode>
+  <tcATCLoadOutEn>0</tcATCLoadOutEn>
+  <tcATCLoadOutCodeEn>0</tcATCLoadOutCodeEn>
+  <tcATCLoadOutCode>(print,Load tool #&lt;_selected_tool,0&gt; out code)</tcATCLoadOutCode>
+  <importAirfoil_FeedSpeed>1500.00000000000000000000</importAirfoil_FeedSpeed>
+  <exportCSV_Interpolate>0</exportCSV_Interpolate>
+  <exportCSV_Decimals>6</exportCSV_Decimals>
 </Settings>

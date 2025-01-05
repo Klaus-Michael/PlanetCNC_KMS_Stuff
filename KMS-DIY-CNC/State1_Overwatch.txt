@@ -1,6 +1,7 @@
 io custom name="Controller:" led="ES,,,TH,SL,LM,,,MT,AL,,,ER"
 
 io custom name="Input:" led="I8, I7, I6, I5, I4, I3, I2, I1"
+io custom name="EXT IN:" led="_extin1|8|E8,_extin1|7|E7,_extin1|6|E6,_extin1|5|E5,_extin1|4|E4,_extin1|3|E3,_extin1|2|E2,_extin1|1|E1"
 io custom name="Output:" led="O8, O7, O6, O5, O4, O3, O2, O1"
 io custom name="Limit:" led="L8,L7,L6,L5,L4,L3,L2,L1"
 

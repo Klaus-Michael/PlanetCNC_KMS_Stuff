@@ -6,8 +6,8 @@ o<chk_ovrd_speedfeed> if[#<_ovrd_speedfeed> NE 1 OR #<_ovrd_speedtraverse> NE 1 
   (msg, Check your feed, rapid and spindle Overwrites, one of them is not at 100%!)
 o<chk_ovrd_speedfeed> endif
 
-o<chk_magazin_collision> if[ #<_prog_min_y> LT 165 OR #<_prog_mintrav_y> LT 165]
-  (msg, Collision with Magazin detected, DO NOT CONTINUE!!!!)
+o<chk_magazin_collision> if[ #<_prog_min_y> LT 10 OR #<_prog_mintrav_y> LT 10]
+  (msg, possible Collision with Magazin detected, can be ignored)
 o<chk_magazin_collision> endif
 
 O<chk> if [#<line>]

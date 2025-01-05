@@ -47,8 +47,8 @@ M10P1
 M11P1
 
 ;check if magazin is closed (work around due to normaly closed sensor)
-O<chmagcl>if [#<_input|#<kms_atc_door_pin>> EQ 1]
-;  (msg,Magazin seems to be open, is this correct?)
+O<chmagcl>if [#<_extin1|#<kms_atc_door_pin>> EQ 1]
+ (msg,Magazin seems to be open, is this correct?)
 O<chmagcl>endif
 
 
@@ -206,7 +206,7 @@ O<noatcen> endif
         M62 P#<kms_atc_door_pout> Q1
         G04 P2
         G9
-        O<chmagco>if [#<_input|#<kms_atc_door_pin>> EQ 0]
+        O<chmagco>if [#<_extin1|#<kms_atc_door_pin>> EQ 0]
           (msg,Door did not open correctly)
         O<chmagco>endif
         ;check if tool pocket is empty
@@ -317,6 +317,9 @@ O<noatcen> endif
             M62 P#<kms_atc_door_pout> Q1
             G04 P2
             G9
+            O<ch_door2>if [#<_extin1|#<kms_atc_door_pin>> EQ 0]
+              (msg,Door did not open correctly)
+            O<ch_door2>endif
           O<chk_door>endif
           O<chk_umbrealla>if [#<_output|#<kms_atc_umbrealla_pout>>EQ 0]
             M62 P#<kms_atc_umbrealla_pout> Q1
