@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Settings>
-  <version>20240916</version>
+  <version>20250526</version>
   <firmware>20231115</firmware>
-  <serial>13954</serial>
+  <serial>65535</serial>
   <controllerCode>CUC2FM0YRW0V5S4V30460M7DZ300D</controllerCode>
-  <computerCode>KUB46WMVGR26BV0WJNYWDVVJ9P1DW</computerCode>
-  <applicatonStart>2025/01/04 10:01:23</applicatonStart>
-  <applicatonEnd>2025/01/04 11:19:32</applicatonEnd>
-  <os>Linux (64 bit)</os>
-  <cpu>GenuineIntel (2/4)</cpu>
-  <mem>7844</mem>
-  <gfx>Intel;Mesa Intel(R) HD Graphics 4400;4.6 (Compatibility Profile) Me</gfx>
+  <computerCode>KU5G2FES800QW8KTJ6GGZPZ2DCY8=</computerCode>
+  <applicatonStart>2025/06/01 10:41:34</applicatonStart>
+  <applicatonEnd>2025/06/01 10:59:23</applicatonEnd>
+  <os>Windows 10 (64 bit)</os>
+  <cpu>GenuineIntel (24/32)</cpu>
+  <mem>65325</mem>
+  <gfx>NVIDIA Corporation;NVIDIA GeForce RTX 4080/PCIe/S;4.6.0 NVIDIA 576.40</gfx>
   <commCnt>0</commCnt>
   <commSd>0</commSd>
   <commRd>0</commRd>
   <commErr>0</commErr>
   <commDpl>0</commDpl>
-  <cnt>836</cnt>
-  <tim>102361</tim>
+  <cnt>884</cnt>
+  <tim>106871</tim>
   <lang></lang>
   <codepage>0</codepage>
-  <fileLastOpen>//CAM/000-Mill-Code/Pocket Clip OP20 - 3 Parts.ngc</fileLastOpen>
+  <fileLastOpen>//CAM/000-Mill-Code/Slider OP20.ngc</fileLastOpen>
   <fileRecentSize>30</fileRecentSize>
-  <fileRecentCount>30</fileRecentCount>
+  <fileRecentCount>0</fileRecentCount>
   <speedTraverseOverride>1.00000000000000000000</speedTraverseOverride>
   <speedFeedOverride>1.00000000000000000000</speedFeedOverride>
   <speedSpindleOverride>1.00000000000000000000</speedSpindleOverride>
@@ -36,9 +36,9 @@
   <cameraOffset22>0.00000000000000000000</cameraOffset22>
   <cameraCalDist>10.00000000000000000000</cameraCalDist>
   <warpResolution>1.00000000000000000000</warpResolution>
-  <simPosition0>0.00000000000000000000</simPosition0>
-  <simPosition1>0.00000000000000000000</simPosition1>
-  <simPosition2>0.00000000000000000000</simPosition2>
+  <simPosition0>203504.00000000000000000000</simPosition0>
+  <simPosition1>38592.00000000000000000000</simPosition1>
+  <simPosition2>-57477.00000000000000000000</simPosition2>
   <simPosition3>0.00000000000000000000</simPosition3>
   <simPosition4>0.00000000000000000000</simPosition4>
   <simPosition5>0.00000000000000000000</simPosition5>
@@ -68,7 +68,7 @@
   <displayBarRight>569</displayBarRight>
   <displayBarMid>327</displayBarMid>
   <displayDlgX>767</displayDlgX>
-  <displayDlgY>521</displayDlgY>
+  <displayDlgY>536</displayDlgY>
   <displaySetX>962</displaySetX>
   <displaySetY>524</displaySetY>
   <displaySetW>790</displaySetW>
@@ -135,12 +135,12 @@
   <displayStateTabScroll28>0</displayStateTabScroll28>
   <displayStateTabScroll29>0</displayStateTabScroll29>
   <displayMidTab>0</displayMidTab>
-  <display3DPanX>21.15299999999996316546</display3DPanX>
-  <display3DPanY>31.46949999999999647571</display3DPanY>
-  <display3DAngleX>0.00000000000000000000</display3DAngleX>
-  <display3DAngleY>0.00000000000000000000</display3DAngleY>
+  <display3DPanX>-9.58687425303409668231</display3DPanX>
+  <display3DPanY>20.58806882846866415093</display3DPanY>
+  <display3DAngleX>-1.23499999999999054978</display3DAngleX>
+  <display3DAngleY>-0.02000000000000013572</display3DAngleY>
   <display3DAngleZ>0.00000000000000000000</display3DAngleZ>
-  <display3DFieldOfView>0.00608129325833370402</display3DFieldOfView>
+  <display3DFieldOfView>0.01389242513307140450</display3DFieldOfView>
   <displayFollowPosition>0</displayFollowPosition>
   <displayPosition>1</displayPosition>
   <displayGrid>1</displayGrid>
@@ -162,7 +162,7 @@
   <singleStepEnabled>0</singleStepEnabled>
   <pauseOptionalEnabled>0</pauseOptionalEnabled>
   <softLimitsIgnore>0</softLimitsIgnore>
-  <settingsPageNumber>39</settingsPageNumber>
+  <settingsPageNumber>14</settingsPageNumber>
   <description></description>
   <units>0</units>
   <machineType>1</machineType>
@@ -173,10 +173,10 @@
   <connectionTypeNetwork>1</connectionTypeNetwork>
   <connectionAdapterIP>889301184</connectionAdapterIP>
   <connectionPort>4357</connectionPort>
-  <connectionPrimaryDevice>268501041</connectionPrimaryDevice>
-  <connectionPrimarySerial>13954</connectionPrimarySerial>
-  <connectionPrimaryIP>-939415360</connectionPrimaryIP>
-  <connectionPrimaryPort>4357</connectionPrimaryPort>
+  <connectionPrimaryDevice>0</connectionPrimaryDevice>
+  <connectionPrimarySerial>0</connectionPrimarySerial>
+  <connectionPrimaryIP>0</connectionPrimaryIP>
+  <connectionPrimaryPort>0</connectionPrimaryPort>
   <connectionPrimaryIdent></connectionPrimaryIdent>
   <uiColorMain>0xff1f2930</uiColorMain>
   <uiColorBack>0xff141b21</uiColorBack>
@@ -730,7 +730,7 @@
   <gcodeSubprocedureFolders>./Scripts
 ../../Samples/Sub
 </gcodeSubprocedureFolders>
-  <pythonLib>C:/Program Files/Python37/python37.dll</pythonLib>
+  <pythonLib>C:\Program Files\Python313\python313.dll</pythonLib>
   <midiIn>C:/Program Files/Python37/python37.dll</midiIn>
   <midiOut>Microsoft GS Wavetable Synth</midiOut>
   <eventStartFromState>1</eventStartFromState>
@@ -1014,87 +1014,87 @@
   <exportCSV_SkipUnusedValue>1</exportCSV_SkipUnusedValue>
   <exportCSV_SkipSameValue>0</exportCSV_SkipSameValue>
   <mdiHistoryCount>50</mdiHistoryCount>
-  <fileRecent0>//CAM/000-Mill-Code/Pocket Clip OP20 - 3 Parts.ngc</fileRecent0>
-  <mdiHistory0>T82M6</mdiHistory0>
-  <mdiHistory1>T12M6</mdiHistory1>
-  <mdiHistory2>G0C0</mdiHistory2>
-  <mdiHistory3>G0Z0</mdiHistory3>
-  <mdiHistory4>S24000</mdiHistory4>
-  <mdiHistory5>S12000</mdiHistory5>
-  <mdiHistory6>G1Z0</mdiHistory6>
-  <mdiHistory7>G0Z0</mdiHistory7>
-  <mdiHistory8>T212M6</mdiHistory8>
-  <mdiHistory9>S12000</mdiHistory9>
-  <mdiHistory10>T84M6</mdiHistory10>
-  <mdiHistory11>S24000</mdiHistory11>
-  <mdiHistory12>T21M6</mdiHistory12>
-  <mdiHistory13>T12M6</mdiHistory13>
-  <mdiHistory14>T24M6</mdiHistory14>
-  <mdiHistory15>S24000</mdiHistory15>
-  <mdiHistory16>S12000</mdiHistory16>
-  <mdiHistory17>T21M6</mdiHistory17>
-  <mdiHistory18>G0X-1</mdiHistory18>
-  <mdiHistory19>G0X-2</mdiHistory19>
-  <mdiHistory20>G0X0</mdiHistory20>
-  <mdiHistory21>G0Y0</mdiHistory21>
-  <mdiHistory22>T21M6</mdiHistory22>
+  <fileRecent0>//CAM/000-Mill-Code/Slider OP20.ngc</fileRecent0>
+  <mdiHistory0>#&lt;_CURRENT_TOOL&gt;=255</mdiHistory0>
+  <mdiHistory1>#&lt;_CURRENT_TOOL&gt;=254</mdiHistory1>
+  <mdiHistory2>#&lt;_CURRENTTOOL&gt;=254</mdiHistory2>
+  <mdiHistory3>=cmd_list()</mdiHistory3>
+  <mdiHistory4>G0C180</mdiHistory4>
+  <mdiHistory5>G0Z0</mdiHistory5>
+  <mdiHistory6>T190M6</mdiHistory6>
+  <mdiHistory7>S6000</mdiHistory7>
+  <mdiHistory8>G0C180</mdiHistory8>
+  <mdiHistory9>G0X0</mdiHistory9>
+  <mdiHistory10>G0C0</mdiHistory10>
+  <mdiHistory11>T190M6</mdiHistory11>
+  <mdiHistory12>T48M6</mdiHistory12>
+  <mdiHistory13>G0Z-2</mdiHistory13>
+  <mdiHistory14>G0C0</mdiHistory14>
+  <mdiHistory15>G0Z40</mdiHistory15>
+  <mdiHistory16>G0Z42</mdiHistory16>
+  <mdiHistory17>S6000</mdiHistory17>
+  <mdiHistory18>T190M6</mdiHistory18>
+  <mdiHistory19>G0Z35</mdiHistory19>
+  <mdiHistory20>G0Z37</mdiHistory20>
+  <mdiHistory21>S6000</mdiHistory21>
+  <mdiHistory22>T190M6</mdiHistory22>
   <mdiHistory23>T82M6</mdiHistory23>
-  <mdiHistory24>T8M6</mdiHistory24>
-  <mdiHistory25>G0B0</mdiHistory25>
-  <mdiHistory26>G0B270</mdiHistory26>
-  <mdiHistory27>G0B210</mdiHistory27>
-  <mdiHistory28>G0B90</mdiHistory28>
-  <mdiHistory29>T190M6</mdiHistory29>
-  <mdiHistory30>T2M6</mdiHistory30>
-  <mdiHistory31>T1M6</mdiHistory31>
-  <mdiHistory32>T5M6</mdiHistory32>
-  <mdiHistory33>T4M6</mdiHistory33>
-  <mdiHistory34>G1M6</mdiHistory34>
-  <mdiHistory35>T2M6</mdiHistory35>
-  <mdiHistory36>G53G0Z-77.5</mdiHistory36>
-  <mdiHistory37>G0Z2</mdiHistory37>
+  <mdiHistory24>T12M6</mdiHistory24>
+  <mdiHistory25>G0C0</mdiHistory25>
+  <mdiHistory26>G0Z0</mdiHistory26>
+  <mdiHistory27>S24000</mdiHistory27>
+  <mdiHistory28>S12000</mdiHistory28>
+  <mdiHistory29>G1Z0</mdiHistory29>
+  <mdiHistory30>G0Z0</mdiHistory30>
+  <mdiHistory31>T212M6</mdiHistory31>
+  <mdiHistory32>S12000</mdiHistory32>
+  <mdiHistory33>T84M6</mdiHistory33>
+  <mdiHistory34>S24000</mdiHistory34>
+  <mdiHistory35>T21M6</mdiHistory35>
+  <mdiHistory36>T12M6</mdiHistory36>
+  <mdiHistory37>T24M6</mdiHistory37>
   <fileRecent1>//CAM/000-Mill-Code/Pocket Clip OP20 - 6 Parts.ngc</fileRecent1>
-  <mdiHistory38>S6000</mdiHistory38>
-  <mdiHistory39>G0Z2.2</mdiHistory39>
-  <fileRecent2>//CAM/000-Mill-Code/Slider OP20.ngc</fileRecent2>
-  <mdiHistory40>T190M6</mdiHistory40>
-  <fileRecent3>//CAM/000-Mill-Code/MidiCut Slider OP10.ngc</fileRecent3>
-  <fileRecent4>//CAM/000-Mill-Code/Pocket Clip OP10.ngc</fileRecent4>
-  <fileRecent5>//CAM/000-Mill-Code/Lock Multiple OP10.ngc</fileRecent5>
-  <fileRecent6>//CAM/000-Mill-Code/1001.ngc</fileRecent6>
-  <mdiHistory41>S24000</mdiHistory41>
-  <mdiHistory42>S12000</mdiHistory42>
-  <mdiHistory43>G0Z-0.1</mdiHistory43>
-  <mdiHistory44>G0Z0</mdiHistory44>
-  <mdiHistory45>S6000</mdiHistory45>
-  <mdiHistory46>T190M6</mdiHistory46>
-  <mdiHistory47>T13M6</mdiHistory47>
-  <mdiHistory48>S24000</mdiHistory48>
-  <mdiHistory49>S12000</mdiHistory49>
-  <fileRecent7>//CAM/000-Mill-Code/Genauigkeit OP20.ngc</fileRecent7>
-  <fileRecent8>//CAM/000-Mill-Code/Genauigkeit.ngc</fileRecent8>
-  <fileRecent9>//CAM/000-Mill-Code/Dach OP10.ngc</fileRecent9>
-  <fileRecent10>//CAM/000-Mill-Code/Hamster Haus Part 3 OP10.ngc</fileRecent10>
-  <fileRecent11>//CAM/000-Mill-Code/Hamster Haus Part 2 OP10.ngc</fileRecent11>
-  <fileRecent12>//CAM/000-Mill-Code/Hamster Haus Part 1 OP10.ngc</fileRecent12>
-  <fileRecent13>//CAM/000-Mill-Code/pi5_bottom_op25.ngc</fileRecent13>
-  <fileRecent14>//CAM/000-Mill-Code/pi5_bottom_op20.ngc</fileRecent14>
-  <fileRecent15>//CAM/000-Mill-Code/Bottom Filler OP20.ngc</fileRecent15>
-  <fileRecent16>//CAM/000-Mill-Code/Bottom Filler OP10.ngc</fileRecent16>
-  <fileRecent17>//CAM/000-Mill-Code/pi5_bottom_op10.ngc</fileRecent17>
-  <fileRecent18>//CAM/000-Mill-Code/pi5_top_op25.ngc</fileRecent18>
-  <fileRecent19>//CAM/000-Mill-Code/pi5_top_op20.ngc</fileRecent19>
-  <fileRecent20>//CAM/000-Mill-Code/pi5_top_op11.ngc</fileRecent20>
-  <fileRecent21>//CAM/000-Mill-Code/pi5_top_op10.ngc</fileRecent21>
-  <fileRecent22>//CAM/000-Mill-Code/1001.nc</fileRecent22>
-  <fileRecent23>//CAM/000-Mill-Code/rpi5cmm 2.ngc</fileRecent23>
+  <mdiHistory38>S24000</mdiHistory38>
+  <mdiHistory39>S12000</mdiHistory39>
+  <fileRecent2>//CAM/000-Mill-Code/MidiCut Main Body OP21 Logo 71 72 73.ngc</fileRecent2>
+  <mdiHistory40>T21M6</mdiHistory40>
+  <fileRecent3>//CAM/000-Mill-Code/MidiCut Main Body OP20 G54 G55 G56.ngc</fileRecent3>
+  <fileRecent4>//CAM/000-Mill-Code/Main Body OP22 chamfer rework.ngc</fileRecent4>
+  <fileRecent5>//CAM/000-Mill-Code/MidiCut Main Body OP21 Logo 55 69 70.ngc</fileRecent5>
+  <fileRecent6>//CAM/000-Mill-Code/MidiCut Main Body OP21 Logo 66 67 68.ngc</fileRecent6>
+  <mdiHistory41>G0X-1</mdiHistory41>
+  <mdiHistory42>G0X-2</mdiHistory42>
+  <mdiHistory43>G0X0</mdiHistory43>
+  <mdiHistory44>G0Y0</mdiHistory44>
+  <mdiHistory45>T21M6</mdiHistory45>
+  <mdiHistory46>T82M6</mdiHistory46>
+  <mdiHistory47>T8M6</mdiHistory47>
+  <mdiHistory48>G0B0</mdiHistory48>
+  <mdiHistory49>G0B270</mdiHistory49>
+  <fileRecent7>//CAM/000-Mill-Code/MidiCut Main Body OP21 Logo 63 64 65.ngc</fileRecent7>
+  <fileRecent8>//CAM/000-Mill-Code/Main Body OP21 korrektur 2.ngc</fileRecent8>
+  <fileRecent9>//CAM/000-Mill-Code/Main Body OP21 korrektur sn.ngc</fileRecent9>
+  <fileRecent10>//CAM/000-Mill-Code/MidiCut Main Body OP21 Logo 57 58 59.ngc</fileRecent10>
+  <fileRecent11>//CAM/000-Mill-Code/MidiCut Main Body OP21 Logo 56 57 58.ngc</fileRecent11>
+  <fileRecent12>//CAM/000-Mill-Code/MidiCut Main Body OP21 Logo 53 54 55.ngc</fileRecent12>
+  <fileRecent13>//CAM/000-Mill-Code/MidiCut Main Body OP21 Logo 50 51 52.ngc</fileRecent13>
+  <fileRecent14>//CAM/000-Mill-Code/MidiCut Main Body OP20 G54.ngc</fileRecent14>
+  <fileRecent15>//CAM/000-Mill-Code/Slider OP10 Single.ngc</fileRecent15>
+  <fileRecent16>//CAM/000-Mill-Code/Lock Multiple OP10 Single.ngc</fileRecent16>
+  <fileRecent17>//CAM/000-Mill-Code/Pocket Clip OP10 Single.ngc</fileRecent17>
+  <fileRecent18>//CAM/000-Mill-Code/MidiCut Main Body OP10.ngc</fileRecent18>
+  <fileRecent19>//CAM/000-Mill-Code/MidiCut Slider OP10 G54 G55 G56.ngc</fileRecent19>
+  <fileRecent20>//CAM/000-Mill-Code/Pocket Clip OP10 G54 G55.ngc</fileRecent20>
+  <fileRecent21>//CAM/000-Mill-Code/face g56.ngc</fileRecent21>
+  <fileRecent22>//CAM/000-Mill-Code/1001.ngc</fileRecent22>
+  <fileRecent23>//CAM/000-Mill-Code/GolfHalterOP10.ngc</fileRecent23>
   <programUseEWord>0</programUseEWord>
-  <fileRecent24>//CAM/000-Mill-Code/rpi5cmm.ngc</fileRecent24>
-  <fileRecent25>//CAM/000-Mill-Code/SC32 Stuetze OP20.ngc</fileRecent25>
-  <fileRecent26>//CAM/000-Mill-Code/SC32 Stuetze OP10.ngc</fileRecent26>
-  <fileRecent27>//CAM/000-Mill-Code/SC32 Klemme OP10.ngc</fileRecent27>
-  <fileRecent28>//CAM/000-Mill-Code/SC32 Bore.ngc</fileRecent28>
-  <fileRecent29>//CAM/000-Mill-Code/SC32 Bottom OP10.ngc</fileRecent29>
+  <fileRecent24>//CAM/000-Mill-Code/rapsi3_active_cooler OP21.ngc</fileRecent24>
+  <fileRecent25>//CAM/000-Mill-Code/rapsi3_active_cooler OP20.ngc</fileRecent25>
+  <fileRecent26>//CAM/000-Mill-Code/rapsi3_active_cooler OP11.ngc</fileRecent26>
+  <fileRecent27>//CAM/000-Mill-Code/rapsi3_active_cooler OP10.ngc</fileRecent27>
+  <fileRecent28>//CAM/000-Mill-Code/Front OP10.ngc</fileRecent28>
+  <fileRecent29>//CAM/000-Mill-Code/Specht Schutz OP10 5mm.ngc</fileRecent29>
   <ui3DAxisThickness>1.19999999999999995559</ui3DAxisThickness>
   <importCAD_SortReverseShapes>1</importCAD_SortReverseShapes>
   <importCAD_ProcessShapes>0</importCAD_ProcessShapes>
@@ -1150,8 +1150,8 @@
   <audioIn></audioIn>
   <audioOut></audioOut>
   <midiInDbg>0</midiInDbg>
-  <memused>119</memused>
-  <memusedmax>162</memusedmax>
+  <memused>184</memused>
+  <memusedmax>218</memusedmax>
   <uiFontScale>1.00000000000000000000</uiFontScale>
   <ui3DColorAxisX>0xffff0000</ui3DColorAxisX>
   <ui3DColorAxisY>0xff008000</ui3DColorAxisY>
@@ -1472,4 +1472,131 @@
   <importAirfoil_FeedSpeed>1500.00000000000000000000</importAirfoil_FeedSpeed>
   <exportCSV_Interpolate>0</exportCSV_Interpolate>
   <exportCSV_Decimals>6</exportCSV_Decimals>
+  <displayScreen>1</displayScreen>
+  <displayPanelSize00>260</displayPanelSize00>
+  <displayPanelSize01>459</displayPanelSize01>
+  <displayPanelSize02>1998</displayPanelSize02>
+  <displayPanelSize03>459</displayPanelSize03>
+  <displayPanelSize04>260</displayPanelSize04>
+  <displayPanelSize10>260</displayPanelSize10>
+  <displayPanelSize11>459</displayPanelSize11>
+  <displayPanelSize12>1998</displayPanelSize12>
+  <displayPanelSize13>459</displayPanelSize13>
+  <displayPanelSize14>260</displayPanelSize14>
+  <displayPanelSize20>260</displayPanelSize20>
+  <displayPanelSize21>260</displayPanelSize21>
+  <displayPanelSize22>260</displayPanelSize22>
+  <displayPanelSize23>260</displayPanelSize23>
+  <displayPanelSize24>260</displayPanelSize24>
+  <displayPanelSize30>260</displayPanelSize30>
+  <displayPanelSize31>260</displayPanelSize31>
+  <displayPanelSize32>260</displayPanelSize32>
+  <displayPanelSize33>260</displayPanelSize33>
+  <displayPanelSize34>260</displayPanelSize34>
+  <displayPanelSize40>260</displayPanelSize40>
+  <displayPanelSize41>260</displayPanelSize41>
+  <displayPanelSize42>260</displayPanelSize42>
+  <displayPanelSize43>260</displayPanelSize43>
+  <displayPanelSize44>260</displayPanelSize44>
+  <displayPanelSize50>260</displayPanelSize50>
+  <displayPanelSize51>260</displayPanelSize51>
+  <displayPanelSize52>260</displayPanelSize52>
+  <displayPanelSize53>260</displayPanelSize53>
+  <displayPanelSize54>260</displayPanelSize54>
+  <displayPanelSize60>260</displayPanelSize60>
+  <displayPanelSize61>260</displayPanelSize61>
+  <displayPanelSize62>260</displayPanelSize62>
+  <displayPanelSize63>260</displayPanelSize63>
+  <displayPanelSize64>260</displayPanelSize64>
+  <displayPanelSize70>260</displayPanelSize70>
+  <displayPanelSize71>260</displayPanelSize71>
+  <displayPanelSize72>260</displayPanelSize72>
+  <displayPanelSize73>260</displayPanelSize73>
+  <displayPanelSize74>260</displayPanelSize74>
+  <displayPanelSizeMid00>140</displayPanelSizeMid00>
+  <displayPanelSizeMid01>1291</displayPanelSizeMid01>
+  <displayPanelSizeMid02>138</displayPanelSizeMid02>
+  <displayPanelSizeMid03>50</displayPanelSizeMid03>
+  <displayPanelSizeMid10>1221</displayPanelSizeMid10>
+  <displayPanelSizeMid11>254</displayPanelSizeMid11>
+  <displayPanelSizeMid12>138</displayPanelSizeMid12>
+  <displayPanelSizeMid13>50</displayPanelSizeMid13>
+  <displayPanelSizeMid20>50</displayPanelSizeMid20>
+  <displayPanelSizeMid21>140</displayPanelSizeMid21>
+  <displayPanelSizeMid22>140</displayPanelSizeMid22>
+  <displayPanelSizeMid23>140</displayPanelSizeMid23>
+  <displayPanelSizeMid30>140</displayPanelSizeMid30>
+  <displayPanelSizeMid31>140</displayPanelSizeMid31>
+  <displayPanelSizeMid32>140</displayPanelSizeMid32>
+  <displayPanelSizeMid33>140</displayPanelSizeMid33>
+  <displayPanelSizeMid40>140</displayPanelSizeMid40>
+  <displayPanelSizeMid41>140</displayPanelSizeMid41>
+  <displayPanelSizeMid42>140</displayPanelSizeMid42>
+  <displayPanelSizeMid43>140</displayPanelSizeMid43>
+  <displayPanelSizeMid50>140</displayPanelSizeMid50>
+  <displayPanelSizeMid51>140</displayPanelSizeMid51>
+  <displayPanelSizeMid52>140</displayPanelSizeMid52>
+  <displayPanelSizeMid53>140</displayPanelSizeMid53>
+  <displayPanelSizeMid60>140</displayPanelSizeMid60>
+  <displayPanelSizeMid61>140</displayPanelSizeMid61>
+  <displayPanelSizeMid62>140</displayPanelSizeMid62>
+  <displayPanelSizeMid63>140</displayPanelSizeMid63>
+  <displayPanelSizeMid70>140</displayPanelSizeMid70>
+  <displayPanelSizeMid71>140</displayPanelSizeMid71>
+  <displayPanelSizeMid72>140</displayPanelSizeMid72>
+  <displayPanelSizeMid73>140</displayPanelSizeMid73>
+  <displayFindStringX>-1</displayFindStringX>
+  <displayFindStringY>-1</displayFindStringY>
+  <displayTransX>-1</displayTransX>
+  <displayTransY>-1</displayTransY>
+  <displayTransShiftX>-1</displayTransShiftX>
+  <displayTransShiftY>-1</displayTransShiftY>
+  <displayTransTranslateX>-1</displayTransTranslateX>
+  <displayTransTranslateY>-1</displayTransTranslateY>
+  <displayTransScaleX>-1</displayTransScaleX>
+  <displayTransScaleY>-1</displayTransScaleY>
+  <displayTransRotateX>-1</displayTransRotateX>
+  <displayTransRotateY>-1</displayTransRotateY>
+  <displayTransMirrorX>-1</displayTransMirrorX>
+  <displayTransMirrorY>-1</displayTransMirrorY>
+  <displayTransPointsX>-1</displayTransPointsX>
+  <displayTransPointsY>-1</displayTransPointsY>
+  <displayWarpX>-1</displayWarpX>
+  <displayWarpY>-1</displayWarpY>
+  <displayCoordModal>0</displayCoordModal>
+  <displayCoordX>-1</displayCoordX>
+  <displayCoordY>-1</displayCoordY>
+  <displayTTS>468</displayTTS>
+  <displayTSS>0</displayTSS>
+  <displayCSS>0</displayCSS>
+  <uiStatusBarVisible>1</uiStatusBarVisible>
+  <uiStatusBarSize>22</uiStatusBarSize>
+  <uiStatusBarLEDs>SL,LM</uiStatusBarLEDs>
+  <uiToolbarVisible>1</uiToolbarVisible>
+  <uiStateColorName>0xffe0d6cc</uiStateColorName>
+  <uiStateGCodeVisible>1</uiStateGCodeVisible>
+  <uiStateIOVisible>1</uiStateIOVisible>
+  <uiUtilsColorBack>0xff1f2930</uiUtilsColorBack>
+  <uiUtilsColorText>0xffe0d6cc</uiUtilsColorText>
+  <uiUtilsColorAlert>0xffffa500</uiUtilsColorAlert>
+  <uiUtilsUseForEdit>0</uiUtilsUseForEdit>
+  <uiUtilsUseForCam>0</uiUtilsUseForCam>
+  <uiUtilsUseForLog>0</uiUtilsUseForLog>
+  <uiMDIColorBack>0xff1f2930</uiMDIColorBack>
+  <uiMDIColorFocus>0xff41494f</uiMDIColorFocus>
+  <uiMDIColorText>0xefcdedce</uiMDIColorText>
+  <uiMDISize>44</uiMDISize>
+  <uiMDIHistory>0</uiMDIHistory>
+  <uiMDIHistoryCnt>3</uiMDIHistoryCnt>
+  <programUnitsStore>0</programUnitsStore>
+  <programPlaneStore>0</programPlaneStore>
+  <programDistanceModeStore>0</programDistanceModeStore>
+  <programDistanceModeIJKStore>0</programDistanceModeIJKStore>
+  <programDistanceModeABCStore>0</programDistanceModeABCStore>
+  <programCycleReturnModeStore>0</programCycleReturnModeStore>
+  <programFeedMode>0</programFeedMode>
+  <programFeedModeStore>0</programFeedModeStore>
+  <programLatheModeStore>0</programLatheModeStore>
+  <programBlendModeStore>0</programBlendModeStore>
+  <eventStartFromStateOff>1</eventStartFromStateOff>
 </Settings>

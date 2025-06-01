@@ -1,9 +1,9 @@
-T1 tn=12 tcx=193.7 tcy=9.0 tcz=-80.0;Slot1
-T2 tn=21 tcx=193.7 tcy=9.0 tcz=-80.0 tcc=22.5;Slot2
-T3 tn=190 tcx=193.7 tcy=9.0 tcz=-80.0 tcc=45.0;Slot3
+T1 tn=8 tcx=193.7 tcy=9.0 tcz=-80.0;Slot1
+T2 tn=196 tcx=193.7 tcy=9.0 tcz=-80.0 tcc=22.5;Slot2
+T3 tn=56 tcx=193.7 tcy=9.0 tcz=-80.0 tcc=45.0;Slot3
 T4 tn=37 tcx=193.7 tcy=9.0 tcz=-80.0 tcc=67.5;Slot4
 T5 tn=68 tcx=193.7 tcy=9.0 tcz=-80.0 tcc=90.0;Slot5
-T6 tn=8 tcx=193.7 tcy=9.0 tcz=-80.0 tcc=112.5;Slot6
+T6 tn=7 tcx=193.7 tcy=9.0 tcz=-80.0 tcc=112.5;Slot6
 T7 tn=38 tcx=193.7 tcy=9.0 tcz=-80.0 tcc=135.0;Slot7
 T8 tn=54 tcx=193.7 tcy=9.0 tcz=-80.0 tcc=157.5;Slot8
 T9 tn=69 tcx=193.7 tcy=9.0 tcz=-80.0 tcc=180.0;Slot9

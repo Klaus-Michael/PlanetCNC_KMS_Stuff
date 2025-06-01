@@ -10,6 +10,6 @@ cmd: "Machine.Coordinate_System.Axis_To_Zero.XY" image="ownicons/toxy.svg" image
 cmd: "Machine.Tools.Measure_Current_Tool" "Tool Length" imagechange="true" stroke=1.1
 cmd: "Machine.Coordinate_System.Measure_Height" image="ownicons/zheight.svg" imagechange="True" 
 ---
-expr: "startcode('T255 M6')" "Probe Long" image="ownicons/probe_long.svg"  imagechange="True"
+expr: "start_code('T255 M6')" "Probe Long" image="ownicons/probe_long.svg"  imagechange="True"
 ---
-expr: "startcode('T256 M6')" "Probe Short" image="ownicons/probe_short.svg"  imagechange="True"
+expr: "start_code('T256 M6')" "Probe Short" image="ownicons/probe_short.svg"  imagechange="True"

@@ -4,5 +4,5 @@ cmd: "Machine.Measure.Hole" image="ownicons/H.svg" imagechange="True"
 cmd: "Machine.Measure.Protrusion" image="ownicons/P.svg" imagechange="True"  
 cmd: "Machine.Measure.Tab" image="ownicons/T.svg" imagechange="True"  
 cmd: "Machine.Measure.Slot" image="ownicons/S.svg" imagechange="True"  
-cmd: "Machine.Measure.Edge_Position" image="ownicons/A.svg" imagechange="True"  
+cmd: "Machine.Measure.Inside_Edge" image="ownicons/A.svg" imagechange="True"  
 cmd: "Machine.User_Commands.UserCommand_3" image="ownicons/Center_Z.svg" imagechange="true" stroke=1.1

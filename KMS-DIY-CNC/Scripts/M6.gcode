@@ -389,13 +389,13 @@ O<noatcen> endif
       ;wait till umbrealla moved back
       O<chk_umb_back> while [#<_extin1|#<kms_atc_umbrealla_back_pin>> EQ 0]
         (print,umbrealla still not back, waiting)
-        G04 P0.1
+        G04 P0.5
       O<chk_umb_back> endwhile
       G04 P1
       G9
       ;check if move was successfull
       O<chk_umb_back>if [#<_extin1|#<kms_atc_umbrealla_back_pin>> EQ 0]  
-        (msg,Umbrealla back sensor not active, check position)
+        (msg,Umbrealla back sensor not active during backup move, check position)
       O<chk_umb_back>endif    
       G9         
     O<check_umbrealla> endif 

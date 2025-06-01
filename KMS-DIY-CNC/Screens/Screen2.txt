@@ -1,0 +1,20 @@
+Name="Exactly Same As Default"
+
+Menu="default"
+StatusBar="default"
+
+BtnTop="BtnTop.txt"
+BtnLeft="BtnLeft.txt"
+BtnRight="BtnRight.txt"
+BtnBottom="BtnBottom.txt"
+
+PanelLeftEx="default"
+PanelLeft="default"
+PanelMid="3D" main="true" 
+
+PanelMid="Tab" name="Utils" tabs="top
+PanelMid="Output" tab 
+
+PanelRight="GCode" main="true"
+PanelRight="MDI"
+PanelRightEx="default"

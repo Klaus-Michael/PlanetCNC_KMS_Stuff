@@ -21,6 +21,7 @@ Program.Copy_To_Clipboard=8589934659
 Program.Paste_From_Clipboard=8589934678
 Machine.Emergency_Stop=27/""/106
 Machine.Pause=8
+Machine.Probe.Probe_Trigger=65659
 Jog.Jog_Axis_X-=8590000165/""/1001
 Jog.Jog_Axis_X=8590000167/""/1002
 Jog.Jog_Axis_Y-=8590000168/""/1003

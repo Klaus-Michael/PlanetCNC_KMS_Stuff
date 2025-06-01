@@ -1,59 +1,59 @@
-T0 D0.0 X0.0 Y0.0 Z35.05375 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 stm=1 par1=2395.702617;No TOOL
+T0 D0.0 X0.0 Y0.0 Z35.05375 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 stm=1 par1=2654.83643;No TOOL
 T1 D0.0 X0.0 Y0.0 Z0.0 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=228.964651;GUEHRING VHM Alu flat end mill
 T2 D0.0 X0.0 Y0.0 Z0.0 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=9.169134;Zweischneider Alu flat end mill
 T3 D0.0 X0.0 Y0.0 Z0.0 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0;Einschneider Alu flat end mill
 T4 D0.0 X0.0 Y0.0 Z50.2275 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=110.502101;Planfraeser flat end mill
 T5 D5.0 X0.0 Y0.0 Z50.22625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=39.383784; bull nose end mill
 T6 D6.0 X0.0 Y0.0 Z73.025 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=18.287784;Zweischneider Alu flat end mill
-T7 D6.0 X0.0 Y0.0 Z53.625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=124.582484;Zweischneider Alu VHM ball end mill
-T8 D0.0 X0.0 Y0.0 Z47.94625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=206.925419;GUEHRING VHM Alu flat end mill
+T7 D6.0 X0.0 Y0.0 Z57.2025 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=164.035484;Zweischneider Alu VHM ball end mill
+T8 D0.0 X0.0 Y0.0 Z50.38125 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=16.686783 par2=304.528;GUEHRING VHM Alu flat end mill
 T9 D6.0 X0.0 Y0.0 Z50.225 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=2.255017;Gladium VHM Schruppfraeser flat end mill
 T10 D4.0 X0.0 Y0.0 Z48.93875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=319.160017;Gewindewirbler  thread mill
 T11 D6.0 X0.0 Y0.0 Z35.04875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=0.245583;GÜHRING VHM Alu Schrupp flat end mill
-T12 D0.0 X0.0 Y0.0 Z44.33 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=457.011715 par2=142.708;Zweischneider Alu Schrupp flat end mill
+T12 D0.0 X0.0 Y0.0 Z44.35125 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=485.746565 par2=142.708;Zweischneider Alu Schrupp flat end mill
 T13 D6.0 X0.0 Y0.0 Z79.84625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" par1=25.400567;Zweischneider DC6
 T14 D6.0 X0.0 Y0.0 Z52.1575 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" par1=20.336383;Holex 3Schneider
 T15 D6.0 X0.0 Y0.0 Z54.24 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" par1=1.44185;Holex 3Schneider test
 T16 D6.0 X0.0 Y0.0 Z48.1425 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=175.603934;Zweischneider Alu flat end mill
 T17 D4.0 X0.0 Y0.0 Z55.65625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Chamfer" par1=2.595482;BackChamfer
 T20 D6.0 X0.0 Y0.0 Z28.6375 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" par1=2.3705;HSS Zweischneider
-T21 D0.0 X0.0 Y0.0 Z52.715 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=409.952555 par2=28.543;Chamfer chamfer mill
+T21 D0.0 X0.0 Y0.0 Z52.7925 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=415.982321 par2=28.543;Chamfer chamfer mill
 T22 D4.0 X0.0 Y0.0 Z16.51625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=120.411918;GUEHRING VHM Alu flat end mill
 T23 D0.0 X0.0 Y0.0 Z45.56875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=88.256299;GUEHRING VHM Alu flat end mill
 T24 D4.0 X0.0 Y0.0 Z47.2725 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" par1=123.024716;gühring dreischneider
 T30 D6.0 X0.0 Y0.0 Z36.34 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" mat="Carbide" cot="TiN" tln=50.0 len=22.0 sd=6.0 shl=20.0 shd=6.0 fl=12.0 fc=2 par1=111.13435;Zweischneider Sthl
-T31 D0.0 X0.0 Y0.0 Z50.1675 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=59.035784 par2=171.21;Holzfaeser Zweischneider flat end mill
+T31 D0.0 X0.0 Y0.0 Z58.55875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=77.366652 par2=171.21;Holzfaeser Zweischneider flat end mill
 T36 D6.0 X0.0 Y0.0 Z27.8875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=15.323967;Corner Rounder 2mm
-T37 D6.0 X0.0 Y0.0 Z41.79875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=4.306533;Corner Rounder 1.5mm
-T38 D0.0 X0.0 Y0.0 Z36.1025 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=35.131534;Corner Rounder 1mm
+T37 D6.0 X0.0 Y0.0 Z41.81875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=7.789733;Corner Rounder 1.5mm
+T38 D0.0 X0.0 Y0.0 Z36.1125 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=83.190503;Corner Rounder 1mm
 T40 D6.0 X0.0 Y0.0 Z61.0075 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=36.835666;Holzfaeser Zweischneider flat end mill
-T41 D4.0 X0.0 Y0.0 Z54.71 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Twist Drill" par1=5.430401; drill
+T41 D4.0 X0.0 Y0.0 Z54.67375 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Twist Drill" par1=7.077601; drill
 T42 D4.2 X0.0 Y0.0 Z51.96 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Twist Drill" par1=34.817782; drill
 T43 D5.0 X0.0 Y0.0 Z54.99 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Twist Drill" par1=37.376267; drill
 T44 D6.0 X0.0 Y0.0 Z55.71375 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Twist Drill" par1=28.756982; drill
 T45 D1.6 X0.0 Y0.0 Z49.19875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Twist Drill" par1=2.312802;drill
 T46 D2.1 X0.0 Y0.0 Z44.97125 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Twist Drill" par1=5.683382;drill
-T47 D2.5 X0.0 Y0.0 Z44.98625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Twist Drill" par1=20.480052;drill
-T48 D3.4 X0.0 Y0.0 Z54.61875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Twist Drill" par1=0.646301;drill
+T47 D2.5 X0.0 Y0.0 Z45.005 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Twist Drill" par1=20.619902;drill
+T48 D3.4 X0.0 Y0.0 Z55.955 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Twist Drill" par1=0.957084;drill
 T49 D4.5 X0.0 Y0.0 Z54.43125 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Twist Drill" par1=1.909883;drill
 T50 D5.5 X0.0 Y0.0 Z44.24375 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Twist Drill" par1=13.161199;drill
 T51 D0.0 X0.0 Y0.0 Z23.29625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=0.538183
 T52 D2.5 X0.0 Y0.0 Z49.1425 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=10.106399;VHM Alu 3 Schneider flat end mill
 T53 D0.0 X0.0 Y0.0 Z38.6375 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par2=86.892;m3 Threadmill
-T54 D0.0 X0.0 Y0.0 Z33.425 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=97.45485;m2.5 threadmill
+T54 D0.0 X0.0 Y0.0 Z33.44625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=143.73785;m2.5 threadmill
 T55 D3.15 X0.0 Y0.0 Z44.8025 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=70.2993;m4 Threadmill
-T56 D1.55 X0.0 Y0.0 Z40.43 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=76.258433;m2 Threadmill
+T56 D1.55 X0.0 Y0.0 Z40.2825 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=148.705233;m2 Threadmill
 T57 D0.0 X0.0 Y0.0 Z21.975 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=0.300733
 T58 D4.0 X0.0 Y0.0 Z16.055 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=33.0421;4 schneider stahl
 T59 D4.0 X0.0 Y0.0 Z38.18 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" par1=16.4819;4mm zweischneider
 T61 D4.0 X0.0 Y0.0 Z12.346 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0;Sorotec Zweischneider Alu flat end mill
-T62 D2.35 X0.0 Y0.0 Z35.07875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Thread Mill" par1=18.649449;M3 full Thread 
+T62 D2.35 X0.0 Y0.0 Z34.995 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Thread Mill" par1=18.822866;M3 full Thread 
 T65 D1.5 X0.0 Y0.0 Z37.9225 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" ttd=1.5 par1=19.047983;long neck 2flute
 T66 D3.0 X0.0 Y0.0 Z39.21875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Ball Nose" par1=6.008617;ball
 T67 D1.8 X0.0 Y0.0 Z24.85625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Bull Nose" par1=6.162801;vhm ball
-T68 D0.0 X0.0 Y0.0 Z34.94875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=10.219851;Corner Rounder 0.5
-T69 D2.0 X0.0 Y0.0 Z36.6225 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Ball Nose" par1=277.880933;Ballnose 2F R1.0
-T70 D1.0 X0.0 Y0.0 Z24.79875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Ball Nose" par1=383.950968 par2=186.688;Ballnose 2F R0.5
+T68 D0.0 X0.0 Y0.0 Z34.96875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=17.844485;Corner Rounder 0.5
+T69 D2.0 X0.0 Y0.0 Z36.59875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Ball Nose" par1=468.03525;Ballnose 2F R1.0
+T70 D1.0 X0.0 Y0.0 Z24.80125 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Ball Nose" par1=601.50905 par2=186.688;Ballnose 2F R0.5
 T71 D1.0 X0.0 Y0.0 Z12.38125 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=10.643183;Einschneider flat end mill
 T72 D2.0 X0.0 Y0.0 Z18.7225 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=7.281117;Einschneider flat end mill
 T73 D3.0 X0.0 Y0.0 Z21.225 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0;VHM Einschneider flat end mill
@@ -62,10 +62,10 @@ T76 D2.0 X0.0 Y0.0 Z12.97625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=6.118217;Spiralv
 T77 D3.0 X0.0 Y0.0 Z44.6025 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=23.403383;Spiralverzahnt
 T80 D3.3 X0.0 Y0.0 Z45.03625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Twist Drill" par1=7.106717;3.3mm drill
 T81 D1.5 X0.0 Y0.0 Z38.3775 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" par1=15.937499 par2=1.126;Zweischneider
-T82 D0.0 X0.0 Y0.0 Z36.46875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=80.042734 par2=38.648 par3=142.364;zweischneider flat end mill
-T83 D0.0 X0.0 Y0.0 Z39.7675 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=26.828916 par2=590.042 par3=164.816;Zweischneider flat end mill
+T82 D0.0 X0.0 Y0.0 Z25.73125 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=456.8208 par2=121.34 par3=142.364;zweischneider flat end mill
+T83 D0.0 X0.0 Y0.0 Z38.12875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=2.493167 par2=266.268 par3=164.816;Zweischneider flat end mill
 T84 D3.0 X0.0 Y0.0 Z44.56625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=24.7605;Zweischneider 25mm long
-T85 D1.0 X0.0 Y0.0 Z25.43625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" par1=101.131701;zweischneider 1mm
+T85 D1.0 X0.0 Y0.0 Z25.45 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" par1=167.905134;zweischneider 1mm
 T86 D0.5 X0.0 Y0.0 Z36.315 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" par1=18.680216;zweischneider 0.5
 T87 D3.175 X0.0 Y0.0 Z45.6575 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=35.806166;VHM Ballnose ball end mill
 T88 D0.4 X0.0 Y0.0 Z36.2725 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" par1=23.082983;zweischneider 0.4
@@ -73,7 +73,7 @@ T89 D0.0 X0.0 Y0.0 Z15.189 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0;Gravierstichel
 T90 D3.175 X0.0 Y0.0 Z36.55 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=147.87858;Gravierstichel 60 0,0 chamfer mill
 T91 D2.0 X0.0 Y0.0 Z40.26875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=0.462016;Drill
 T92 D2.5 X0.0 Y0.0 Z18.746 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0;Drill
-T93 D3.0 X0.0 Y0.0 Z51.61125 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=7.412599;Drill
+T93 D3.0 X0.0 Y0.0 Z51.5725 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=7.564449;Drill
 T94 D3.3 X0.0 Y0.0 Z9.495 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=3.986218;Drill
 T95 D4.2 X0.0 Y0.0 Z0.0 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0;Drill
 T96 D5.0 X0.0 Y0.0 Z0.0 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0;Drill
@@ -86,29 +86,29 @@ T105 D3.0 X0.0 Y0.0 Z24.4475 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=114.294601;Diama
 T121 D8.0 X0.0 Y0.0 Z51.52875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=185.054149;Chamfer chamfer mill
 T122 D8.0 X0.0 Y0.0 Z35.11 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=27.487884;Zweischneider Sorotec
 T123 D8.0 X0.0 Y0.0 Z32.15875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=0.651683;VHM NC Anbohrer
-T124 D35.0 X0.0 Y0.0 Z46.96125 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Face Mill" soy=-15.0 par1=119.415481 par2=170.082;Tornado Planfräser
-T125 D12.7 X0.0 Y0.0 Z53.365 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=61.180665;Laserpoint chamfer mill
+T124 D35.0 X0.0 Y0.0 Z46.95625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Face Mill" soy=-15.0 par1=195.763197 par2=170.082;Tornado Planfräser
+T125 D12.7 X0.0 Y0.0 Z53.7225 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=61.329748;Laserpoint chamfer mill
 T126 D8.0 X0.0 Y0.0 Z51.58375 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=2.348166;Chamfer chamfer mill
-T127 D8.0 X0.0 Y0.0 Z45.525 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Dove Tail" par1=41.315066;D8mm dovetail 45
+T127 D8.0 X0.0 Y0.0 Z59.6925 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Dove Tail" par1=43.149133;D8mm dovetail 45
 T128 D8.0 X0.0 Y0.0 Z50.07625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" par1=8.699383;Corner Rounder R3
 T129 D0.0 X0.0 Y0.0 Z50.57125 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=35.000566
 T130 D25.0 X0.0 Y0.0 Z7.115 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 soy=8.0;Planfraeser face mill
 T135 D8.0 X0.0 Y0.0 Z77.3975 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=72.233016;Sorotec Zweischneider 40mm
-T137 D0.0 X0.0 Y0.0 Z43.92125 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Slot Mill" par1=43.59455;T Slot
-T172 D10.0 X0.0 Y0.0 Z65.67 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" par1=156.580701;BBtools Dreischneider
+T137 D0.0 X0.0 Y0.0 Z43.76375 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Slot Mill" par1=102.8402;T Slot
+T172 D10.0 X0.0 Y0.0 Z65.72 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" par1=175.258451;BBtools Dreischneider
 T173 D10.0 X0.0 Y0.0 Z67.96125 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Serrated Mill" par1=29.09425;BBtools Dreischneider Schrupp
-T174 D10.0 X0.0 Y0.0 Z48.6975 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" par1=76.039099;Gühring Zweischneider 10mm
+T174 D10.0 X0.0 Y0.0 Z48.71625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" par1=78.788482;Gühring Zweischneider 10mm
 T175 D10.0 X0.0 Y0.0 Z58.48 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Chamfer" par1=0.834067;Chamfer 120
 T182 D12.0 X0.0 Y0.0 Z52.98 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Chamfer" par1=9.985367;Chamfer
 T187 D50.0 X0.0 Y0.0 Z48.66375 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Face Mill" soy=-25.0 par1=194.024698;Face Mill
 T188 D50.0 X0.0 Y0.0 Z47.8725 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Face Mill" soy=-25.0 tln=47.0 len=46.0 sd=42.0 fl=7.0 fc=5 cr=0.5 par1=153.803929;Face Mill
 T189 D16.0 X0.0 Y0.0 Z84.56875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Face Mill" par1=17.834432;BAP300
-T190 D50.0 X0.0 Y0.0 Z45.19 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Face Mill" soy=-25.0 par1=47.510216;Face Mill
+T190 D50.0 X0.0 Y0.0 Z45.165 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Face Mill" soy=-25.0 par1=56.360332;Face Mill
 T191 D1.0 X0.0 Y0.0 Z26.39625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Bull Nose" par1=9.8206;Bull Nose
-T193 D3.0 X0.0 Y0.0 Z62.3625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Chamfer" par1=311.381165;chamfer 3mm
+T193 D3.0 X0.0 Y0.0 Z62.36125 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Chamfer" par1=418.7305;chamfer 3mm
 T194 D2.0 X0.0 Y0.0 Z49.6675 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Twist Drill" par1=8.759233;2mm drill
 T195 D3.0 X0.0 Y0.0 Z51.54875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Twist Drill" par1=14.868984;3mm vhm drill
-T196 D2.0 X0.0 Y0.0 Z32.6625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Chamfer" par1=22.681733;backchamfer 3mm
+T196 D2.0 X0.0 Y0.0 Z32.51 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Chamfer" par1=39.904533;backchamfer 3mm
 T197 D3.0 X0.0 Y0.0 Z32.845 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="End Mill" par1=58.3154;3mm endmill
 T200 D0.0 X0.0 Y0.0 Z30.16875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=11.682867
 T203 D0.0 X0.0 Y0.0 Z32.1225 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=3.872366
@@ -117,8 +117,8 @@ T208 D8.0 X0.0 Y0.0 Z101.575 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Twist Drill" par
 T211 D50.0 X0.0 Y0.0 Z40.18875 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Face Mill" soy=-25.0 par1=28.98075;Arno Facemill
 T212 D66.0 X0.0 Y0.0 Z49.8525 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Face Mill" soy=-30.0 ttd=66.0 par1=3.466183;Garant Facemill
 T223 D0.0 X0.0 Y0.0 Z56.7525 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 par1=0.35225
-T255 D2.0 X0.0 Y0.0 Z81.52375 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Probe" soz=0.025 ttd=2.0 psx=1.922125 psy=1.928375 pox=0.014375 poy=0.009688 ptr=1.0 sfd=200.0 sfz=20.0;Probe Long
-T256 D1.992 X0.0 Y0.0 Z68.78125 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Probe" soz=0.02 ttd=1.992 psx=0.967125 psy=0.96025 pox=0.0075 poy=-0.007188 ptr=1.0 par1=2.885566 sfd=200.0 sfz=20.0;Probe Short
+T255 D2.0 X0.0 Y0.0 Z80.9075 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Probe" soz=0.025 ttd=2.0 psx=1.898375 psy=1.9065 pox=0.035938 poy=-0.007188 ptr=1.0 sfd=200.0 sfz=20.0;Probe Long
+T256 D1.992 X0.0 Y0.0 Z67.84625 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Probe" soz=0.02 ttd=1.992 psx=0.974 psy=0.9615 pox=-0.011562 poy=-0.02875 ptr=1.0 par1=2.885566 sfd=200.0 sfz=20.0;Probe Short
 T500 D0.0 X0.0 Y0.0 Z-0.17125 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 soy=-4.0 par1=2.801583
 T501 D0.0 X0.0 Y0.0 Z-0.1725 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 soy=-7.0 par1=3.764717
 T502 D6.0 X0.0 Y0.0 Z0.0 A0.0 B0.0 C0.0 U0.0 V0.0 W0.0 typ="Probe" psx=3.0 psy=3.0 ptr=2.0 par1=3.285217 sfd=200.0 sfz=20.0
