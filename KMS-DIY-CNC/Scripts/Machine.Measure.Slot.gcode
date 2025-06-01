@@ -10,7 +10,7 @@ o<chk> if [[#<_probe_use_tooltable> GT 0] AND [#<_tool_isprobe|#<_current_tool>>
 o<chk> endif
 
 
-(dlgname,Measure Slot)
+(dlgnew,Measure Slot)
 (dlg,Select slot orientation, typ=label, x=20, color=0xffa500)
 (dlg,data::MeasureSlot, typ=image, x=20)
 (dlg,|X|Y, typ=checkbox, x=50, w=110, def=1, store, param=orient)

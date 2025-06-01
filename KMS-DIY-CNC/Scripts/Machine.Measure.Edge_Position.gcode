@@ -11,7 +11,7 @@ o<chk> if [[#<_probe_use_tooltable> GT 0] AND [#<_tool_isprobe|#<_current_tool>>
 o<chk> endif
 
 
-(dlgname,Measure Edge Position)
+(dlgnew,Measure Edge Position)
 (dlg,Select start postition, typ=label, x=20, color=0xffa500)
 (dlg,data::MeasureAxis, typ=image, x=0)
 (dlg,|X+|X-|Y+|Y-, typ=checkbox, x=50, w=110, def=1, store, param=orient)

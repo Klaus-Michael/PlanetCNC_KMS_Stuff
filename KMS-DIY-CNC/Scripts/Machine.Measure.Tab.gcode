@@ -11,16 +11,20 @@ o<chk> if [[#<_probe_use_tooltable> GT 0] AND [#<_tool_isprobe|#<_current_tool>>
 o<chk> endif
 
 
-(dlgname,Measure Tab)
-(dlg,Select tab orientation, typ=label, x=20, color=0xffa500)
-(dlg,data::MeasureTab, typ=image, x=20)
-(dlg,|X|Y, typ=checkbox, x=50, w=110, def=1, store, param=orient)
-(dlg,Tab size, typ=label, x=20, color=0xffa500)
-(dlg,Size, x=0, dec=2, def='setunit(20, 1);', min=0.1, max=10000, setunits, store, param=size)
-(dlg,Z_Drop, x=0, dec=2, def='setunit(0, 0.5);', min=0.0, max=10000, setunits, def=#<_kms_z_drop>, store, param=_kms_z_drop)
+(dlgnew, Measure Tab)
+(dlg, text='Select tab orientation', typ=label, color=0xffa500)
+(dlg, name='data::MeasureTabV', typ=image, x=20)
+(dlg, name='data::MeasureTabH', typ=image, x=160, y=-1)
+(dlg, name='', items='|X|Y~', typ=checkbox, def=1, param=orient, store, x=50, w=140)
+(dlg, typ=separator, w=230)
+(dlg, text='Tab size', typ=label, x=80)
+(dlg, name='Size', typ=numinput, def='setunit(20, 1);', min=0.1, max=10000, dec=2, setunits, param=size, store)
+(dlg, typ=separator, w=230)
+(dlg, name='Z_Drop', typ=numinput, min=0.0, max=10000, dec=2, setunits, def=#<_kms_z_drop>, store, param=_kms_z_drop)
 (dlg,Set X/Y to 0, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_origin>,  param=_probeing_center_set_origin)
 (dlg,Set Z to 0, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_z_hight>,  param=_probeing_center_set_z_hight)
 (dlgshow)
+
 
 M73
 G17 G08 G15 G40 G90 G91.1 G90.2 G94

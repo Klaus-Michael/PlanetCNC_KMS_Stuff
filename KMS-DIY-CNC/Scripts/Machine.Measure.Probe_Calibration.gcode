@@ -10,7 +10,7 @@ o<chk> if [[#<_probe_use_tooltable> GT 0] AND [#<_tool_isprobe|#<_current_tool>>
 o<chk> endif
 
 
-(dlgname,Probe Calibration)
+(dlgnew,Probe Calibration)
 (dlg,data::MeasureHole, typ=image, x=60)
 (dlg,Calibration ring size, typ=label, x=40, color=0xffa500)
 (dlg,Size, x=0, dec=5, def='setunit(30, 1);', min=0.1, max=10000, setunits, store, param=size)

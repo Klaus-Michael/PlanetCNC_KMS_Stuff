@@ -10,13 +10,13 @@ o<chk> if [[#<_probe_use_tooltable> GT 0] AND [#<_tool_isprobe|#<_current_tool>>
 o<chk> endif
 
 
-(dlgname,Measure Protrusion)
+(dlgnew,Measure Protrusion)
 (dlg,Select start postition, typ=label, x=20, color=0xffa500)
 (dlg,data::MeasureProtrusion, typ=image, x=60)
 (dlg,Protrusion size, typ=label, x=20, color=0xffa500)
 (dlg,Size X, x=0, dec=2, def='setunit(30, 1);', min=0.1, max=10000, setunits, store, param=sizex)
 (dlg,Size Y, x=0, dec=2, def='setunit(30, 1);', min=0.1, max=10000, setunits, store, param=sizey)
-(dlg,Z_Drop, x=0, dec=2, def='setunit(0, 0.5);', min=0.0, max=10000, setunits, def=#<_kms_z_drop>, store, param=_kms_z_drop)
+(dlg, name='Z_Drop', typ=numinput, min=0.0, max=10000, dec=2, setunits, def=#<_kms_z_drop>, store, param=_kms_z_drop)
 (dlg,Set X/Y to 0, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_origin>,  param=_probeing_center_set_origin)
 (dlg,Set Z-Hight to 0, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_z_hight>,  param=_probeing_center_set_z_hight)
 (dlgshow)

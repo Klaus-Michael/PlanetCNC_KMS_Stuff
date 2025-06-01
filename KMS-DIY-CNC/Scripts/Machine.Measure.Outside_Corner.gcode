@@ -24,7 +24,7 @@ o<chk> endif
 (dlg, name='Edge', def='setunit(10, 0.5);', typ=numinput, min=0.1, max=10000, dec=2, setunits, param=edge, store)
 (dlg, typ=separator)
 (dlg,Additonal Z Drop, typ=label, x=20, w=455, color=0xffa500)
-(dlg,Z_Drop, x=0, dec=2, vi , min=0.0, max=10000, setunits, def=#<_kms_z_drop>, store, param=_kms_z_drop)
+(dlg, name='Z_Drop', typ=numinput, min=0.0, max=10000, dec=2, setunits, def=#<_kms_z_drop>, store, param=_kms_z_drop)
 (dlg,Set X/Y to 0, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_origin>,  param=_probeing_center_set_origin)
 (dlg,Set Z-Hight to 0, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_z_hight>,  param=_probeing_center_set_z_hight)
 (dlgshow)

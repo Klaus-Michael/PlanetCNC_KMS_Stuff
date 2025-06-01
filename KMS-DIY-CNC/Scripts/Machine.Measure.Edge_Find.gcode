@@ -10,12 +10,12 @@ o<chk> if [[#<_probe_use_tooltable> GT 0] AND [#<_tool_isprobe|#<_current_tool>>
 o<chk> endif
 
 
-(dlgname,Measure Edge Find)
+(dlgnew,Measure Edge Find)
 (dlg,Select start postition, typ=label, x=20, color=0xffa500)
 (dlg,data::MeasureAxis, typ=image, x=0)
 (dlg,|X+|X-|Y+|Y-, typ=checkbox, x=50, w=110, def=1, store, param=orient)
 (dlg,Distance, x=0, dec=2, def='setunit(10, 0.5);', min=0.1, max=10000, setunits, store, param=dist)
-(dlg,Z_Drop, x=0, dec=2, def='setunit(0, 0.5);', min=0.0, max=10000, setunits, store, param=z_drop)
+(dlg, name='Z_Drop', typ=numinput, min=0.0, max=10000, dec=2, setunits, def=#<_kms_z_drop>, store, param=_kms_z_drop)
 (dlg,Move to Position, typ=checkbox, x=50, w=110, def=#<_probeing_move_to_pos>,  param=_probeing_move_to_pos)
 (dlg,Set Axis to 0, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_origin>,  param=_probeing_center_set_origin)
 (dlg,Set Z-Hight to 0, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_z_hight>,  param=_probeing_center_set_z_hight)
