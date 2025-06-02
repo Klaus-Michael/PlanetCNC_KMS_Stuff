@@ -88,7 +88,7 @@ def SlotsNew():
 		# Tool Name
 		comp_toolname[slot_idx] = planetcnc.dlg_add_label(dlg_handle, "", planetcnc.param_get("_tool_name", tool_num))
 		planetcnc.dlg_comp_pos(comp_toolname[slot_idx], 300, -1)
-		planetcnc.dlg_comp_size(comp_toolname[slot_idx], 120, 24)
+		planetcnc.dlg_comp_size(comp_toolname[slot_idx], 300, 24)
 
 		#check if the tool in tool_num is in programm_tools
 
@@ -117,6 +117,8 @@ def SlotsNew():
 
 		if tool in programm_tools_in_slots:
 			planetcnc.dlg_comp_color(comp_tool_list_item, 0x00ff00)
+		else:
+			planetcnc.dlg_comp_color(comp_tool_list_item, 0xffa500)
 
 	planetcnc.dlg_show(dlg_handle)
 	return None
