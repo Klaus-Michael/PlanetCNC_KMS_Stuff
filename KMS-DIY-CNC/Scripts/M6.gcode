@@ -143,7 +143,7 @@ O<noatcen> if [#<_tc_atc_en> EQ 0]
         O<tn> if [#<_toolchangename>]
           (msg,Change tool to\  $<_toolchangename>)
         O<tn> else
-          (msg,Change tool:\  #<_current_tool,0>: $<tool_name|#<_current_tool>> \to\  #<_selected_tool,0>: $<tool_name|#<_selected_tool>>)
+          (msg,Change tool:\  #<_current_tool,0>: $<_tool_name|#<_current_tool>> \to\  #<_selected_tool,0>: $<_tool_name|#<_selected_tool>>)
         O<tn> endif
       O<ac> else
         O<tn> if [#<_toolchangename>]
@@ -174,9 +174,9 @@ O<noatcen> endif
         G53 G00 Z#<_tc_safeheight>
         G53 G00 X#<_tc_pos_x> Y#<_tc_pos_y>
         O<un_next_manual> if [#<_selected_slot> GT 0]          
-          (msg, remove current tool #<_current_tool,0> $<tool_name|#<_current_tool>>)
+          (msg, remove current tool #<_current_tool,0> $<_tool_name|#<_current_tool>>)
         O<un_next_manual> else
-          (msg, remove current tool #<_current_tool,0> $<tool_name|#<_current_tool>> new tool #<_selected_tool,0>  $<tool_name|#<_selected_tool>> is manual as well)          
+          (msg, remove current tool #<_current_tool,0> $<_tool_name|#<_current_tool>> new tool #<_selected_tool,0>  $<_tool_name|#<_selected_tool>> is manual as well)          
         o<un_next_manual> endif
       O<un_manual> else
         ;(print,  Move tool #<_current_tool,0> to magazine)
@@ -271,11 +271,11 @@ O<noatcen> endif
           ;move the umbrealla back as we no longer need it
           M62 P#<kms_atc_umbrealla_pout> Q0
           G53 G00 X#<_tc_pos_x> Y#<_tc_pos_y>
-          (msg, insert new tool #<_selected_tool,0> $<tool_name|#<_selected_tool>>)
+          (msg, insert new tool #<_selected_tool,0> $<_tool_name|#<_selected_tool>>)
           #<spindle_try>=0
           O<checkfortool> while [[#<_input|#<kms_tool_in_spindle_pin>> EQ 0] AND [#<spindle_try> LT 5]]
             #<spindle_try> = [#<spindle_try> +1]
-            (msg, no tool in spindle insert new tool #<_selected_tool,0> $<tool_name|#<_selected_tool>>)
+            (msg, no tool in spindle insert new tool #<_selected_tool,0> $<_tool_name|#<_selected_tool>>)
           O<checkfortool> endwhile
           o<chk_for_tool_tl> if [#<_input|#<kms_tool_in_spindle_pin>> EQ 0]
             (msg, no tool in spindle ABORTING!)
