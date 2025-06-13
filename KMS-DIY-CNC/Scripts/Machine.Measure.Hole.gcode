@@ -8,10 +8,12 @@ o<chk> if [[#<_probe_use_tooltable> GT 0] AND [#<_tool_isprobe|#<_current_tool>>
   (msg,Current tool is not probe)
   M2
 o<chk> endif
-(dlgnew,Measure Hole)
-(dlg,data::MeasureHole, typ=image, x=80)
-(dlg,X/Y Retract distance, x=50,  dec=2, def='setunit(0, 0.5);', min=0.0, max=10000, setunits, def=#<_probe_swdist>, store, param=_K_return)
-(dlg,Set X/Y to 0, typ=checkbox, x=50, w=110, def=#<_probeing_center_set_origin>,  param=_probeing_center_set_origin)
+
+(dlgnew, Measure Hole)
+(dlg, name='data::MeasureHole', typ=image, x=80)
+(dlg, typ=separator, w=230)
+(dlg, 'X/Y Retract distance', typ=numinput, x=50,  dec=2, def=0.5, min=0.0, max=10000,  store, param=_K_return)
+(dlg, 'Set X/Y to 0', typ=checkbox, x=50, w=110, def=#<_probeing_center_set_origin>,  param=_probeing_center_set_origin, store)
 
 (dlgshow)
 
